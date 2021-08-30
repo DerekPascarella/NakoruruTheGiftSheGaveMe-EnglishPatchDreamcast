@@ -43,11 +43,11 @@ close(FH);
 
 for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 {
-	if(exists($english_replacements{$j+1}))
+	if(exists($english_replacements{$j + 1}))
 	{
-		if($english_replacements{$j+1} ne "")
+		if($english_replacements{$j + 1} ne "")
 		{
-			$full_file_hex .= &generate_hex($english_replacements{$j+1}) . "0D";
+			$full_file_hex .= &generate_hex($english_replacements{$j + 1}) . "0D";
 
 			$line_count_english ++;
 		}
