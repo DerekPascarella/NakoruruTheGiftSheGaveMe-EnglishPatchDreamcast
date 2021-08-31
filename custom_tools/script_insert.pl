@@ -13,6 +13,7 @@ use String::HexConvert ':all';
 use Spreadsheet::Read qw(ReadData);
 
 my $script_file = $ARGV[0];
+my($script_file_out) = $script_file =~ /\((\w+)\)/;
 my $spreadsheet = ReadData("xls/" . $script_file . ".xlsx");
 my @spreadsheet_rows = Spreadsheet::Read::rows($spreadsheet->[1]);
 my %english_replacements;
@@ -114,7 +115,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 
 my @full_file_hex_array = split(//, $full_file_hex);
 
-&write_bytes(\@full_file_hex_array, "txt_new/" . $script_file . ".txt");
+&write_bytes(\@full_file_hex_array, "txt_new/" . $script_file_out);
 
 print "DONE!\n";
 print " -> English dialog line count: $line_count_english\n";
