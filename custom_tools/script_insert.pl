@@ -47,26 +47,68 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 	{
 		if($english_replacements{$j + 1} ne "")
 		{
-			$full_file_hex .= "0A" . &generate_hex($english_replacements{$j + 1}) . "0D";
+			my $temp_hex = "0A" . &generate_hex($english_replacements{$j + 1});
+
+			if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
+				|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/))
+				&& $temp_hex =~ /0D0A6D6968203030300D0A6D726E206E6F0D0A/)
+			{
+				$line_count_orig ++;
+				my @temp_hex_split = split(/0D0A6D6968203030300D0A6D726E206E6F0D0A/, $temp_hex);
+				$temp_hex = "";
+
+				for(my $k = 0; $k < scalar(@temp_hex_split); $k ++)
+				{
+					$temp_hex .= $temp_hex_split[$k];
+
+					if($k == 0)
+					{
+						if($textfile_lines[$j + 2] =~ /^wpv/)
+						{
+							$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 2]), 0, -2);
+							$textfile_lines[$j + 2] = "";
+						}
+						elsif($textfile_lines[$j + 3] =~ /^wpv/)
+						{
+							$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 3]), 0, -2);
+							$textfile_lines[$j + 3] = "";
+						}
+					}
+
+					if($k < scalar(@temp_hex_split) - 1)
+					{
+						$temp_hex .= "0D0A6D6968203030300D0A6D726E206E6F0D0A";
+					}
+				}
+			}
+			else
+			{
+				$temp_hex .= "0D";
+			}
+
+			$full_file_hex .= $temp_hex;
 
 			$line_count_english ++;
 		}
 	}
 	else
-	{		
-		if($j > 0)
+	{
+		if($textfile_lines[$j] ne "")
 		{
-			$full_file_hex .= "0A";
-		}
-		
-		$full_file_hex .= ascii_to_hex($textfile_lines[$j]);
+			if($j > 0)
+			{
+				$full_file_hex .= "0A";
+			}
+			
+			$full_file_hex .= ascii_to_hex($textfile_lines[$j]);
 
-		if($j == scalar(@textfile_lines) - 1)
-		{
-			$full_file_hex .= "0A";
-		}
+			if($j == scalar(@textfile_lines) - 1)
+			{
+				$full_file_hex .= "0A";
+			}
 
-		$line_count_orig ++;
+			$line_count_orig ++;
+		}
 	}
 }
 
