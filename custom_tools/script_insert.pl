@@ -147,6 +147,7 @@ sub generate_hex
 	$input = unidecode($input);	
 	$input =~ s/^\s+|\s+$//g;
 	$input =~ s/ +/ /;
+	$input =~ s/\s+/ /g;
 	$input =~ s/’/'/g;
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
