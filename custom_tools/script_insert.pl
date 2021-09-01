@@ -144,7 +144,6 @@ sub generate_hex
 	my $char_map = "chars.txt";
 	my $input_raw = $_[0];
 	my $input = $input_raw;
-	$input = unidecode($input);
 	$input =~ s/^\s+|\s+$//g;
 	$input =~ s/ +/ /;
 	$input =~ s/\s+/ /g;
