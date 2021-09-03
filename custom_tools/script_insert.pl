@@ -37,6 +37,7 @@ open(FH, '<', "txt/" . $script_file . ".txt") or die $!;
 while(<FH>)
 {
 	chomp;
+	$_ =~ s/mrn la/mrn no/g;
 	push(@textfile_lines, $_);
 }
 
@@ -151,6 +152,8 @@ sub generate_hex
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
 	$input =~ s/\.\.\./#/g;
+	$input =~ s/Yantamuu/Yantamu/g;
+	$input =~ s/Shikuruu/Shikuru/g;
 	(my $input_fold = $input) =~ s/#/##/g;
 	my %char_table;
 
