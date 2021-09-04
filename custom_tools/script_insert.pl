@@ -152,8 +152,6 @@ sub generate_hex
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
 	$input =~ s/\.\.\./#/g;
-	$input =~ s/Yantamuu/Yantamu/g;
-	$input =~ s/Shikuruu/Shikuru/g;
 	(my $input_fold = $input) =~ s/#/##/g;
 	my %char_table;
 
