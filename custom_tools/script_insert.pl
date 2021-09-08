@@ -22,7 +22,7 @@ my @textfile_lines;
 my $line_count_orig = 0;
 my $line_count_english = 0;
 
-print "Processing script file \"$script_file\"... ";
+print "Processing script file \"$script_file\"...\n";
 
 for(my $i = 1; $i < scalar(@spreadsheet_rows); $i ++)
 {
@@ -88,6 +88,37 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 				$temp_hex .= "0D";
 			}
 
+			if($j < scalar(@textfile_lines) - 1)
+			{
+				my $l = $j + 1;
+				my $mih_pattern_found = 0;
+
+				while($mih_pattern_found == 0 && $l < scalar(@textfile_lines) - 1)
+				{
+					if($english_replacements{$l + 1} eq "" || !exists($english_replacements{$l + 1}))
+					{
+						if($textfile_lines[$l] =~ /^mih 000/)
+						{
+							$mih_pattern_found = 1;
+						}
+						else
+						{
+							$l ++;
+						}
+					}
+					elsif($l > $j + 1)
+					{
+						print " -> Found a missing \"mih 000\" code: line $l\n";
+						$temp_hex .= "0A6D696820303030";
+						$mih_pattern_found = 1;
+					}
+					else
+					{
+						$mih_pattern_found = 1;
+					}
+				}
+			}
+
 			$full_file_hex .= $temp_hex;
 
 			$line_count_english ++;
@@ -118,7 +149,6 @@ my @full_file_hex_array = split(//, $full_file_hex);
 
 &write_bytes(\@full_file_hex_array, "txt_new/" . $script_file_out);
 
-print "DONE!\n";
 print " -> English dialog line count: $line_count_english\n";
 print " -> Total line count: " . ($line_count_orig + $line_count_english) . "\n";
 
