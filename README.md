@@ -54,6 +54,31 @@ Project Page:
 |
 | japanese title: Nakoruru: Ano Hito kara no Okurimono (ナコルル〜あのひとからのおくりもの〜)
 |
+| things to note:
+| -game supports vibration
+| -set text speed to "instant"
+| -everything is translated (images, text, menus)
+| -lyrics input minigame
+| -new font sheet
+| -save files metadata and vmu icons all show in english in dc save manager in bios
+| -custom english logo by Nico.
+| -translated VMU icon by Danthrax4 (i did the "LOADING" one).
+| -i did all other graphics myself.
+| -marshal lead translation with assistance from piggy (speak to marshal's experience
+|  with japanese language and in the country of japan itself).
+| -lewis was lead editor, which is one of the most important roles for delivering
+|  a script that's fun for players to read.
+| -ainu language/culture, special thanks to Lacquerware for helping locate old forum
+|  discussing meaning of some terms.
+|
+| custom tooling:
+| -various webapps to aid the team in day-to-day tasks (script searchers, dialog box
+|  previews, etc.).
+| -utilities to extract script and generate spreadsheets hosted in Google Drive to
+|  give team easy way to collaborate.
+| -utility to insert new english script back into game, modifying various pointers and
+|  offsets in order to extend to multiple textboxes to fit all of our english text.
+|
 `---------------------------------------------------
 
 
