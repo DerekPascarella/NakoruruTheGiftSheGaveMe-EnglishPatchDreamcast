@@ -55,41 +55,6 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 
 		$temp_hex .= &generate_hex($english_replacements{$j + 1});
 
-		# print "if \"" . $english_replacements{$j + 2} . "\" eq blank\n";
-		# print "and \"" . $english_replacements{$j + 3} . "\" eq blank\n";
-		# print "and \"";
-		# print $textfile_lines[$j+3];
-		# print "\" starts with \"wpv\"\n";
-		# print "---or---\n";
-		# print "if \"" . $english_replacements{$j + 2} . "\" eq blank\n";
-		# print "and \"";
-		# print $textfile_lines[$j+2];
-		# print "\" starts with \"wpv\"\n";
-		# print "---and---\n";
-		# print "\"" . $temp_hex . "\" contains \"0D0A6D6968203030300D0A6D726E206E6F0D0A\"\n\n-------------------\n\n";
-
-		# print "eng_rep(j+2): ";
-		# print $english_replacements{$j + 2};
-		# print "\neng_rep(j+3): ";
-		# print $english_replacements{$j + 3};
-		# print "\ntextf_ln(j+3): ";
-		# print $textfile_lines[$j + 3];
-		# print "\n--or--\n";
-		# print "eng_rep(j+2): ";
-		# print $english_replacements{$j + 2};
-		# print "\ntextf_ln(j+2): ";
-		# print $textfile_lines[$j + 2];
-		# print "\ntextf_ln(j+1): ";
-		# print $textfile_lines[$j + 1];
-		# print "\ntextf_ln(j): ";
-		# print $textfile_lines[$j];
-		# print "\n-------------\n";
-
-		# if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
-		# 	|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/))
-		# 	&& $temp_hex =~ /0D0A6D6968203030300D0A6D726E206E6F0D0A/)
-		# {
-
 		if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
 			|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/)
 			|| ($textfile_lines[$j + 1] =~ /^wpv/))
@@ -99,8 +64,6 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			my @temp_hex_split = split(/0D0A6D6968203030300D0A6D726E206E6F0D0A/, $temp_hex);
 			$temp_hex = "";
 			
-			#print "--got here--\n";
-
 			for(my $k = 0; $k < scalar(@temp_hex_split); $k ++)
 			{
 				$temp_hex .= $temp_hex_split[$k];
@@ -122,17 +85,6 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 						$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 3]), 0, -2);
 						$textfile_lines[$j + 3] = "";
 					}
-
-					# if($textfile_lines[$j + 2] =~ /^wpv/)
-					# {
-					# 	$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 2]), 0, -2);
-					# 	$textfile_lines[$j + 2] = "";
-					# }
-					# elsif($textfile_lines[$j + 3] =~ /^wpv/)
-					# {
-					# 	$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 3]), 0, -2);
-					# 	$textfile_lines[$j + 3] = "";
-					# }
 				}
 
 				if($k < scalar(@temp_hex_split) - 1)
