@@ -199,6 +199,7 @@ sub generate_hex
 	$input =~ s/’/'/g;
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
+	$input =~ s/…/\.\.\./g;
 	$input =~ s/\.\.\./#/g;
 	$input =~ s/#/##/g;
 	my %char_table;
