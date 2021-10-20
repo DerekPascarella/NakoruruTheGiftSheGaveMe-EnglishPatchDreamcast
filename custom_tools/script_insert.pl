@@ -144,9 +144,9 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$full_file_hex .= "0A";
 		}
 
-		if($textfile_lines[$j] =~ /mtt 000 016 05/)
+		if($textfile_lines[$j] =~ /mtt 000 016 05/ && $script_file =~ /quiz/)
 		{
-			print " -> Set infinite question timer: line $j\n";
+			print " -> Set infinite quiz question timer: line $j\n";
 
 			$textfile_lines[$j] =~ s/mtt 000 016 05/mit 000/g;
 		}
