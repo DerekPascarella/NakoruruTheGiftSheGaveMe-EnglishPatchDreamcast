@@ -222,30 +222,27 @@ sub generate_hex
 	{
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
 
-		ADD_NAME_LABEL:
-
-		for(1 .. 3)
+		while(scalar(@folded_text_array_temp) > 0)
 		{
-			push(@folded_text_array, shift(@folded_text_array_temp));
-		}
-
-		my $folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
-		$folded_text_temp =~ s/^\s+|\s+$//g;
-		$folded_text_temp =~ s/ +/ /;
-		$folded_text_temp =~ s/\s+/ /g;
-		$folded_text = fold_text($folded_text_temp, 26, { 'soft_hyphen_threshold' => '0' });
-		@folded_text_array_temp = split("\n", $folded_text);
-
-		if(scalar(@folded_text_array_temp) <= 3)
-		{
-			for(1 .. scalar(@folded_text_array_temp))
+			for(1 .. 3)
 			{
 				push(@folded_text_array, shift(@folded_text_array_temp));
 			}
-		}
-		elsif(scalar(@folded_text_array_temp) > 3)
-		{
-			goto ADD_NAME_LABEL;
+
+			my $folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
+			$folded_text_temp =~ s/^\s+|\s+$//g;
+			$folded_text_temp =~ s/ +/ /;
+			$folded_text_temp =~ s/\s+/ /g;
+			$folded_text = fold_text($folded_text_temp, 26, { 'soft_hyphen_threshold' => '0' });
+			@folded_text_array_temp = split("\n", $folded_text);
+
+			if(scalar(@folded_text_array_temp) <= 3)
+			{
+				for(1 .. scalar(@folded_text_array_temp))
+				{
+					push(@folded_text_array, shift(@folded_text_array_temp));
+				}
+			}
 		}
 	}
 	else
