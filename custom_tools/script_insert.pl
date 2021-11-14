@@ -222,12 +222,12 @@ sub generate_hex
 	{
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
 
+		ADD_NAME_LABEL:
+
 		for(1 .. 3)
 		{
 			push(@folded_text_array, shift(@folded_text_array_temp));
 		}
-
-		ADD_NAME_LABEL:
 
 		my $folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
 		$folded_text_temp =~ s/^\s+|\s+$//g;
@@ -245,11 +245,6 @@ sub generate_hex
 		}
 		elsif(scalar(@folded_text_array_temp) > 3)
 		{
-			for(1 .. 3)
-			{
-				push(@folded_text_array, shift(@folded_text_array_temp));
-			}
-
 			goto ADD_NAME_LABEL;
 		}
 	}
