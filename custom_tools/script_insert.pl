@@ -191,8 +191,7 @@ sub write_bytes
 sub generate_hex
 {
 	my $char_map = "chars.txt";
-	my $input_raw = $_[0];
-	my $input = $input_raw;
+	my $input = $_[0];
 	$input =~ s/^\s+|\s+$//g;
 	$input =~ s/ +/ /;
 	$input =~ s/\s+/ /g;
@@ -214,13 +213,56 @@ sub generate_hex
 		$char_table{$tmp_char_split[1]} = $tmp_char_split[0];
 	}
 
-	my $folded_text = fold_text($input, 26, {'soft_hyphen_threshold' => '0'});
-	my @folded_text_array = split("\n", $folded_text);
 	my $hex_final;
+	my $folded_text = fold_text($input, 26, {'soft_hyphen_threshold' => '0'});
+	my @folded_text_array_temp = split("\n", $folded_text);
+	my @folded_text_array;
+
+	if(scalar(@folded_text_array_temp) > 3 && substr($input, 0, 1) eq "[")
+	{
+		my $folded_text_temp;
+		(my $name) = $input =~ /\[\s*([^]]+)]/x;
+
+		for(1 .. 3)
+		{
+			push(@folded_text_array, shift(@folded_text_array_temp));
+		}
+
+		ADD_NAME_LABEL:
+
+		$folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
+		$folded_text_temp =~ s/^\s+|\s+$//g;
+		$folded_text_temp =~ s/ +/ /;
+		$folded_text_temp =~ s/\s+/ /g;
+		$folded_text = fold_text($folded_text_temp, 26, {'soft_hyphen_threshold' => '0'});
+		@folded_text_array_temp = split("\n", $folded_text);
+
+		if(scalar(@folded_text_array_temp) <= 3)
+		{
+			for(1 .. scalar(@folded_text_array_temp))
+			{
+				push(@folded_text_array, shift(@folded_text_array_temp));
+			}
+		}
+		elsif(scalar(@folded_text_array_temp) > 3)
+		{
+			for(1 .. 3)
+			{
+				push(@folded_text_array, shift(@folded_text_array_temp));
+			}
+
+			goto ADD_NAME_LABEL;
+		}
+	}
+	else
+	{
+		@folded_text_array = @folded_text_array_temp;
+	}
 
 	for(my $i = 0; $i < scalar(@folded_text_array); $i ++)
 	{
 		$folded_text_array[$i] =~ s/^\s+|\s+$//g;
+		(my $display_text = $folded_text_array[$i]) =~ s/##/\.\.\./g;
 		(my $temp_text = $folded_text_array[$i]) =~ s/##/#/g;
 		my @folded_chars = split(//, $temp_text);
 		my $char_count = 0;
