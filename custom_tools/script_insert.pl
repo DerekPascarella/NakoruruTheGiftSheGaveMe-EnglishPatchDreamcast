@@ -220,7 +220,6 @@ sub generate_hex
 
 	if(scalar(@folded_text_array_temp) > 3 && substr($input, 0, 1) eq "[")
 	{
-		my $folded_text_temp;
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
 
 		for(1 .. 3)
@@ -230,7 +229,7 @@ sub generate_hex
 
 		ADD_NAME_LABEL:
 
-		$folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
+		my $folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
 		$folded_text_temp =~ s/^\s+|\s+$//g;
 		$folded_text_temp =~ s/ +/ /;
 		$folded_text_temp =~ s/\s+/ /g;
