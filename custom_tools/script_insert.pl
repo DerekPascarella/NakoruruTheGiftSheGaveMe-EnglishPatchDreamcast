@@ -214,7 +214,7 @@ sub generate_hex
 	}
 
 	my $hex_final;
-	my $folded_text = fold_text($input, 26, {'soft_hyphen_threshold' => '0'});
+	my $folded_text = fold_text($input, 26, { 'soft_hyphen_threshold' => '0' });
 	my @folded_text_array_temp = split("\n", $folded_text);
 	my @folded_text_array;
 
@@ -233,7 +233,7 @@ sub generate_hex
 		$folded_text_temp =~ s/^\s+|\s+$//g;
 		$folded_text_temp =~ s/ +/ /;
 		$folded_text_temp =~ s/\s+/ /g;
-		$folded_text = fold_text($folded_text_temp, 26, {'soft_hyphen_threshold' => '0'});
+		$folded_text = fold_text($folded_text_temp, 26, { 'soft_hyphen_threshold' => '0' });
 		@folded_text_array_temp = split("\n", $folded_text);
 
 		if(scalar(@folded_text_array_temp) <= 3)
