@@ -10,19 +10,45 @@ Project Page:
 <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast">https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast</a>
 <br>
 
+fold -w 78 -s readme_release_notes.txt > release_notes_folded.txt
+
+Nakoruru: The Gift She Gave Me
+English Translation v1.0
+Sega Dreamcast
+
+Project Page:
+https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast
+
+
 .------------------::[ Credits ]::------------------
 |
 | LEAD DEVELOPER / PROJECT LEAD:
 | Derek Pascarella (ateam)
 |
-| TRANSLATION:
-| xx
+| LEAD TRANSLATOR:
+| Marshal Wong
 |
-| EDITING:
-| xxx
+| LEAD EDITOR:
+| Lewis Cox (LewisJFC)
 |
-| GRAPHICS:
+| LEAD GRAPHIC ARTIST:
 | Derek Pascarella (ateam)
+|
+| TRANSLATORS:
+| Marshal Wong
+| Duralumin
+| Piggy (witchpiggy)
+|
+| EDITORS:
+| Lewis Cox (LewisJFC)
+| Derek Pascarella (ateam)
+|
+| TRANSLATION ASSISTANCE:
+| Lacquerware
+|
+| GRAPHICS ASSISTANCE:
+| Nico
+| Danthrax4
 |
 `---------------------------------------------------
 
@@ -57,25 +83,40 @@ Project Page:
 | things to note:
 | -game supports vibration
 | -set text speed to "instant"
-| -everything is translated (images, text, menus)
-| -lyrics input minigame
+| -everything is translated (images, text, menus), only thing in English was "Press
+|  Start Button" on title screen
+| -lyrics input minigame, went from basic Kana lesson to just teaching Japanese
+|  phoenetics to the player
 | -new font sheet
 | -save files metadata and vmu icons all show in english in dc save manager in bios
 | -custom english logo by Nico.
 | -translated VMU icon by Danthrax4 (i did the "LOADING" one).
 | -i did all other graphics myself.
-| -marshal lead translation with assistance from piggy (speak to marshal's experience
-|  with japanese language and in the country of japan itself).
+| -quiz time-limit removed in order to allow player to research questions, as they were
+|  all very Japanese/Ainu culture specific, and changing them to something Western
+|  didn't blend well with the rest of the game.
+| -marshal lead translation with assistance from piggy and duralumin (let all three
+|  write a paragraph about the project, their backgrounds, etc.).
 | -lewis was lead editor, which is one of the most important roles for delivering
 |  a script that's fun for players to read.
 | -ainu language/culture, special thanks to Lacquerware for helping locate old forum
 |  discussing meaning of some terms.
+| -unlockable content:
+|	* character bios / messages from voice actors
+|	* picture gallery
+|   * music gallery/sound test
+|   * vmu icons to download
+| -bonus disc with unlocked vmu save, theme song, and OVA episode.
+|   * uses dreampassport web browser, couldn't figure out how to disable screensaver,
+|     so when screensaver shows up, just press a button on the d-pad to make it go
+|     away.  also hope you like the screensaver!
+| -disc content in repo, little clock programs, also translated (virus-free!)
 |
 | custom tooling:
 | -various webapps to aid the team in day-to-day tasks (script searchers, dialog box
 |  previews, etc.).
 | -utilities to extract script and generate spreadsheets hosted in Google Drive to
-|  give team easy way to collaborate.
+|  give team easy way to collaborate, adding DeepL translation for reference.
 | -utility to insert new english script back into game, modifying various pointers and
 |  offsets in order to extend to multiple textboxes to fit all of our english text.
 |
