@@ -9,9 +9,6 @@ Sega Dreamcast
 Project Page:
 <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast">https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast</a>
 <br>
-
-fold -w 78 -s readme_release_notes.txt > release_notes_folded.txt
-
 Nakoruru: The Gift She Gave Me
 English Translation v1.0
 Sega Dreamcast
