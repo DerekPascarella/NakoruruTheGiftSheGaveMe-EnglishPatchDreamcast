@@ -15,30 +15,28 @@ Project Page:
 | LEAD DEVELOPER / PROJECT LEAD:
 | Derek Pascarella (ateam)
 |
-| LEAD TRANSLATOR:
+| LEAD TRANSLATORS:
 | Marshal Wong
+| Duralumin
 |
-| LEAD EDITOR:
+| LEAD EDITORS:
 | Lewis Cox (LewisJFC)
+| Derek Pascarella (ateam)
 |
 | LEAD GRAPHIC ARTIST:
 | Derek Pascarella (ateam)
 |
-| TRANSLATORS:
-| Marshal Wong
-| Duralumin
+| ADDITIONAL TRANSLATORS:
 | Piggy (witchpiggy)
 |
-| EDITORS:
-| Lewis Cox (LewisJFC)
-| Derek Pascarella (ateam)
-|
-| TRANSLATION ASSISTANCE:
-| Lacquerware
-|
-| GRAPHICS ASSISTANCE:
+| ADDITIONAL GRAPHIC ARTISTS:
 | Nico
 | Danthrax4
+|
+| SPECIAL THANKS:
+| Lacquerware
+| EsperKnight
+| SnowyAria
 |
 `---------------------------------------------------
 
