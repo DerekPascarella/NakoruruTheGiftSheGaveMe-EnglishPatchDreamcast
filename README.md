@@ -2,7 +2,7 @@
   * <a href="xxx">Nakoruru - The Gift She Gave Me (ENG v1.0).dcp</a>
 <br>
 <pre>
-Nakoruru: The Gift She Gave Me
+Nakoruru: The Gift She Gave Me (Nakoruru: Ano Hito kara no Okurimono)
 English Translation v1.0
 Sega Dreamcast
 <br>
