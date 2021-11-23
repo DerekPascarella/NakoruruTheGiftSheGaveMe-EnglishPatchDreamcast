@@ -38,8 +38,6 @@ Project Page:
 |
 | SPECIAL THANKS:
 | Lacquerware
-| EsperKnight
-| SnowyAria
 |
 `---------------------------------------------------
 
