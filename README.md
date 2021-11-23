@@ -7,7 +7,7 @@
 <pre>
 Nakoruru: The Gift She Gave Me (Nakoruru: Ano Hito kara no Okurimono)
 English Translation v1.0
-SEGA Dreamcast
+Sega Dreamcast
 <br>
 Project Page:
 <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast">https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast</a>
