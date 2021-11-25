@@ -53,7 +53,14 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$temp_hex .= "0A";
 		}
 
-		$temp_hex .= &generate_hex($english_replacements{$j + 1});
+		if(substr($english_replacements{$j + 1}, 0, 1) eq "[")
+		{
+			$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1});
+		}
+		else
+		{
+			$temp_hex .= &generate_hex("chars_italic.txt", $english_replacements{$j + 1});
+		}
 
 		if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
 			|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/)
@@ -190,8 +197,9 @@ sub write_bytes
 
 sub generate_hex
 {
-	my $char_map = "chars.txt";
-	my $input = $_[0];
+	my %char_table;
+	my $char_map = $_[0];
+	my $input = $_[1];
 	$input =~ s/^\s+|\s+$//g;
 	$input =~ s/ +/ /;
 	$input =~ s/\s+/ /g;
@@ -201,7 +209,6 @@ sub generate_hex
 	$input =~ s/…/\.\.\./g;
 	$input =~ s/\.\.\./#/g;
 	$input =~ s/#/##/g;
-	my %char_table;
 
 	open my $char_map_handle, '<', $char_map;
 	chomp(my @mapped_chars = <$char_map_handle>);
