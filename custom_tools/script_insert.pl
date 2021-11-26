@@ -56,7 +56,8 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 		if(substr($english_replacements{$j + 1}, 0, 1) eq "["
 			|| $textfile_lines[$j + 1] =~ /^mit/ || $textfile_lines[$j + 1] =~ /^mtt/
 			|| $textfile_lines[$j + 2] =~ /^mit/ || $textfile_lines[$j + 2] =~ /^mtt/
-			|| $textfile_lines[$j + 3] =~ /^mit/ || $textfile_lines[$j + 3] =~ /^mtt/)
+			|| $textfile_lines[$j + 3] =~ /^mit/ || $textfile_lines[$j + 3] =~ /^mtt/
+			|| $script_file =~ /^scd_rs0[0-9]_h/)
 		{
 			$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1});
 		}
