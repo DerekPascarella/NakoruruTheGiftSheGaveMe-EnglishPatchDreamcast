@@ -196,7 +196,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 				# script file.
 				elsif($l > $j + 1)
 				{
-					# Append hex representation of "mih 000 [CRLF]" to "temp_hex".
+					# Append hex representation of "[CR] mih 000 [LF]" to "temp_hex".
 					$temp_hex .= "0A6D6968203030300D";
 					
 					# Control code added, so set found-pattern variable to true (1) to end loop.
