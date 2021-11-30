@@ -12,7 +12,7 @@ use Encode qw(decode encode);
 use Spreadsheet::WriteExcel;
 
 my $script_folder = "/mnt/z/dc/gdi/new/nakoruru/script/SCD/";
-my $output_folder = "/mnt/z/dc/gdi/new/nakoruru/script/SCD_XLS/";
+my $output_folder = "/mnt/z/dc/gdi/new/nakoruru/custom_tools/xls/";
 my @script_file_lines = ();
 my $script_line = 0;
 my $temp_line_group = 0;
@@ -31,9 +31,15 @@ for(my $i = 0; $i < scalar(@script_files); $i ++)
 	{
 		$_ = Encode::encode("utf-8", Encode::decode("shiftjis", $_));
 		$script_line ++;
-		next if /\/\//;
-		next if /[a-z]/;
+		next if /^\/\//;
+		next if /^[a-z]/;
 		chomp;
+
+		if($_ =~ /\/\//)
+		{
+			$_ =~ s/\s.*//;
+		}
+
 		push(@script_file_lines, $script_line . "|" . $_);
 	}
 
