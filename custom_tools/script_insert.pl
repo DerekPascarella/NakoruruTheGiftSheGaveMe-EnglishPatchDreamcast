@@ -403,7 +403,7 @@ sub generate_hex
 		}
 
 		# If processing any line of text except the last one, and it contains fewer than the
-		# horizontal maximum of 26 characters, artificially pad it to bring it's length to 26.
+		# horizontal maximum of 26 characters, artificially pad it to bring its length to 26.
 		if($char_count < 26 && $i < scalar(@folded_text_array) - 1)
 		{
 			foreach(1 .. (26 - $char_count))
