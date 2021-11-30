@@ -36,6 +36,7 @@ for(my $i = 0; $i < scalar(@script_files); $i ++)
 		
 		next if /^\/\//;
 		next if /^[a-z]/;
+		next if /^[0-9]/;
 		
 		chomp;
 
