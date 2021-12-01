@@ -70,6 +70,13 @@ Project Page:
 | japanese title: Nakoruru: Ano Hito kara no Okurimono (ナコルル〜あのひとからのおくりもの〜)
 |
 | things to note:
+| -tested emulators: retroarch+flycast (enable HLE bios), nulldc
+| -character sprite texture fade-in/out effect is affected by fast data read speeds
+|  of ODEs. set "read_limit = 1250" in GDEMU.ini, for MODE, create mode.cfg file inside
+|  game folder containing:
+|      Flags=8
+|      BlockDelay=4
+|  ...or use menu to set seek time "on" and gdrom read speed "normal".
 | -game supports vibration
 | -set text speed to "instant"
 | -everything is translated (images, text, menus), only thing in English was "Press
@@ -100,6 +107,7 @@ Project Page:
 |     so when screensaver shows up, just press a button on the d-pad to make it go
 |     away.  also hope you like the screensaver!
 | -disc content in repo, little clock programs, also translated (virus-free!)
+| -added translation team to intro screens.
 |
 | custom tooling:
 | -various webapps to aid the team in day-to-day tasks (script searchers, dialog box
