@@ -71,8 +71,8 @@ Project Page:
 |
 | things to note:
 | -tested emulators: retroarch+flycast (enable HLE bios), nulldc
-| -character sprite texture fade-in/out effect is affected by fast data read speeds
-|  of ODEs. set "read_limit = 1250" in GDEMU.ini, for MODE, create mode.cfg file inside
+| -character sprite texture fade-in/out effect is affected by fast data-read speeds
+|  of ODEs. set "read_limit = 1250" in GDEMU.ini. for MODE, create mode.cfg file inside
 |  game folder containing:
 |      Flags=8
 |      BlockDelay=4
@@ -84,9 +84,10 @@ Project Page:
 | -lyrics input minigame, went from basic Kana lesson to just teaching Japanese
 |  phoenetics to the player
 | -new font sheet
-| -save files metadata and vmu icons all show in english in dc save manager in bios
+| -save files metadata all show in english in dc save manager in bios
+| -all vmu icons translated
 | -custom english logo by Nico.
-| -translated VMU icon by Danthrax4 (i did the "LOADING" one).
+| -translated VMU icon by Danthrax4 (i did the "Accessing VMU" one).
 | -i did all other graphics myself.
 | -quiz time-limit removed in order to allow player to research questions, as they were
 |  all very Japanese/Ainu culture specific, and changing them to something Western
