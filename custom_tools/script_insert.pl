@@ -193,7 +193,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 					}
 				}
 				# Next set of English text has appeared in seek, so consider control code missing and add it back to
-				# script file.
+				# script file, unless current text is part of a player-response selection.
 				elsif($l > $j + 1 && @textfile_lines[$j + 1] !~ /mit 000/ && @textfile_lines[$j + 1] !~ /mtt 000 016 05/)
 				{
 					# Append hex representation of "[CR] mih 000 [LF]" to "temp_hex".
