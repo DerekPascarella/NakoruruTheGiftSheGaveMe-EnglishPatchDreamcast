@@ -62,8 +62,8 @@ close(FH);
 # Iterate through each line of original script text stored in "textfile_lines" array.
 for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 {
-	# If current line of script file exists in the "english_replacements" hash and is not empty, proceed
-	# with processing it.
+	# If current line of script file exists in the "english_replacements" hash and is not empty, proceed with
+	# processing it.
 	if(exists($english_replacements{$j + 1}) && $english_replacements{$j + 1} ne "")
 	{
 		# Declare variable to store English text hex representation.
