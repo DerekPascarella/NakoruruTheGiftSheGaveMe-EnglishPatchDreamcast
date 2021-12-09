@@ -1,4 +1,4 @@
-<h2>Nakoruru: The Gift She Gave Me (English Translation Patch for the SEGA Dreamcast)</h2>
+<h2>Nakoruru: The Gift She Gave Me</h2>
 <img width="200" height="200" align="right" src="https://i.imgur.com/mSCYRdX.png"><h4>Download the English translation patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> (GDIs only, patching instructions below):</h4>
 <ul>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a></li>
