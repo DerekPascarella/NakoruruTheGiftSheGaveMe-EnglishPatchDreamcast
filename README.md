@@ -8,7 +8,9 @@
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a></li>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
 </ul>
-<br>
+<h2>Credits</h2>
+test
+
 <pre>
 Nakoruru: The Gift She Gave Me (Nakoruru: Ano Hito kara no Okurimono)
 English Translation v1.0
