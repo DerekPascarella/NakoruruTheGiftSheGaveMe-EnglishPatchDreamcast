@@ -4,8 +4,8 @@
 #### Download the English translation patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> (GDIs only, patching instructions below):
   * <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a>
 #### Download the English translation "Bonus Disc" (more information below):
-  * <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0 - Bonus Disc) [GDI].zip</a>
-  * <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0 - Bonus Disc).cdi</a>
+  * <a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a>
+  * <a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a>
 <br>
 <pre>
 Nakoruru: The Gift She Gave Me (Nakoruru: Ano Hito kara no Okurimono)
