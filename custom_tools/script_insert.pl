@@ -7,9 +7,10 @@
 
 # Include necessary modules.
 use strict;
+use Switch;
 use Text::Fold;
-use HTML::Entities;
 use Text::Unidecode;
+use HTML::Entities;
 use String::HexConvert ':all';
 use Spreadsheet::Read qw(ReadData);
 
@@ -296,7 +297,8 @@ sub generate_hex
 	my $input = $_[1];
 
 	# Initialize/declare initial variables.
-	my %char_table;
+	my $name_dialog = 0;
+	my $name_length;
 	my $hex_final;
 
 	# Clean input text.
@@ -315,6 +317,9 @@ sub generate_hex
 	chomp(my @mapped_chars = <$char_map_handle>);
 	close $char_map_handle;
 
+	# Declare hash for character hex values.
+	my %char_table;
+
 	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
 	# character.
 	foreach(@mapped_chars)
@@ -323,53 +328,100 @@ sub generate_hex
 		$char_table{$tmp_char_split[1]} = $tmp_char_split[0];
 	}
 
+	# Open colored character map and store it in "mapped_colored_chars" array.
+	open my $colored_char_map_handle, '<', "chars_colored.txt";
+	chomp(my @mapped_colored_chars = <$colored_char_map_handle>);
+	close $colored_char_map_handle;
+
+	# Declare hash for colored character hex values.
+	my %colored_char_table;
+
+	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
+	# character.
+	foreach(@mapped_colored_chars)
+	{
+		my @tmp_colored_char_split = split(/\|/, $_);
+		$colored_char_table{$tmp_colored_char_split[1]} = $tmp_colored_char_split[0];
+	}
+
 	# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
 	# characters.
 	my $folded_text = fold_text($input, 26, { 'soft_hyphen_threshold' => '0' });
-	my @folded_text_array_temp = split("\n", $folded_text);
-	my @folded_text_array;
+	my @folded_text_array = split("\n", $folded_text);
+	my @folded_text_array_temp;
 
-	# Apply special processing to input text if it is spoken dialog (i.e. starts with an open bracket)
-	# and is more than three lines long.
-	if(scalar(@folded_text_array_temp) > 3 && substr($input, 0, 1) eq "[")
+	# Apply special processing to input text if it is spoken dialog (i.e. starts with an open bracket).
+	if(substr($input, 0, 1) eq "[")
 	{
-		# Parse speaker's name from input text.
+		# Set "name_dialog" flag to "1" to represent fact that script line is spoken by a character
+		# and is not inner-monologue.
+		$name_dialog = 1;
+
+		# Parse speaker's name from input text and remove extraneous whitespace from it.
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
+		$name =~ s/^\s+|\s+$//g;
+		
+		# Remove speaker's name and brackets from input text.
+		$input =~ s/\[$name\]//g;
 
-		# Continue to process each line of "folded_text_array_temp" until each element has been shifted
-		# out of it into "folded_text_array".
-		while(scalar(@folded_text_array_temp) > 0)
+		# # Convert "name" to uppercase.
+		$name = uc($name);
+
+		# Store character count for speaker's name.
+		$name_length = length($name);
+
+		# Prepend converted "name" to "input".
+		$input = $name . " " . $input;
+
+		# Remove extraneous whitespace from input.
+		$input =~ s/^\s+|\s+$//g;
+		$input =~ s/ +/ /;
+		$input =~ s/\s+/ /g;
+
+		# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
+		# characters.
+		$folded_text = fold_text($input, 26, { 'soft_hyphen_threshold' => '0' });
+		@folded_text_array_temp = split("\n", $folded_text);
+		@folded_text_array = ();
+
+		# If dialog exceeds three lines in length, apply special processing.
+		if(scalar(@folded_text_array_temp) > 3)
 		{
-			# Shift first three elements of "folded_text_array_temp" into "folded_text_array".
-			for(1 .. 3)
+			# Continue to process each line of "folded_text_array_temp" until each element has been shifted
+			# out of it into "folded_text_array".
+			while(scalar(@folded_text_array_temp) > 0)
 			{
-				push(@folded_text_array, shift(@folded_text_array_temp));
-			}
-
-			# Take remainder of text past third line and prepend speaker's name to it, as well as clean
-			# it of any unwanted extra whitespace.
-			my $folded_text_temp = "[" . $name . "] " . join(" ", @folded_text_array_temp);
-			$folded_text_temp =~ s/^\s+|\s+$//g;
-			$folded_text_temp =~ s/ +/ /;
-			$folded_text_temp =~ s/\s+/ /g;
-			$folded_text = fold_text($folded_text_temp, 26, { 'soft_hyphen_threshold' => '0' });
-			@folded_text_array_temp = split("\n", $folded_text);
-
-			# If three or fewer lines remain, shift them from "folded_text_array_temp" into
-			# "folded_text_array".
-			if(scalar(@folded_text_array_temp) <= 3)
-			{
-				for(1 .. scalar(@folded_text_array_temp))
+				# Shift first three elements of "folded_text_array_temp" into "folded_text_array".
+				for(1 .. 3)
 				{
 					push(@folded_text_array, shift(@folded_text_array_temp));
 				}
+
+				# Take remainder of text past third line and prepend speaker's name to it, as well as clean
+				# it of any unwanted extra whitespace.
+				my $folded_text_temp = $name . " " . join(" ", @folded_text_array_temp);
+				$folded_text_temp =~ s/^\s+|\s+$//g;
+				$folded_text_temp =~ s/ +/ /;
+				$folded_text_temp =~ s/\s+/ /g;
+				$folded_text = fold_text($folded_text_temp, 26, { 'soft_hyphen_threshold' => '0' });
+				@folded_text_array_temp = split("\n", $folded_text);
+
+				# If three or fewer lines remain, shift them from "folded_text_array_temp" into
+				# "folded_text_array".
+				if(scalar(@folded_text_array_temp) <= 3)
+				{
+					for(1 .. scalar(@folded_text_array_temp))
+					{
+						push(@folded_text_array, shift(@folded_text_array_temp));
+					}
+				}
 			}
 		}
-	}
-	# Otherwise, simply copy "folded_text_array_temp" into "folded_text_array".
-	else
-	{
-		@folded_text_array = @folded_text_array_temp;
+		# Otherwise, simply copy "folded_text_array_temp" to "folded_text_array".
+		else
+		{
+			@folded_text_array = @folded_text_array_temp;
+		}
 	}
 
 	# Iterate through each line of input text in "folded_text_array".
@@ -383,15 +435,25 @@ sub generate_hex
 		my @folded_chars = split(//, $temp_text);
 		my $char_count = 0;
 
-		# Iterate through each element of "folded_chars" array.
-		foreach(@folded_chars)
+		# Iterate through each element of "folded_chars" array to set hex value for each character.
+		for(my $m = 0; $m < scalar(@folded_chars); $m ++)
 		{
-			# Copy hex value from hash "char_table" to "hex_final".
-			$hex_final .= $char_table{$_};
+			# If processing a speaker's name and the current character is one from said name, and the
+			# current line is the first in a three-line textbox (e.g. line 1, 4, 7, 10, etc.), copy hex
+			# value from hash "colored_char_table" to "hex_final".
+			if($name_dialog == 1 && $m < $name_length && ($i + 3) % 3 == 0)
+			{
+				$hex_final .= $colored_char_table{$folded_chars[$m]};
+			}
+			# Otherwise, copy hex value from hash "char_table" to "hex_final".
+			else
+			{
+				$hex_final .= $char_table{$folded_chars[$m]};
+			}
 
 			# If current character is "#", increase character count by two, as this is used to
 			# represent two periods "..", which are used after a single period to create an ellipses.
-			if($_ eq "#")
+			if($folded_chars[$m] eq "#")
 			{
 				$char_count += 2;
 			}
