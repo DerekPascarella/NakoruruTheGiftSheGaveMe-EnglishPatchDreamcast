@@ -364,7 +364,7 @@ sub generate_hex
 		# Remove speaker's name and brackets from input text.
 		$input =~ s/\[\Q$name\E\]//g;
 
-		# # Convert "name" to uppercase.
+		# Convert "name" to uppercase.
 		$name = uc($name);
 
 		# Store character count for speaker's name.
