@@ -77,8 +77,8 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 		}
 
 		# If English text represents spoken dialog (e.g. "[Speaker] This is my line."), is a player-selectable
-		# response for an in-game question, or is part of a minigame script file (e.g. "scd_rs01_h0119_(825)"),
-		# automatically use the default font.
+		# response for an in-game question, or is part of a minigame score-result script file (e.g.
+		# "scd_rs01_h0119_(825)"), automatically use the default font.
 		if(substr($english_replacements{$j + 1}, 0, 1) eq "["
 			|| $textfile_lines[$j + 1] =~ /^mit/ || $textfile_lines[$j + 1] =~ /^mtt/
 			|| $textfile_lines[$j + 2] =~ /^mit/ || $textfile_lines[$j + 2] =~ /^mtt/
