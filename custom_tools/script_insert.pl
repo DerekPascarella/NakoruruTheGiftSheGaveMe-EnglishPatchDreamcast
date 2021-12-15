@@ -458,7 +458,7 @@ sub generate_hex
 # Subroutine to generate hash containing character map of hex values.
 sub generate_char_map_hash
 {
-	# Store specified character map.
+	# Store specified character map's filename.
 	my $char_map = $_[0];
 
 	# Open specific character map and store it in "mapped_chars" array.
