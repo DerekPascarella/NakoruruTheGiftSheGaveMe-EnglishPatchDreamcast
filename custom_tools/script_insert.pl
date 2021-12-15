@@ -297,6 +297,8 @@ sub generate_hex
 	my $input = $_[1];
 
 	# Initialize/declare initial variables.
+	my %colored_char_table = &generate_char_map_hash("chars_colored.txt");
+	my %char_table = &generate_char_map_hash($char_map);
 	my $name_dialog = 0;
 	my $name_length;
 	my $hex_final;
@@ -311,38 +313,6 @@ sub generate_hex
 	$input =~ s/…/\.\.\./g;
 	$input =~ s/\.\.\./#/g;
 	$input =~ s/#/##/g;
-
-	# Open specific character map and store it in "mapped_chars" array.
-	open my $char_map_handle, '<', $char_map;
-	chomp(my @mapped_chars = <$char_map_handle>);
-	close $char_map_handle;
-
-	# Declare hash for character hex values.
-	my %char_table;
-
-	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
-	# character.
-	foreach(@mapped_chars)
-	{
-		my @tmp_char_split = split(/\|/, $_);
-		$char_table{$tmp_char_split[1]} = $tmp_char_split[0];
-	}
-
-	# Open colored character map and store it in "mapped_colored_chars" array.
-	open my $colored_char_map_handle, '<', "chars_colored.txt";
-	chomp(my @mapped_colored_chars = <$colored_char_map_handle>);
-	close $colored_char_map_handle;
-
-	# Declare hash for colored character hex values.
-	my %colored_char_table;
-
-	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
-	# character.
-	foreach(@mapped_colored_chars)
-	{
-		my @tmp_colored_char_split = split(/\|/, $_);
-		$colored_char_table{$tmp_colored_char_split[1]} = $tmp_colored_char_split[0];
-	}
 
 	# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
 	# characters.
@@ -381,12 +351,16 @@ sub generate_hex
 		# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
 		# characters.
 		$folded_text = fold_text($input, 26, { 'soft_hyphen_threshold' => '0' });
-		@folded_text_array_temp = split("\n", $folded_text);
-		@folded_text_array = ();
+		@folded_text_array = split("\n", $folded_text);
 
 		# If dialog exceeds three lines in length, apply special processing.
-		if(scalar(@folded_text_array_temp) > 3)
+		if(scalar(@folded_text_array) > 3)
 		{
+			# Copy "folded_text_array" into "folded_text_array_temp", as the latter will be processed
+			# element-by-element, and clear all elements from "folded_text_array".
+			@folded_text_array_temp = @folded_text_array;
+			@folded_text_array = ();
+
 			# Continue to process each line of "folded_text_array_temp" until each element has been shifted
 			# out of it into "folded_text_array".
 			while(scalar(@folded_text_array_temp) > 0)
@@ -416,11 +390,6 @@ sub generate_hex
 					}
 				}
 			}
-		}
-		# Otherwise, simply copy "folded_text_array_temp" to "folded_text_array".
-		else
-		{
-			@folded_text_array = @folded_text_array_temp;
 		}
 	}
 
@@ -484,4 +453,30 @@ sub generate_hex
 
 	# Return final hex representation of input text.
 	return $hex_final;
+}
+
+# Subroutine to generate hash containing character map of hex values.
+sub generate_char_map_hash
+{
+	# Store specified character map.
+	my $char_map = $_[0];
+
+	# Open specific character map and store it in "mapped_chars" array.
+	open my $char_map_handle, '<', $char_map;
+	chomp(my @mapped_chars = <$char_map_handle>);
+	close $char_map_handle;
+
+	# Declare hash for character hex values.
+	my %char_table;
+
+	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
+	# character.
+	foreach(@mapped_chars)
+	{
+		my @tmp_char_split = split(/\|/, $_);
+		$char_table{$tmp_char_split[1]} = $tmp_char_split[0];
+	}
+
+	# Return hash containing character map.
+	return %char_table;
 }
