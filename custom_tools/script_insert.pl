@@ -93,9 +93,9 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$temp_hex .= &generate_hex("chars_italic.txt", $english_replacements{$j + 1});
 		}
 
-		# If English text is multi-line and original script file contained sound clip playback after the original
-		# Japanese text was rendered (i.e. "wpv" control code), apply special processing in order to correctly
-		# shift sound clip playback back up to the appropriate spot.
+		# If English text is multi-line and original script file contained sound clip playback after the
+		# original Japanese text was rendered (i.e. "wpv" control code), apply special processing in order to
+		# correctly shift sound clip playback back up to the appropriate spot.
 		if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
 			|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/)
 			|| ($textfile_lines[$j + 1] =~ /^wpv/))
@@ -162,19 +162,19 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$temp_hex .= "0D";
 		}
 
-		# If processing anything but the last line of the script file, add any missing "mih 000" control codes that
-		# are responsible for clean generation of new textboxes.
+		# If processing anything but the last line of the script file, add any missing "mih 000" control codes
+		# that are responsible for clean generation of new textboxes.
 		if($j < scalar(@textfile_lines) - 1)
 		{
-			# Initialize "l" variable with a value of "j" (current line array element) plus one, used to look ahead
-			# one line.
+			# Initialize "l" variable with a value of "j" (current line array element) plus one, used to look
+			# ahead one line.
 			my $l = $j + 1;
 
 			# Initialize the found-pattern variable to false (0).
 			my $mih_pattern_found = 0;
 
-			# While missing control code isn't found and and end of script file not yet reached, continue search for
-			# missing control codes.
+			# While missing control code isn't found and and end of script file not yet reached, continue
+			# search for missing control codes.
 			while($mih_pattern_found == 0 && $l < scalar(@textfile_lines) - 1)
 			{
 				# There is no English text stored after the current line "l" of the original script file.
@@ -193,8 +193,8 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 						$l ++;
 					}
 				}
-				# Next set of English text has appeared in seek, so consider control code missing and add it back to
-				# script file, unless current text is part of a player-response selection.
+				# Next set of English text has appeared in seek, so consider control code missing and add it
+				# back to script file, unless current text is part of a player-response selection.
 				elsif($l > $j + 1 && @textfile_lines[$j + 1] !~ /mit 000/ && @textfile_lines[$j + 1] !~ /mtt 000 016 05/)
 				{
 					# Append hex representation of "[CR] mih 000 [LF]" to "temp_hex".
@@ -221,8 +221,8 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 		# Increase English line counter by one.
 		$line_count_english ++;
 	}
-	# If current line of script file does not exist in the "english_replacements" hash and is not empty, proceed
-	# with processing it.
+	# If current line of script file does not exist in the "english_replacements" hash and is not empty,
+	# proceed with processing it.
 	elsif(!exists($english_replacements{$j + 1}) && $textfile_lines[$j] ne "")
 	{
 		# If processing any line of script file after the first one, append "0A" (newline) hex value to it.
@@ -323,8 +323,8 @@ sub generate_hex
 	# Apply special processing to input text if it is spoken dialog (i.e. starts with an open bracket).
 	if(substr($input, 0, 1) eq "[")
 	{
-		# Set "name_dialog" flag to "1" to represent fact that script line is spoken by a character
-		# and is not inner-monologue.
+		# Set "name_dialog" flag to "1" to represent fact that script line is spoken by a character and is not
+		# inner-monologue.
 		$name_dialog = 1;
 
 		# Parse speaker's name from input text and remove extraneous whitespace from it.
@@ -361,8 +361,8 @@ sub generate_hex
 			@folded_text_array_temp = @folded_text_array;
 			@folded_text_array = ();
 
-			# Continue to process each line of "folded_text_array_temp" until each element has been shifted
-			# out of it into "folded_text_array".
+			# Continue to process each line of "folded_text_array_temp" until each element has been shifted out
+			# of it into "folded_text_array".
 			while(scalar(@folded_text_array_temp) > 0)
 			{
 				# Shift first three elements of "folded_text_array_temp" into "folded_text_array".
@@ -371,8 +371,8 @@ sub generate_hex
 					push(@folded_text_array, shift(@folded_text_array_temp));
 				}
 
-				# Take remainder of text past third line and prepend speaker's name to it, as well as clean
-				# it of any unwanted extra whitespace.
+				# Take remainder of text past third line and prepend speaker's name to it, as well as clean it
+				# of any unwanted extra whitespace.
 				my $folded_text_temp = $name . " " . join(" ", @folded_text_array_temp);
 				$folded_text_temp =~ s/^\s+|\s+$//g;
 				$folded_text_temp =~ s/ +/ /;
@@ -407,9 +407,9 @@ sub generate_hex
 		# Iterate through each element of "folded_chars" array to set hex value for each character.
 		for(my $m = 0; $m < scalar(@folded_chars); $m ++)
 		{
-			# If processing a speaker's name and the current character is one from said name, and the
-			# current line is the first in a three-line textbox (e.g. line 1, 4, 7, 10, etc.), copy hex
-			# value from hash "colored_char_table" to "hex_final".
+			# If processing a speaker's name and the current character is one from said name, and the current
+			# line is the first in a three-line textbox (e.g. line 1, 4, 7, 10, etc.), copy hex value from hash
+			# "colored_char_table" to "hex_final".
 			if($name_dialog == 1 && $m < $name_length && ($i + 3) % 3 == 0)
 			{
 				$hex_final .= $colored_char_table{$folded_chars[$m]};
@@ -420,8 +420,8 @@ sub generate_hex
 				$hex_final .= $char_table{$folded_chars[$m]};
 			}
 
-			# If current character is "#", increase character count by two, as this is used to
-			# represent two periods "..", which are used after a single period to create an ellipses.
+			# If current character is "#", increase character count by two, as this is used to represent two
+			# periods "..", which are used after a single period to create an ellipses.
 			if($folded_chars[$m] eq "#")
 			{
 				$char_count += 2;
@@ -433,8 +433,8 @@ sub generate_hex
 			}
 		}
 
-		# If processing any line of text except the last one, and it contains fewer than the
-		# horizontal maximum of 26 characters, artificially pad it to bring its length to 26.
+		# If processing any line of text except the last one, and it contains fewer than the horizontal
+		# maximum of 26 characters, artificially pad it to bring its length to 26.
 		if($char_count < 26 && $i < scalar(@folded_text_array) - 1)
 		{
 			foreach(1 .. (26 - $char_count))
@@ -443,8 +443,8 @@ sub generate_hex
 			}
 		}
 
-		# If processing the third, sixth, etc. line of text and more text is still to follow, append 
-		# "new textbox" control code ([CRLF] "mih 000" [CRLF] "mrs no" [CRLF]).
+		# If processing the third, sixth, etc. line of text and more text is still to follow, append "new
+		# textbox" control code ([CRLF] "mih 000" [CRLF] "mrs no" [CRLF]).
 		if(($i + 1) % 3 == 0 && $i < scalar(@folded_text_array) - 1)
 		{
 			$hex_final .= "0D0A6D6968203030300D0A6D726E206E6F0D0A";
