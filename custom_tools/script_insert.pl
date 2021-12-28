@@ -7,7 +7,6 @@
 
 # Include necessary modules.
 use strict;
-use Switch;
 use Text::Fold;
 use Text::Unidecode;
 use HTML::Entities;
