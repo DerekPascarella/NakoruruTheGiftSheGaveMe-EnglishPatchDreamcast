@@ -326,8 +326,9 @@ sub generate_hex
 		# inner-monologue.
 		$name_dialog = 1;
 
-		# Parse speaker's name from input text and remove extraneous whitespace from it.
+		# Parse speaker's name from input text and remove any commas or extraneous whitespace from it.
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
+		$name =~ s/,//g;
 		$name =~ s/^\s+|\s+$//g;
 		
 		# Remove speaker's name and brackets from input text.
