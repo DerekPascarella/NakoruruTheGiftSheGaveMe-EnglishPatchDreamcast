@@ -334,9 +334,14 @@ sub generate_hex
 		(my $name) = $input =~ /\[\s*([^]]+)]/x;
 		$name =~ s/,//g;
 		$name =~ s/^\s+|\s+$//g;
+
+		# Store original, unmodified version of speaker's name parsed from input text, which is necessary to
+		# handle multi-speaker lines (e.g. [Ubaba, Mibaba, Hibaba] Hey!).
+		(my $name_original) = $input =~ /\[\s*([^]]+)]/x;
 		
 		# Remove speaker's name and brackets from input text.
 		$input =~ s/\[\Q$name\E\]//g;
+		$input =~ s/\[\Q$name_original\E\]//g;
 
 		# Convert "name" to uppercase.
 		$name = uc($name);
