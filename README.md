@@ -63,6 +63,11 @@ Download the English translation "Bonus Disc" (more information below):
    <li>Nico</li>
    <li>Danthrax4</li>
   </ul>
+ <br>
+  <li><b>Special Thanks:</b></li>
+  <ul>
+   <li>Lacquerware</li>
+  </ul>
 </ul>
 
 <h2>About the Project</h2>
