@@ -96,7 +96,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$temp_hex .= &generate_hex("chars_italic.txt", $english_replacements{$j + 1});
 		}
 
-		# If English text is multi-line and original script file contained sound clip playback after the
+		# If English text is multi-line and original script file contained voice clip playback after the
 		# original Japanese text was rendered (i.e. "wpv" control code), apply special processing in order to
 		# correctly shift sound clip playback back up to the appropriate spot.
 		if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
