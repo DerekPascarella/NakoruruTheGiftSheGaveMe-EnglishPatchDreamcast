@@ -270,7 +270,7 @@ print " -> Original line count: $line_count_orig\n";
 print " -> New line count: $line_count_total\n";
 print " -> English dialog lines processed: $line_count_english\n";
 
-# Subroutine to write array of hex values to a file.
+# Subroutine to write sequence of hex values to a file.
 sub write_bytes
 {
 	# Initialize/declare input parameters.
