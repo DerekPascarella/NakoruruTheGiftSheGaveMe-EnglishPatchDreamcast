@@ -263,7 +263,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 my $line_count_total = () = $full_file_hex =~ /0D0A/gi;
 
 # Write contents of "full_file_hex" to output file.
-&write_bytes($full_file_hex, $output_path . $script_file_out);
+&write_bytes($output_path . $script_file_out, $full_file_hex);
 
 # Status message.
 print " -> Original line count: $line_count_orig\n";
@@ -274,8 +274,8 @@ print " -> English dialog lines processed: $line_count_english\n";
 sub write_bytes
 {
 	# Initialize/declare input parameters.
-	(my $hex_data = $_[0]) =~ s/\s+//g;
-	my $output_file = $_[1];
+	my $output_file = $_[0];
+	(my $hex_data = $_[1]) =~ s/\s+//g;
 	my @hex_data_array = split(//, $hex_data);
 
 	# Open output file for writing binary data.
