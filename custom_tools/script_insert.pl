@@ -262,10 +262,8 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 # Store new script file's line count.
 my $line_count_total = () = $full_file_hex =~ /0D0A/gi;
 
-# Store each byte from "full_file_hex" into an element of "full_file_hex_array" and then write it all to
-# output file.
-my @full_file_hex_array = split(//, $full_file_hex);
-&write_bytes(\@full_file_hex_array, $output_path . $script_file_out);
+# Write contents of "full_file_hex" to output file.
+&write_bytes($full_file_hex, $output_path . $script_file_out);
 
 # Status message.
 print " -> Original line count: $line_count_orig\n";
@@ -276,20 +274,46 @@ print " -> English dialog lines processed: $line_count_english\n";
 sub write_bytes
 {
 	# Initialize/declare input parameters.
-	my $array_reference = $_[0];
+	(my $hex_data = $_[0]) =~ s/\s+//g;
 	my $output_file = $_[1];
+	my @hex_data_array = split(//, $hex_data);
 
-	open(BIN, ">", $output_file) or die;
-	binmode(BIN);
+	# Open output file for writing binary data.
+	open my $filehandle, '>', $output_file or die $!;
+	binmode $filehandle;
 
-	for(my $o = 0; $o < @$array_reference; $o += 2)
+	# Iterate through "hex_data_array" and write bytes to target file.
+	for(my $i = 0; $i < @hex_data_array; $i += 2)
 	{
-		my($hi, $lo) = @$array_reference[$o, $o + 1];
-		
-		print BIN pack "H*", $hi . $lo;
+		my($high, $low) = @hex_data_array[$i, $i + 1];
+		print $filehandle pack "H*", $high . $low;
 	}
 
-	close(BIN);
+	# Close output file.
+	close $filehandle;
+}
+
+# Subroutine to generate hash containing character map of hex values.
+sub generate_character_map_hash
+{
+	# Store specified character map's filename and declare hash.
+	my $character_map_file = $_[0];
+	my %character_table;
+
+	# Open specific character map and store it in "mapped_characters" array.
+	open my $filehandle, '<', $character_map_file or die $!;
+	chomp(my @mapped_characters = <$filehandle>);
+	close $filehandle;
+
+	# Iterate through "mapped_characters" array to create "char_table" hash with hex value for each
+	# supported character.
+	foreach(@mapped_characters)
+	{
+		$character_table{(split /\|/, $_)[1]} = (split /\|/, $_)[0];
+	}
+
+	# Return hash containing character map.
+	return %character_table;
 }
 
 # Subroutine to generate English text hex in the expected format for insertion back into script.
@@ -300,8 +324,8 @@ sub generate_hex
 	my $input = $_[1];
 
 	# Initialize/declare initial variables.
-	my %colored_char_table = &generate_char_map_hash("chars_colored.txt");
-	my %char_table = &generate_char_map_hash($char_map);
+	my %colored_char_table = &generate_character_map_hash("chars_colored.txt");
+	my %char_table = &generate_character_map_hash($char_map);
 	my $name_dialog = 0;
 	my $name_length;
 	my $hex_final;
@@ -462,30 +486,4 @@ sub generate_hex
 
 	# Return final hex representation of input text.
 	return $hex_final;
-}
-
-# Subroutine to generate hash containing character map of hex values.
-sub generate_char_map_hash
-{
-	# Store specified character map's filename.
-	my $char_map = $_[0];
-
-	# Open specific character map and store it in "mapped_chars" array.
-	open my $char_map_handle, '<', $char_map;
-	chomp(my @mapped_chars = <$char_map_handle>);
-	close $char_map_handle;
-
-	# Declare hash for character hex values.
-	my %char_table;
-
-	# Iterate through "mapped_chars" array to create "char_table" hash with hex value for each supported
-	# character.
-	foreach(@mapped_chars)
-	{
-		my @tmp_char_split = split(/\|/, $_);
-		$char_table{$tmp_char_split[1]} = $tmp_char_split[0];
-	}
-
-	# Return hash containing character map.
-	return %char_table;
 }
