@@ -338,12 +338,12 @@ sub generate_hex
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
 	$input =~ s/…/\.\.\./g;
-	$input =~ s/\.\.\./#/g;
-	$input =~ s/#/##/g;
 	$input =~ s/\.\.\.\?/^/g;
 	$input =~ s/\^/^^/g;
 	$input =~ s/\.\.\.\!/&/g;
 	$input =~ s/&/&&/g;
+	$input =~ s/\.\.\./#/g;
+	$input =~ s/#/##/g;
 
 	# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
 	# characters.
