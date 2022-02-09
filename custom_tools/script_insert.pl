@@ -340,6 +340,10 @@ sub generate_hex
 	$input =~ s/…/\.\.\./g;
 	$input =~ s/\.\.\./#/g;
 	$input =~ s/#/##/g;
+	$input =~ s/\.\.\.\?/^/g;
+	$input =~ s/\^/^^/g;
+	$input =~ s/\.\.\.\!/&/g;
+	$input =~ s/&/&&/g;
 
 	# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 26
 	# characters.
@@ -432,6 +436,8 @@ sub generate_hex
 		# Clean text.
 		$folded_text_array[$i] =~ s/^\s+|\s+$//g;
 		(my $temp_text = $folded_text_array[$i]) =~ s/##/#/g;
+		$temp_text =~ s/\^\^/^/g;
+		$temp_text =~ s/&&/&/g;
 		
 		# Store each character into a separate element of "folded_chars".
 		my @folded_chars = split(//, $temp_text);
@@ -453,9 +459,9 @@ sub generate_hex
 				$hex_final .= $char_table{$folded_chars[$m]};
 			}
 
-			# If current character is "#", increase character count by two, as this is used to represent two
-			# periods "..", which are used after a single period to create an ellipses.
-			if($folded_chars[$m] eq "#")
+			# If current character is "#", "^", or "&", increase character count by two, as this is used to
+			# represent "..", "...?", and "...!", respectively, which are all used for tidier font tiles.
+			if($folded_chars[$m] eq "#" || $folded_chars[$m] eq "^" || $folded_chars[$m] eq "&")
 			{
 				$char_count += 2;
 			}
