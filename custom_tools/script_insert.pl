@@ -88,7 +88,28 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			|| $script_file =~ /yn_/
 			|| ($script_file =~ /i_[d|p]c/ && $english_replacements{$j + 1} =~ /GAME OVER/))
 		{
-			$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1});
+			# If processing a line for a player-selectable response, or a minigame result, pass
+			# "response_or_result" as a third parameter to the "generate_hex" subroutine so that dummy audio
+			# clip playback is not appended to text.
+			if($script_file =~ /^scd_rs0[0-9]_h/
+				|| $textfile_lines[$j + 1] =~ /^mit/ || $textfile_lines[$j + 1] =~ /^mtt/
+				|| $textfile_lines[$j + 2] =~ /^mit/ || $textfile_lines[$j + 2] =~ /^mtt/
+				|| $textfile_lines[$j + 3] =~ /^mit/ || $textfile_lines[$j + 3] =~ /^mtt/)
+			{
+				$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1}, "response_or_result");
+			}
+			# If processing a line of spoken dialog that isn't accompanied by an audio clip, add dummy audio
+			# clip playback to ensure previous clip is stopped as intended.
+			elsif(substr($english_replacements{$j + 1}, 0, 1) eq "["
+					&& ($textfile_lines[$j + 1] !~ /^wpv/ && $textfile_lines[$j + 2] !~ /^wpv/ && $textfile_lines[$j + 3] !~ /^wpv/))
+			{
+				$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1}, "no_voice");
+			}
+			# Otherwise, process line normally.
+			else
+			{
+				$temp_hex .= &generate_hex("chars.txt", $english_replacements{$j + 1});
+			}
 		}
 		# Otherwise, English text is inner-monologue and so use the italic font.
 		else
@@ -102,13 +123,13 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 		if((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
 			|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/)
 			|| ($textfile_lines[$j + 1] =~ /^wpv/))
-			&& $temp_hex =~ /0D0A6D6968203030300D0A6D726E206E6F0D0A/)
+			&& $temp_hex =~ /0D0A6D6968203030300D0A6D726E206E6F0D0A/i)
 		{
 			# Increase original line count by one.
 			$line_count_orig ++;
 
 			# Split hex representation of English text at each "new textbox" control code ([CRLF] "mih 000"
-			# [CRLF] "mrs no" [CRLF]) and store each slice in "temp_hex_split" array.
+			# [CRLF] "mrn no" [CRLF]) and store each slice in "temp_hex_split" array.
 			my @temp_hex_split = split(/0D0A6D6968203030300D0A6D726E206E6F0D0A/, $temp_hex);
 			
 			# Clear "temp_hex" variable.
@@ -128,6 +149,19 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 					if($textfile_lines[$j + 1] =~ /^wpv/)
 					{
 						$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 1]), 0, -2);
+
+						# If audio plays and won't be stopped by another textbox right away (e.g. background/
+						# foreground texture transitions or other effects), insert dummy audio playback to halt
+						# it.
+						if($textfile_lines[$j + 2] =~ /^mih 000/ && $textfile_lines[$j + 3] !~ /^mrn no/)
+						{
+							$textfile_lines[$j + 2] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+							# Status message.
+							print " -> Inserted scene-transition voice cutoff: line " . ($j + 2) . "\n";
+						}
+
+						# Clear original "wpv" control code.
 						$textfile_lines[$j + 1] = "";
 					}
 					# Sound clip playback control code appears after second line of original Japanese text, so
@@ -135,6 +169,19 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 					elsif($textfile_lines[$j + 2] =~ /^wpv/)
 					{
 						$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 2]), 0, -2);
+
+						# If audio plays and won't be stopped by another textbox right away (e.g. background/
+						# foreground texture transitions or other effects), insert dummy audio playback to halt
+						# it.
+						if($textfile_lines[$j + 3] =~ /^mih 000/ && $textfile_lines[$j + 4] !~ /^mrn no/)
+						{
+							$textfile_lines[$j + 3] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+							# Status message.
+							print " -> Inserted scene-transition voice cutoff: line " . ($j + 3) . "\n";
+						}
+
+						# Clear original "wpv" control code.
 						$textfile_lines[$j + 2] = "";
 					}
 					# Sound clip playback control code appears after third line of original Japanese text, so
@@ -142,12 +189,25 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 					elsif($textfile_lines[$j + 3] =~ /^wpv/)
 					{
 						$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 3]), 0, -2);
+
+						# If audio plays and won't be stopped by another textbox right away (e.g. background/
+						# foreground texture transitions or other effects), insert dummy audio playback to halt
+						# it.
+						if($textfile_lines[$j + 4] =~ /^mih 000/ && $textfile_lines[$j + 5] !~ /^mrn no/)
+						{
+							$textfile_lines[$j + 4] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+							# Status message.
+							print " -> Inserted scene-transition voice cutoff: line " . ($j + 4) . "\n";
+						}
+
+						# Clear original "wpv" control code.
 						$textfile_lines[$j + 3] = "";
 					}
 				}
 
 				# If processing last line of multi-line English text, append "new textbox" control code ([CRLF]
-				# "mih 000" [CRLF] "mrs no" [CRLF]).
+				# "mih 000" [CRLF] "mrn no" [CRLF]).
 				if($k < scalar(@temp_hex_split) - 1)
 				{
 					$temp_hex .= "0D0A6D6968203030300D0A6D726E206E6F0D0A";
@@ -157,6 +217,74 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 				{
 					$temp_hex .= "0D";
 				}
+			}
+		}
+		# If original script contains voice clip playback (i.e. "wpv" control code) but is not multi-line, apply
+		# special processing to those which happen before a scene transition and require being cut off using
+		# dummy voice clip playback.
+		elsif((($english_replacements{$j + 2} eq "" && $english_replacements{$j + 3} eq "" && $textfile_lines[$j + 3] =~ /^wpv/)
+			|| ($english_replacements{$j + 2} eq "" && $textfile_lines[$j + 2] =~ /^wpv/)
+			|| ($textfile_lines[$j + 1] =~ /^wpv/)))
+		{
+			# Sound clip playback control code appears after first line of original Japanese text, so
+			# shift it up one.
+			if($textfile_lines[$j + 1] =~ /^wpv/)
+			{
+				$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 1]), 0, -2);
+
+				# If audio plays and won't be stopped by another textbox right away (e.g. background/
+				# foreground texture transitions or other effects), insert dummy audio playback to halt
+				# it.
+				if($textfile_lines[$j + 2] =~ /^mih 000/ && $textfile_lines[$j + 3] !~ /^mrn no/)
+				{
+					$textfile_lines[$j + 2] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+					# Status message.
+					print " -> Inserted scene-transition voice cutoff: line " . ($j + 2) . "\n";
+				}
+
+				# Clear original "wpv" control code.
+				$textfile_lines[$j + 1] = "";
+			}
+			# Sound clip playback control code appears after second line of original Japanese text, so
+			# shift it up two.
+			elsif($textfile_lines[$j + 2] =~ /^wpv/)
+			{
+				$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 2]), 0, -2);
+
+				# If audio plays and won't be stopped by another textbox right away (e.g. background/
+				# foreground texture transitions or other effects), insert dummy audio playback to halt
+				# it.
+				if($textfile_lines[$j + 3] =~ /^mih 000/ && $textfile_lines[$j + 4] !~ /^mrn no/)
+				{
+					$textfile_lines[$j + 3] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+					# Status message.
+					print " -> Inserted scene-transition voice cutoff: line " . ($j + 3) . "\n";
+				}
+
+				# Clear original "wpv" control code.
+				$textfile_lines[$j + 2] = "";
+			}
+			# Sound clip playback control code appears after third line of original Japanese text, so
+			# shift it up three.
+			elsif($textfile_lines[$j + 3] =~ /^wpv/)
+			{
+				$temp_hex .= "0D0A" . substr(ascii_to_hex($textfile_lines[$j + 3]), 0, -2);
+
+				# If audio plays and won't be stopped by another textbox right away (e.g. background/
+				# foreground texture transitions or other effects), insert dummy audio playback to halt
+				# it.
+				if($textfile_lines[$j + 4] =~ /^mih 000/ && $textfile_lines[$j + 5] !~ /^mrn no/)
+				{
+					$textfile_lines[$j + 4] .= "\nwpe p 4-e/xxxxxx //dummy audio to stop voice\r";
+
+					# Status message.
+					print " -> Inserted scene-transition voice cutoff: line " . ($j + 4) . "\n";
+				}
+
+				# Clear original "wpv" control code.
+				$textfile_lines[$j + 3] = "";
 			}
 		}
 		# Otherwise, append newline to "text_hex" and proceed.
@@ -198,7 +326,7 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 				}
 				# Next set of English text has appeared in seek, so consider control code missing and add it
 				# back to script file, unless current text is part of a player-response selection.
-				elsif($l > $j + 1 && @textfile_lines[$j + 1] !~ /mit 000/ && @textfile_lines[$j + 1] !~ /mtt 000 016 05/)
+				elsif($l > $j + 1 && @textfile_lines[$j + 1] !~ /^mit 000/ && @textfile_lines[$j + 1] !~ /^mtt 000 016 05/)
 				{
 					# Append hex representation of "[CR] mih 000 [LF]" to "temp_hex".
 					$temp_hex .= "0A6D6968203030300D";
@@ -234,9 +362,9 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			$full_file_hex .= "0A";
 		}
 
-		# If timed-response control code "mtt 000 016 xx" is found on current line of script file, replace it
+		# If timed-response control code "mtt 000 016 05" is found on current line of script file, replace it
 		# with untimed response control code (mit 000).
-		if($textfile_lines[$j] =~ /mtt 000 016 05/ && $script_file =~ /quiz/)
+		if($textfile_lines[$j] =~ /^mtt 000 016 05/ && $script_file =~ /quiz/)
 		{
 			# Status message.
 			print " -> Set infinite quiz question timer: line $j\n";
@@ -244,6 +372,12 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			# Replace control code.
 			$textfile_lines[$j] =~ s/mtt 000 016 05/mit 000/g;
 		}
+
+		# add dummy audio playback before minigame instruction transitions
+		#if($textfile_lines[$j] =~ /^grb .* mg\//)
+		#{
+		#	$full_file_hex .= "777065207020342D652F787878787878202F2F64756D6D7920617564696F20746F2073746F7020766F6963650D0A";
+		#}
 		
 		# Appent current line of script file to "full_file_hex" variable.
 		$full_file_hex .= ascii_to_hex($textfile_lines[$j]);
@@ -257,6 +391,15 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 		# Increase original Japanese line counter by one.
 		$line_count_orig ++;
 	}
+}
+
+# Replace voice playback control codes ("wpv p") with sound effect playback control codes ("wpe p").
+$full_file_hex =~ s/7770762070/7770652070/gi;
+
+# If processing a minigame result script (e.g. "scd_rs01_h0119_(825)"), use colored font for "RESULTS" text.
+if($script_file =~ /^scd_rs0[0-9]_h/)
+{
+	$full_file_hex =~ s/0D0A82B082BD82CC82CE82C582CD82CC0D0A/0D0A88C588A288C888CA88B388C988C80D0A/gi;
 }
 
 # Store new script file's line count.
@@ -322,12 +465,14 @@ sub generate_hex
 	# Initialize/declare input parameters.
 	my $char_map = $_[0];
 	my $input = $_[1];
+	my $special = $_[2];
 
 	# Initialize/declare initial variables.
 	my %colored_char_table = &generate_character_map_hash("chars_colored.txt");
 	my %char_table = &generate_character_map_hash($char_map);
 	my $name_dialog = 0;
 	my $name_length;
+	my $pre_name_fix;
 	my $hex_final;
 
 	# Clean input text.
@@ -370,6 +515,74 @@ sub generate_hex
 		# Remove speaker's name and brackets from input text.
 		$input =~ s/\[\Q$name\E\]//g;
 		$input =~ s/\[\Q$name_original\E\]//g;
+
+		# Fix commonly misspelled names, ignoring names with spaces (e.g. Man's Voice, Villager 1, etc.).
+		if($name =~ /Mik(?!ato)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Mikato";
+		}
+		elsif($name =~ /Yant(?!amu)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Yantamu";
+		}
+		elsif($name =~ /Nak(?!oruru)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Nakoruru";
+		}
+		elsif($name =~ /Out(?!ada)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Outada";
+		}
+		elsif($name =~ /Man(?!ari)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Manari";
+		}
+		elsif($name =~ /Rim(?!ururu)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Rimururu";
+		}
+		elsif($name =~ /Hok(?!ute)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Hokute";
+		}
+		elsif($name =~ /H(?!ok).*ute/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Hokute";
+		}
+		elsif($name =~ /Re(?!ra)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Rera";
+		}
+		elsif($name =~ /Ub(?!aba)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Ubaba";
+		}
+		elsif($name =~ /Hib(?!aba)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Hibaba";
+		}
+		elsif($name =~ /Mib(?!aba)/ && $name !~ / /)
+		{
+			$pre_name_fix = $name;
+			$name = "Mibaba";
+		}
+
+		# Display status message if a name fix took place.
+		if($pre_name_fix ne "")
+		{
+			print " -> Found and fixed misspelled name: $pre_name_fix ($name)\n";
+		}
 
 		# Convert "name" to uppercase.
 		$name = uc($name);
@@ -482,8 +695,18 @@ sub generate_hex
 			}
 		}
 
+		# If processing the third, sixth, etc. line of text for a non-voiced line of dialog (i.e. Mikato), or a
+		# voiced line with no audio clip, append dummy audio clip playback in order to stop any previous voice
+		# playback ("wpe p 4-e/xxxxxx //dummy audio to stop voice").
+		if($special ne "response_or_result"
+			&& ((($i + 1) % 3 == 0 && $i < scalar(@folded_text_array) - 1) || $i == scalar(@folded_text_array) - 1)
+			&& ($special eq "no_voice" || $name_dialog == 0 || ($name_dialog == 1 && substr($input, 0, 6) eq "MIKATO")))
+		{
+			$hex_final .= "0D0A777065207020342D652F787878787878202F2F64756D6D7920617564696F20746F2073746F7020766F696365";
+		}
+
 		# If processing the third, sixth, etc. line of text and more text is still to follow, append "new
-		# textbox" control code ([CRLF] "mih 000" [CRLF] "mrs no" [CRLF]).
+		# textbox" control code ([CRLF] "mih 000" [CRLF] "mrn no" [CRLF]).
 		if(($i + 1) % 3 == 0 && $i < scalar(@folded_text_array) - 1)
 		{
 			$hex_final .= "0D0A6D6968203030300D0A6D726E206E6F0D0A";
