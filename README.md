@@ -12,12 +12,14 @@ Download the English translation "Bonus Disc" (more information below):
 
 1. [Patching Instructions](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#patching-instructions)
 2. [Credits](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#credits)
-3. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
-4. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
-5. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
-6. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
-7. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
-8. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
+3. [About the Game](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-game)
+4. [Controls](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#controls)
+5. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
+6. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
+7. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
+8. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
+9. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
+10. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -69,6 +71,16 @@ Download the English translation "Bonus Disc" (more information below):
    <li>Lacquerware</li>
   </ul>
 </ul>
+
+<h2>About the Game</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<br><br>
+Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+
+<h2>Controls</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<br><br>
+Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>About the Project</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
