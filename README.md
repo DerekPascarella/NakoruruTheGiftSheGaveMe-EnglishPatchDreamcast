@@ -69,6 +69,11 @@ Download the English translation "Bonus Disc" (more information below):
   <li><b>Special Thanks:</b></li>
   <ul>
    <li>Lacquerware</li>
+   <li>esperknight</li>
+   <li>SnowyAria</li>
+   <li>VincentNL</li>
+   <li>cyo</li>
+   <li>HaydenKow</li>
   </ul>
 </ul>
 
