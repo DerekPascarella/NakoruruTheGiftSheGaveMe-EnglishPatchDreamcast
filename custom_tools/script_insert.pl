@@ -373,12 +373,6 @@ for(my $j = 0; $j < scalar(@textfile_lines); $j ++)
 			# Replace control code.
 			$textfile_lines[$j] =~ s/mtt 000 016 05/mit 000/g;
 		}
-
-		# add dummy audio playback before minigame instruction transitions
-		#if($textfile_lines[$j] =~ /^grb .* mg\//)
-		#{
-		#	$full_file_hex .= "777065207020342D652F787878787878202F2F64756D6D7920617564696F20746F2073746F7020766F6963650D0A";
-		#}
 		
 		# Appent current line of script file to "full_file_hex" variable.
 		$full_file_hex .= ascii_to_hex($textfile_lines[$j]);
