@@ -268,6 +268,9 @@ if($script_file =~ /^scd_rs0[0-9]_h/)
 	$full_file_hex =~ s/0D0A82B082BD82CC82CE82C582CD82CC0D0A/0D0A88C588A288C888CA88B388C988C80D0A/gi;
 }
 
+# Replace Nakoruru's mysterious prayer text placeholder with hex for actual characters.
+$full_file_hex =~ s/82AE82B0829F82B782A382B082B282A382B682B282D882D6/8474844683B583A683B383D283C583C48476845E82D882D6/gi;
+
 # Write contents of "full_file_hex" to output file.
 &write_bytes($output_path . $script_file_out, $full_file_hex);
 
