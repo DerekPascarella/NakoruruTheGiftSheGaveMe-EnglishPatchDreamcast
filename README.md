@@ -17,6 +17,7 @@ Download the English translation "Bonus Disc" (more information below):
 5. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
 6. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
 7. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
+7. [VMU Applications](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#vmu-applications)
 8. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
 9. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
 10. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
