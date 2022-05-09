@@ -126,9 +126,19 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <b>Marshal Wong:</b>
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+> Thanks for playing Nakoruru. This was my first involvement in a translation project and I hope you are/were touched by the story as I was.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+There is the Chinese saying 塞翁失馬 (Sāi Wēng Shī Mǎ), which essentially mean that blessings and misfortunes can both be disguised. This describes how I ended up getting involved in this project. I had two DCHDMIs that I had bought to install, one for a friend and one for myself. I had beginners luck in installing the first one for my friend (blessing), but that made me overconfident in installing the second one. I screwed that one up bad enough (misfortune) that I joined the Classic Gaming Discord for help. I just happened to see Derek's post saying that he was putting together a team to translate Nakoruru, and, as the saying goes, the rest is history! 
+<br><br>
+This is for you, cyo: Thanks for fixing my shit soldering job.
+<br><br>
+Thank you to Derek for letting me join you in this translation journey. This took longer that we initially expected, but probably not as long as we thought it would eventually take. It's been a pleasure working with you and thanks for always being open to suggestions. I can only dream of reaching your assembly hacking skills.
+<br><br>
+Thanks to LewisJFC for you great edits and dealing with Mikato's inability to stay in the same tense. Keep up the great work on the Dreamcast Junkyard!
+<br><br>
+Thanks to my fellow translators, Piggy and Duralumin, for joining the fray. Piggy for all your SNK knowledge, of which I was sorely lacking. Duralumin for your translating experience. 
+<br><br>
+Looking forward to working and learning from you more on another project!
 
 <b>Lewis Cox (LewisJFC):</b>
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
