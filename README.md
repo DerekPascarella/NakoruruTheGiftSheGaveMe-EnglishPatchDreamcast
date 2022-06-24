@@ -13,15 +13,16 @@ Download the English translation "Bonus Disc" (more information below):
 1. [Patching Instructions](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#patching-instructions)
 2. [Credits](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#credits)
 3. [About the Game](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-game)
-4. [Controls](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#controls)
-5. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
-6. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
-7. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
-7. [VMU Applications](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#vmu-applications)
-8. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
-9. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
-10. [Known Issues](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#known-issues)
-11. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
+4. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
+5. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
+6. [A Note on Emulators and ODEs](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#a-note-on-emulators-and-odes)
+7. [Controls](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#controls)
+8. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
+9. [VMU Applications](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#vmu-applications)
+10. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
+11. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
+12. [Known Issues](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#known-issues)
+13. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -84,17 +85,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
-<h2>Controls</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
-<br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
-
 <h2>About the Project</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>What's Changed</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<br><br>
+Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+
+<h2>A Note on Emulators and ODEs</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<br><br>
+Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+
+<h2>Controls</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
