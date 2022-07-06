@@ -483,7 +483,7 @@ sub generate_hex
 	$input =~ s/’/'/g;
 	$input =~ s/”/"/g;
 	$input =~ s/“/"/g;
-	$input =~ s/(\.){4,}/\.\.\./g;
+	$input =~ s/\.{4,}/\.\.\./g;
 	$input =~ s/…/\.\.\./g;
 	$input =~ s/\.\.\.\?/^/g;
 	$input =~ s/\^/^^/g;
