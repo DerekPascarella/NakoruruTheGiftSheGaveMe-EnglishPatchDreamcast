@@ -1,5 +1,5 @@
 <h1>Nakoruru: The Gift She Gave Me</h1>
-<img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch in DCP format for use with v1.3 of newer of <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>:
+<img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 of newer:
 <ul>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a></li>
 </ul>
