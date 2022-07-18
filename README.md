@@ -115,7 +115,7 @@ Inside the disc image folder, create a <tt>mode.cfg</tt> file containing the fol
 Flags=8
 BlockDelay=4
 </pre>
-A pre-built version of this configuration file is available <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/mode.cfg">here</a>.
+A pre-built version of this configuration file is available <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/mode.cfg">here</a>.  To learn more about MODE configuration files, see the <a href="https://wiki.terraonion.com/index.php/Config_Files#MODE_-_Dreamcast_Config">Configuration Files</a> wiki.
 <br><br>
 <li><b>USB-GDROM</b></li>
 No additional configuration is required.
