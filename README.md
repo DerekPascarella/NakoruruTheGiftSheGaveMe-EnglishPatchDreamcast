@@ -109,7 +109,7 @@ Note that the feature to limit data-read speeds was added to GDEMU firmware v5.2
 It's important to mention that limiting speed at which data is read from the SD card will cause incompatibility with some Atomiswave conversions.  To mitigate this issue, I have been helping Deunan (the creator of GDEMU, as well as other ODEs) test a new version of his firmware which will auto-detect "Nakoruru: The Gift She Gave Me" and impose the data-read limit without any additional configuration.
 <br><br>
 <li><b>MODE</b></li>
-Create a <tt>mode.cfg</tt> file inside the folder for this disc image containing the following entries:
+Inside the disc image folder, create a <tt>mode.cfg</tt> file containing the following entries:
 <br><br>
 <pre>
 Flags=8
