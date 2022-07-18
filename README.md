@@ -126,43 +126,127 @@ No additional configuration is required.
 <br><br>
 <ul>
 <li><b>Controller</b></li>
-Proceed with dialog, confirm selection: A button
 <br>
-Go back, exit menu: B button
+<table>
+<tr>
+<td>
+Proceed with dialog, confirm selection</td>
+<td>
+A button</td>
+</tr>
+<tr>
+<td>
+Go back, exit menu</td>
+<td>
+B button</td>
+</tr>
+<tr>
+<td>
+Skip dialog</td>
+<td>
+X button</td>
+</tr>
+<tr>
+<td>
+Auto-pilot dialog progression</td>
+<td>
+L button</td>
+</tr>
+<tr>
+<td>
+Toggle dialog box visibility</td>
+<td>
+R button</td>
+</tr>
+<tr>
+<td>
+Pause menu</td>
+<td>
+Start button</td>
+</tr>
+</table>
 <br>
-Skip dialog: X button
-<br>
-Auto-pilot dialog progression: L button
-<br>
-Toggle dialog box visibility: R button
-<br>
-Pause menu: Start button
-<br><br>
 <li><b>Keyboard</b></li>
-Proceed with dialog, confirm selection: Enter/Space/X key
 <br>
-Go back, exit menu: Del/Esc/Z key
+<table>
+<tr>
+<td>
+Proceed with dialog, confirm selection</td>
+<td>
+Enter/Space/X key</td>
+</tr>
+<tr>
+<td>
+Go back, exit menu</td>
+<td>
+Del/Esc/Z key</td>
+</tr>
+<tr>
+<td>
+Skip dialog</td>
+<td>
+PgDown key</td>
+</tr>
+<tr>
+<td>
+Auto-pilot dialog progression</td>
+<td>
+F3 key</td>
+</tr>
+<tr>
+<td>
+Toggle dialog box visibility</td>
+<td>
+F2 key</td>
+</tr>
+<tr>
+<td>
+Pause menu</td>
+<td>
+F1 key</td>
+</tr>
+</table>
 <br>
-Skip dialog: PgDown key
-<br>
-Auto-pilot dialog progression: F3 key
-<br>
-Toggle dialog box visibility: F2 key
-<br>
-Pause menu: F1 key
-<br><br>
 <li><b>Mouse</b></li>
-Proceed with dialog, confirm selection: Left click
 <br>
-Go back, exit menu: Right click
-<br>
-Skip dialog: <i>Unavailable</i>
-<br>
-Auto-pilot dialog progression: <i>Unavailable</i>
-<br>
-Toggle dialog box visibility: <i>Unavailable</i>
-<br>
-Pause menu: Click scroll wheel 
+<table>
+<tr>
+<td>
+Proceed with dialog, confirm selection</td>
+<td>
+Left click</td>
+</tr>
+<tr>
+<td>
+Go back, exit menu</td>
+<td>
+Right click</td>
+</tr>
+<tr>
+<td>
+Skip dialog</td>
+<td>
+<i>Unimplemented</i></td>
+</tr>
+<tr>
+<td>
+Auto-pilot dialog progression</td>
+<td>
+<i>Unimplemented</i></td>
+</tr>
+<tr>
+<td>
+Toggle dialog box visibility</td>
+<td>
+<i>Unimplemented</i></td>
+</tr>
+<tr>
+<td>
+Pause menu</td>
+<td>
+Click scroll wheel</td>
+</tr>
+</table>
 </ul>
 
 <h2>Bonus Disc</h2>
