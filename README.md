@@ -10,7 +10,7 @@ Download the English translation "Bonus Disc" (more information below):
 </ul>
 <h2>Table of Contents</h2>
 
-1. [Patching Instructions](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#patching-instructions)
+1. [Patching Instructions](#patching-instructions)
 2. [Credits](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#credits)
 3. [About the Game](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-game)
 4. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
