@@ -122,9 +122,48 @@ No additional configuration is required.
 </ul>
 
 <h2>Controls</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+This game features full support for not only a standard Dreamcast controller, but both the keyboard and mouse peripherals, too.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+<ul>
+<li><b>Controller</b></li>
+Proceed with dialog, confirm selection: A button
+<br>
+Go back, exit menu: B button
+<br>
+Skip dialog: X button
+<br>
+Auto-pilot dialog progression: L button
+<br>
+Toggle dialog box visibility: R button
+<br>
+Pause menu: Start button
+<br><br>
+<li><b>Keyboard</b></li>
+Proceed with dialog, confirm selection: Enter/Space/X key
+<br>
+Go back, exit menu: Del/Esc/Z key
+<br>
+Skip dialog: PgDown key
+<br>
+Auto-pilot dialog progression: F3 key
+<br>
+Toggle dialog box visibility: F2 key
+<br>
+Pause menu: F1 key
+<br><br>
+<li><b>Mouse</b></li>
+Proceed with dialog, confirm selection: Left click
+<br>
+Go back, exit menu: Right click
+<br>
+Skip dialog: <i>Unavailable</i>
+<br>
+Auto-pilot dialog progression: <i>Unavailable</i>
+<br>
+Toggle dialog box visibility: <i>Unavailable</i>
+<br>
+Pause menu: Click scroll wheel 
+</ul>
 
 <h2>Bonus Disc</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
