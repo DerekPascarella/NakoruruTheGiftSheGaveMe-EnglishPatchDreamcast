@@ -96,9 +96,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>A Note on Emulators and ODEs</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" src="https://i.imgur.com/PbVgeuJ.jpg" width="180">Throughout the development of this translation patch, testing was performed across the spectrum of both emulators and ODEs, as well as optical disc.  Interestingly, this game (both in its original form and in its patched form) has one very mild issue when played via emulator or some ODEs, causing a texture flicker in between screen transitions.  When this occurs, the on-screen character will flicker slightly before fading away with the scene transition.  It's the result of faster data-read speeds than developers originally intended when played via GD-ROM.  Please understand that this is in no way a game-breaking issue, and is strictly cosmetic.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+The solution to said problem is to artificially limit the speed at which data is read from the disc image in order to more closely mimic the performance of a GD-ROM.  While achievable on ODEs, I've yet to find such a setting in any emulators used during development and testing (Flycast, Demul, and NullDC).  Below are the configurations required to impose the required data-read limit.
+<br><br>
+<ul>
+<li><b>GDEMU</b></li>
+Add the <tt>read_limit</tt> parameter with a value of <tt>1250</tt> to the <tt>GDEMU.ini</tt> configuration file in the root of the SD card (<a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/GDEMU.ini">see example configuration file here</a>).
+<br><br>
+Note that the feature to limit data-read speeds was added to GDEMU firmware v5.20, thus only accessible to either those with an authentic GDEMU on v5.20 or newer, or the latest v5.20.x clones.  You can read more about the <tt>read_limit</tt> option on the <a href="https://gdemu.wordpress.com/operation/gdemu-operation/">GDEMU Operation</a> page.
+<br><br>
+It's important to mention that limiting speed at which data is read from the SD card will cause incompatibility with some Atomiswave conversions.  To mitigate this issue, I have been helping Deunan (the creator of GDEMU, as well as other ODEs) test a new version of his firmware which will auto-detect "Nakoruru: The Gift She Gave Me" and impose the data-read limit without any additional configuration.
+<br><br>
+<li><b>MODE</b></li>
+Create a <tt>mode.cfg</tt> file inside the folder for this disc image containing the following entries:
+<br><br>
+<pre>
+Flags=8
+BlockDelay=4
+</pre>
+A pre-built version of this configuration file is available <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/mode.cfg">here</a>.
+<br><br>
+<li><b>USB-GDROM</b></li>
+No additional configuration is required.
+</ul>
 
 <h2>Controls</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
