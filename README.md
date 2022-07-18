@@ -11,18 +11,18 @@ Download the English translation "Bonus Disc" (more information below):
 <h2>Table of Contents</h2>
 
 1. [Patching Instructions](#patching-instructions)
-2. [Credits](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#credits)
-3. [About the Game](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-game)
-4. [About the Project](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#about-the-project)
-5. [What's Changed](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#whats-changed)
-6. [A Note on Emulators and ODEs](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#a-note-on-emulators-and-odes)
-7. [Controls](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#controls)
-8. [Bonus Disc](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#bonus-disc)
-9. [VMU Applications](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#vmu-applications)
-10. [Disc Content](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-content)
-11. [Disc and Box Art](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#disc-and-box-art)
-12. [Known Issues](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#known-issues)
-13. [Messages From the Team](https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast#messages-from-the-team)
+2. [Credits](#credits)
+3. [About the Game](#about-the-game)
+4. [About the Project](#about-the-project)
+5. [What's Changed](#whats-changed)
+6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
+7. [Controls](#controls)
+8. [Bonus Disc](#bonus-disc)
+9. [VMU Applications](#vmu-applications)
+10. [Disc Content](#disc-content)
+11. [Disc and Box Art](#disc-and-box-art)
+12. [Known Issues](#known-issues)
+13. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
