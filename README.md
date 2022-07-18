@@ -122,7 +122,7 @@ No additional configuration is required.
 </ul>
 
 <h2>Controls</h2>
-This game features full support for not only a standard Dreamcast controller, but both the keyboard and mouse peripherals, too.
+This game supports not only the standard Dreamcast controller, but both the keyboard and mouse peripherals, too.
 <br><br>
 <ul>
 <li><b>Controller</b></li>
