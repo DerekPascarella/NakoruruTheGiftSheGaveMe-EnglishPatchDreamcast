@@ -94,10 +94,18 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 A complete list of changes will go here.
 <br><br>
 <ul>
-<li>Some item here.</li>
-<li>Some item here.</li>
-<li>Some item here.</li>
-<li>Some item here.</li>
+ <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
+ <li>All menus, textures/images, and minigames have been translated, re-rendered, and rebuilt.</li>
+  <ul>
+   <li>Previously, the only English asset in this game was the "Press Start Button" text on the title.</li>
+  </ul>
+ <li>All VMU icons and applications have been translated.</li>
+ <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
+ <li>The "Learn the Lyrics" minigame previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
+ <li>Some item here.</li>
+ <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
+ <li>Quiz minigame timer removed to give players time to research answers for each question.</li>
+ <li>Voiced acted dialog audio persists across multiple dialog boxes as to not be prematurely halted when English text consumes more than a single dialog box.</li>
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
