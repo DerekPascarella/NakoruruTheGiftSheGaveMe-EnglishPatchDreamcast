@@ -91,7 +91,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>What's Changed</h2>
-A complete list of changes will go here.
+Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
 <ul>
  <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
