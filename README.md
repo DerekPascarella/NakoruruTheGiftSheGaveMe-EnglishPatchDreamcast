@@ -95,7 +95,7 @@ Below is a high-level list of changes implemented for this English translation p
 <br><br>
 <ul>
  <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
- <li>All menus, textures/images, and minigames have been translated, re-rendered, and rebuilt.</li>
+ <li>All menus, textures/images, bonus content, and minigames have been translated, re-rendered, and rebuilt.</li>
   <ul>
    <li>Previously, the only English asset in this game was the "Press Start Button" text on the title.</li>
   </ul>
