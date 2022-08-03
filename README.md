@@ -264,7 +264,7 @@ Click scroll wheel</td>
 </ul>
 
 <h2>Minigames</h2>
-There are eight separate minigames scattered throughout this adventure.  One of these games challenges the players with a host of quiz questions.  As mentioned in the [What's Changed](#whats-changed) section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.MD">available here</a>
+There are eight separate minigames scattered throughout this adventure.  One of these games challenges players with a host of quiz questions.  As mentioned in the [What's Changed](#whats-changed) section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.MD">available here</a>
 <br><br>
 <table style="border: none; border-collapse: collapse;">
 <tr>
