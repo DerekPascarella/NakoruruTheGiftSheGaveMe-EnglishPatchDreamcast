@@ -266,14 +266,31 @@ Click scroll wheel</td>
 <h2>Minigames</h2>
 There are eight separate minigames scattered throughout this adventure.  One of these games challenges the players with a host of quiz questions.  As mentioned in the [What's Changed](#whats-changed) section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.MD">available here</a>
 <br><br>
-<img width="35%" height="35%" src="https://i.imgur.com/KbswMa4.png">
-<img width="35%" height="35%" src="https://i.imgur.com/raCB7Nt.png">
-<img width="35%" height="35%" src="https://i.imgur.com/09R5Ylr.png">
-<img width="35%" height="35%" src="https://i.imgur.com/rnF5OO9.png">
-<img width="35%" height="35%" src="https://i.imgur.com/sTpbLY8.png">
-<img width="35%" height="35%" src="https://i.imgur.com/0FasiBQ.png">
-<img width="35%" height="35%" src="https://i.imgur.com/f2JlFDh.png">
-<img width="35%" height="35%" src="https://i.imgur.com/mjn1umh.png">
+<table style="border: none; border-collapse: collapse;">
+<tr>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/KbswMa4.png"></td>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/raCB7Nt.png"></td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/09R5Ylr.png"></td>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/rnF5OO9.png"></td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/sTpbLY8.png"></td>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/0FasiBQ.png"></td>
+<tr>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/f2JlFDh.png"></td>
+<td width="50%" align="center">
+<img src="https://i.imgur.com/mjn1umh.png"></td>
+</tr>
+</table>
 
 <h2>Bonus Disc</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
