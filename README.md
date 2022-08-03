@@ -17,12 +17,13 @@ Download the English translation "Bonus Disc" (more information below):
 5. [What's Changed](#whats-changed)
 6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
 7. [Controls](#controls)
-8. [Bonus Disc](#bonus-disc)
-9. [VMU Applications](#vmu-applications)
-10. [Disc Content](#disc-content)
-11. [Disc and Box Art](#disc-and-box-art)
-12. [Known Issues](#known-issues)
-13. [Messages From the Team](#messages-from-the-team)
+8. [Minigames](#minigames)
+9. [Bonus Disc](#bonus-disc)
+10. [VMU Applications](#vmu-applications)
+11. [Disc Content](#disc-content)
+12. [Disc and Box Art](#disc-and-box-art)
+13. [Known Issues](#known-issues)
+14. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -103,6 +104,7 @@ Below is a high-level list of changes implemented for this English translation p
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>The "Learn the Lyrics" minigame previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
+ <li>Quiz minigame questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history.
  <li>Quiz minigame timer removed to give players time to research answers for each question.</li>
  <li>Voiced acted dialog audio persists across multiple dialog boxes as to not be prematurely halted when English text consumes more than a single dialog box.</li>
 </ul>
@@ -260,6 +262,18 @@ Click scroll wheel</td>
 </tr>
 </table>
 </ul>
+
+<h2>Minigames</h2>
+There are eight separate minigames scattered throughout this adventure.  One of these games challenges the players with a host of quiz questions.  As mentioned in the [What's Changed](#whats-changed) section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.MD">available here</a>
+<br><br>
+<img width="35%" height="35%" src="https://i.imgur.com/KbswMa4.png">
+<img width="35%" height="35%" src="https://i.imgur.com/raCB7Nt.png">
+<img width="35%" height="35%" src="https://i.imgur.com/09R5Ylr.png">
+<img width="35%" height="35%" src="https://i.imgur.com/rnF5OO9.png">
+<img width="35%" height="35%" src="https://i.imgur.com/sTpbLY8.png">
+<img width="35%" height="35%" src="https://i.imgur.com/0FasiBQ.png">
+<img width="35%" height="35%" src="https://i.imgur.com/f2JlFDh.png">
+<img width="35%" height="35%" src="https://i.imgur.com/mjn1umh.png">
 
 <h2>Bonus Disc</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
