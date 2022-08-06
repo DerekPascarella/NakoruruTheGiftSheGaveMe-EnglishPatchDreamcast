@@ -87,9 +87,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>About the Project</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+In July of 2021, I began researching visual novels on the SEGA Dreamcast. Given that no titles from this genre were brought to the West during the console's lifecycle, I felt it important that one of the Dreamcast's best visual novels should be the focus of my next English translation patch project. I knew the process of analyzing, extracting, translating, hacking, rebuilding, and finally playtesting a game of that scale would be arduous and time-consuming. However, it takes tremendous passion and effort to accomplish anything good and worthwhile in life, and I was determined to see it through.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+With this resolve at the forefront of my mind, I began spreading the word that I was looking to amass a team of translators and editors.  Thankfully, the wonderful people named in the <a href="#credits">Credits</a> section above answered the call.  The events that proceeded live on within me as experiences and memories that I wouldn't trade for all the money in the world.
+<br><br>
+From a technical perspective, "Nakoruru: The Gift She Gave Me" presented many, many challenges. Unlike previous English translation patches I've developed, this game required extensive Hitachi SH4 Assembly work to implement a multitude of changes and quality-of-life improvements. To get the job done, I spent countless hours combing through Hitachi's technical documentation to soak up as much as I could. By combining Ghidra, Cheat Engine, and the Demul emulator, I was able to devise a function
 
 <h2>What's Changed</h2>
 Below is a high-level list of changes implemented for this English translation patch.
