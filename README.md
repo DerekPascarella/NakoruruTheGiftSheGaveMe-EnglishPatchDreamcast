@@ -98,6 +98,8 @@ Morning after morning, I woke up several hours before my alarm clock would norma
 Aside from cutting my teeth on more advanced forms of assembly hacking, this game also opened my eyes to the minority Ainu people of Japan. Admittedly, this is an ethnic group of which I had no previous knowledge. Its food, culture, and language were the source of much research carried about by my fantastic translation team. I myself even spent a fair bit of time aiding in said research, as well.
 <br><br>
 That said, I worked hard to ensure that players are taught about the Ainu in every way possible while playing this game. Special Ainu-language terminology is introduced a great number of times during the story, accompanied by an explanation in order to educate players. The same is true for the completely overhauled quiz mini-games (read more in the <a href="#mini-games">Mini-Games</a> section), which serve to reinforce, or introduce for the first time, nuggets of knowledge on Ainu food, history, culture, and language.
+<br><br>
+Ultimately, I feel that "Nakoruru: The Gift She Gave Me" offers its player a delightful, entertaining, heartfelt tale of frienship, family, love, and of course, growing up. I will forever cherish the friends I made along the way while bringing this game to you all in English for the first time. From the bottom of my heart, I hope everyone out there who gives this game a try finds in it something truly special, and something that leaves a lasting impact on them for years to come.
 
 <h2>What's Changed</h2>
 Below is a high-level list of changes implemented for this English translation patch.
