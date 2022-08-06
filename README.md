@@ -110,7 +110,7 @@ Below is a high-level list of changes implemented for this English translation p
    <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
   </ul>
  <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
- <li>A brand-new Bonus Disc was created to provide players with a 100% fully unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).
+ <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
@@ -299,9 +299,17 @@ There are eight separate mini-games scattered throughout this adventure.  One of
 </table>
 
 <h2>Bonus Disc</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" width="300" src="https://i.imgur.com/z4MCEf2.gif">When developing English translation patches for the SEGA Dreamcast, I often like to leverage baked-in Dream Passport web browser to include bonus content, which is a feature commonly found in Japanese Dreamcast games.  In the case of "Nakoruru: The Gift She Gave Me", no such browser was bundled with and accessible from the game itself.  So, rather than spend a needlessly long period of time hacking one in, I opted to bundle with this patch an entirely separate, standalone Bomus Disc.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+Offered in both GDI and CDI formats, the Bonus disc treats players with the following extras:
+<ul>
+<li>A 100% fully-unlocked save file, granted players access to all of the game's built-in extra content (accessible from the "EXTRAS" option in the game's main menu).</li>
+<li>A well-produced, 30-minute OVA (original video animation) produced in 2002 by ARMS featuring the same characters and setting as the game.</li>
+<li>A beautiful rendition of "Miko no Densho Uta" ("Traditional Shrine Maiden's Song") performed by Nakoruru's voice actress, Harumi Ikoma.</li>
+<li>The gorgeous song sung by Manari's voice actress, Ayako Kawasumi, when she finally works up the courage to sing in front of others in the game.</li>
+</ul>
+<br><br>
+More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>.
 
 <h2>VMU Applications</h2>
 <img align="right" width="150" src="https://i.imgur.com/m7KF3Pi.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
