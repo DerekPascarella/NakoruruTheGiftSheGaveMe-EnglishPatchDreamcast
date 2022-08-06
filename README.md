@@ -303,9 +303,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>VMU Applications</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" src="https://i.imgur.com/I3DB3MZ.gif">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.  Pressing the A button will display an option to hold both A and B buttons to reveal a quote from the character.  Pressing B again returns back to the current time.
+<br><br>
+More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum thread</a>.
 
 <h2>Disc Content</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
