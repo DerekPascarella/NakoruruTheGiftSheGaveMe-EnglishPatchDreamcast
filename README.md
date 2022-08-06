@@ -305,7 +305,7 @@ Offered in both GDI and CDI formats, the Bonus disc treats players with the foll
 <br><br>
 <ul>
 <li>A 100% fully-unlocked save file, granted players access to all of the game's built-in extra content (accessible from the "EXTRAS" option in the game's main menu).</li>
-<li>A well-produced, 30-minute OVA (original video animation) produced in 2002 by ARMS featuring the same characters and setting as the game.</li>
+<li>A well-produced, 30-minute OVA (original video animation) produced in 2002 by ARMS featuring the same characters and setting as the game.  Note that the screensaver timer has been removed with an assembly hack so that the entirety of this video can be watched uninterrupted.</li>
 <li>A beautiful rendition of "Miko no Densho Uta" ("Traditional Shrine Maiden's Song") performed by Nakoruru's voice actress, Harumi Ikoma.</li>
 <li>The gorgeous song sung by Manari's voice actress, Ayako Kawasumi, when she finally works up the courage to sing in front of others in the game.</li>
 </ul>
