@@ -104,8 +104,11 @@ Below is a high-level list of changes implemented for this English translation p
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
- <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
- <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
+ <li>Quiz mini-games completely overhauled and localized.</li>
+  <ul>
+   <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
+   <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
+  </ul>
  <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box.</li>
 </ul>
 
