@@ -98,7 +98,7 @@ Below is a high-level list of changes implemented for this English translation p
  <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
  <li>All menus, textures/images, bonus content, and mini-games have been translated, re-rendered, and rebuilt.</li>
   <ul>
-   <li>Previously, the only English asset in this game was the "Press Start Button" text on the title.</li>
+   <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
   </ul>
  <li>All VMU icons and applications have been translated.</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
