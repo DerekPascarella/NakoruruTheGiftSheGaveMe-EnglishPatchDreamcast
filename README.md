@@ -103,13 +103,13 @@ Below is a high-level list of changes implemented for this English translation p
  <li>All VMU icons and applications have been translated.</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
- <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
+ <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum thread</a>).</li>
  <li>Quiz mini-games completely overhauled and localized.</li>
   <ul>
    <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
    <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
   </ul>
- <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box.</li>
+ <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum thread</a>).</li>
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
@@ -303,7 +303,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>VMU Applications</h2>
-<img align="right" src="https://i.imgur.com/I3DB3MZ.gif">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
+<img align="right" width="150" src="https://i.imgur.com/m7KF3Pi.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
 <br><br>
 Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.  Pressing the A button will display an option to hold both A and B buttons to reveal a quote from the character.  Pressing B again returns back to the current time.
 <br><br>
