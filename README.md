@@ -299,16 +299,16 @@ There are eight separate mini-games scattered throughout this adventure.  One of
 </table>
 
 <h2>Bonus Disc</h2>
-<img align="right" width="300" src="https://i.imgur.com/z4MCEf2.gif">When developing English translation patches for the SEGA Dreamcast, I often like to leverage baked-in Dream Passport web browser to include bonus content, which is a feature commonly found in Japanese Dreamcast games.  In the case of "Nakoruru: The Gift She Gave Me", no such browser was bundled with and accessible from the game itself.  So, rather than spend a needlessly long period of time hacking one in, I opted to bundle with this patch an entirely separate, standalone Bomus Disc.
+<img align="right" width="300" src="https://i.imgur.com/z4MCEf2.gif">When developing English translation patches for the SEGA Dreamcast, I often like to leverage the baked-in Dream Passport web browser (commonly found in Japanese games) to include bonus content.  In the case of "Nakoruru: The Gift She Gave Me", no such browser was bundled with and accessible from the game itself.  So, rather than spend a needlessly long period of time hacking one in, I opted to ship with this patch an entirely separate, standalone Bonus Disc.
 <br><br>
 Offered in both GDI and CDI formats, the Bonus disc treats players with the following extras:
+<br><br>
 <ul>
 <li>A 100% fully-unlocked save file, granted players access to all of the game's built-in extra content (accessible from the "EXTRAS" option in the game's main menu).</li>
 <li>A well-produced, 30-minute OVA (original video animation) produced in 2002 by ARMS featuring the same characters and setting as the game.</li>
 <li>A beautiful rendition of "Miko no Densho Uta" ("Traditional Shrine Maiden's Song") performed by Nakoruru's voice actress, Harumi Ikoma.</li>
 <li>The gorgeous song sung by Manari's voice actress, Ayako Kawasumi, when she finally works up the courage to sing in front of others in the game.</li>
 </ul>
-<br><br>
 More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>.
 
 <h2>VMU Applications</h2>
