@@ -17,7 +17,7 @@ Download the English translation "Bonus Disc" (more information below):
 5. [What's Changed](#whats-changed)
 6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
 7. [Controls](#controls)
-8. [Minigames](#minigames)
+8. [Mini-Games](#mini-games)
 9. [Bonus Disc](#bonus-disc)
 10. [VMU Applications](#vmu-applications)
 11. [Disc Content](#disc-content)
@@ -96,16 +96,16 @@ Below is a high-level list of changes implemented for this English translation p
 <br><br>
 <ul>
  <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
- <li>All menus, textures/images, bonus content, and minigames have been translated, re-rendered, and rebuilt.</li>
+ <li>All menus, textures/images, bonus content, and mini-games have been translated, re-rendered, and rebuilt.</li>
   <ul>
    <li>Previously, the only English asset in this game was the "Press Start Button" text on the title.</li>
   </ul>
  <li>All VMU icons and applications have been translated.</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
- <li>The "Learn the Lyrics" minigame previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
+ <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
- <li>Quiz minigame questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history.
- <li>Quiz minigame timer removed to give players time to research answers for each question.</li>
+ <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history.
+ <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
  <li>Voiced acted dialog audio persists across multiple dialog boxes as to not be prematurely halted when English text consumes more than a single dialog box.</li>
 </ul>
 
@@ -263,8 +263,8 @@ Click scroll wheel</td>
 </table>
 </ul>
 
-<h2>Minigames</h2>
-There are eight separate minigames scattered throughout this adventure.  One of these games challenges players with a host of quiz questions.  As mentioned in the <a href="#whats-changed">What's Changed</a> section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>.
+<h2>Mini-Games</h2>
+There are eight separate mini-games scattered throughout this adventure.  One of these games challenges players with a host of quiz questions.  As mentioned in the <a href="#whats-changed">What's Changed</a> section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>.
 <br><br>
 <table style="border: none; border-collapse: collapse;">
 <tr>
