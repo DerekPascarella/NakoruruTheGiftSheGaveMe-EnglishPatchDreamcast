@@ -324,11 +324,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>Disc and Box Art</h2>
-<img align="right" src="https://i.imgur.com/l1VW7hX.png">By default, the Bonus Disc and main game itself both use brand new disc art 0GDTEX.PVR files, which look nice when displayed in GDMenu on GDEMU.  However, for those using <a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a> on GDEMU, I've provided alternative box art versions for both disc images, accessible in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
+<img align="right" src="https://i.imgur.com/l1VW7hX.png">By default, the Bonus Disc and main game itself both use brand new disc art 0GDTEX.PVR files, which look nice when displayed in GDMenu on GDEMU.  However, for those using <a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a> on GDEMU who prefer box art, I've provided alternative versions for both disc images in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
 <br><br>
-If desired, both the Bonus Disc and main game GDIs can be extracted and rebuilt to leverage the box art, rather than the default disc art.  One such tutorial on how to do so can be found <a href="https://www.youtube.com/watch?v=3_-9Ur3RvA0">here on YouTube</a>.
+For GDMenu users who prefer box art, both the Bonus Disc and main game GDIs can be extracted and rebuilt to include that artwork instead.  One such tutorial on how to do so can be found <a href="https://www.youtube.com/watch?v=3_-9Ur3RvA0">here on YouTube</a>.
 <br><br>
-Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, thus no artwork will be displayed.
+Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, and no artwork will be displayed.
 
 <h2>Known Issues</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
