@@ -319,9 +319,11 @@ Once downloaded to a VMU, players can navigate to the game icon (♠), where the
 More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>.
 
 <h2>Disc Content</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" src="https://i.imgur.com/l1VW7hX.png">By default, the Bonus Disc and main game itself both use brand new disc art 0GDTEX.PVR files, which look nice for GDEMU/GDMenu users.  However, those using GDEMU/<a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a>, I've provided alternative box art versions for both disc images, accessible in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+If desired, both the Bonus Disc and main game GDIs can be extracted and rebuilt to leverage the box art, rather than the default disc art.  One such tutorial on how to do so can be found <a href="https://www.youtube.com/watch?v=3_-9Ur3RvA0">here on YouTube</a>.
+<br><br>
+Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, thus no artwork will be displayed.
 
 <h2>Disc and Box Art</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
