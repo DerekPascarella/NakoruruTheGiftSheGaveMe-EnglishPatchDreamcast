@@ -95,7 +95,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
 <ul>
- <li>All 12,000+ lines of Japanese dialog text have been translated.</li>
+ <li>All 12,000+ lines of Japanese dialogue text have been translated.</li>
  <li>All menus, textures/images, bonus content, and mini-games have been translated, re-rendered, and rebuilt.</li>
   <ul>
    <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
@@ -106,7 +106,7 @@ Below is a high-level list of changes implemented for this English translation p
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications.</li>
  <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
  <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
- <li>Voiced acted dialog audio persists across multiple dialog boxes as to not be prematurely halted when English text consumes more than a single dialog box.</li>
+ <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box.</li>
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
@@ -144,7 +144,7 @@ No additional configuration is required.
 <table>
 <tr>
 <td>
-Proceed with dialog, confirm selection</td>
+Proceed with dialogue, confirm selection</td>
 <td>
 A button</td>
 </tr>
@@ -156,19 +156,19 @@ B button</td>
 </tr>
 <tr>
 <td>
-Skip dialog</td>
+Skip dialogue</td>
 <td>
 X button</td>
 </tr>
 <tr>
 <td>
-Auto-pilot dialog progression</td>
+Auto-pilot dialogue progression</td>
 <td>
 L button</td>
 </tr>
 <tr>
 <td>
-Toggle dialog box visibility</td>
+Toggle dialogue box visibility</td>
 <td>
 R button</td>
 </tr>
@@ -185,7 +185,7 @@ Start button</td>
 <table>
 <tr>
 <td>
-Proceed with dialog, confirm selection</td>
+Proceed with dialogue, confirm selection</td>
 <td>
 Enter/Space/X key</td>
 </tr>
@@ -197,19 +197,19 @@ Del/Esc/Z key</td>
 </tr>
 <tr>
 <td>
-Skip dialog</td>
+Skip dialogue</td>
 <td>
 PgDown key</td>
 </tr>
 <tr>
 <td>
-Auto-pilot dialog progression</td>
+Auto-pilot dialogue progression</td>
 <td>
 F3 key</td>
 </tr>
 <tr>
 <td>
-Toggle dialog box visibility</td>
+Toggle dialogue box visibility</td>
 <td>
 F2 key</td>
 </tr>
@@ -226,7 +226,7 @@ F1 key</td>
 <table>
 <tr>
 <td>
-Proceed with dialog, confirm selection</td>
+Proceed with dialogue, confirm selection</td>
 <td>
 Left click</td>
 </tr>
@@ -238,19 +238,19 @@ Right click</td>
 </tr>
 <tr>
 <td>
-Skip dialog</td>
+Skip dialogue</td>
 <td>
 <i>Unimplemented</i></td>
 </tr>
 <tr>
 <td>
-Auto-pilot dialog progression</td>
+Auto-pilot dialogue progression</td>
 <td>
 <i>Unimplemented</i></td>
 </tr>
 <tr>
 <td>
-Toggle dialog box visibility</td>
+Toggle dialogue box visibility</td>
 <td>
 <i>Unimplemented</i></td>
 </tr>
