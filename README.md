@@ -100,16 +100,17 @@ Below is a high-level list of changes implemented for this English translation p
   <ul>
    <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
   </ul>
- <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum thread</a>).</li>
+ <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>).</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
- <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum thread</a>).</li>
+ <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum post</a>).</li>
  <li>Quiz mini-games completely overhauled and localized.</li>
   <ul>
    <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
    <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
   </ul>
- <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum thread</a>).</li>
+ <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
+ <li>A brand-new Bonus Disc was created to provide players with a 100% fully unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
@@ -307,7 +308,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 <br><br>
 Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.  Pressing the A button will display an option to hold both A and B buttons to reveal a quote from the character.  Pressing B again returns back to the current time.
 <br><br>
-More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum thread</a>.
+More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>.
 
 <h2>Disc Content</h2>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
