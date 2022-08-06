@@ -100,7 +100,7 @@ Below is a high-level list of changes implemented for this English translation p
   <ul>
    <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
   </ul>
- <li>All VMU icons and applications have been translated.</li>
+ <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum thread</a>).</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum thread</a>).</li>
