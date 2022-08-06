@@ -13,17 +13,16 @@ Download the English translation "Bonus Disc" (more information below):
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
 3. [About the Game](#about-the-game)
-4. [About the Project](#about-the-project)
-5. [What's Changed](#whats-changed)
-6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
-7. [Controls](#controls)
-8. [Mini-Games](#mini-games)
-9. [Bonus Disc](#bonus-disc)
-10. [VMU Applications](#vmu-applications)
-11. [Disc Content](#disc-content)
-12. [Disc and Box Art](#disc-and-box-art)
-13. [Known Issues](#known-issues)
-14. [Messages From the Team](#messages-from-the-team)
+4. [What's Changed](#whats-changed)
+5. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
+6. [Controls](#controls)
+7. [Mini-Games](#mini-games)
+8. [Bonus Disc](#bonus-disc)
+9. [VMU Applications](#vmu-applications)
+10. [Disc Content](#disc-content)
+11. [Disc and Box Art](#disc-and-box-art)
+12. [Known Issues](#known-issues)
+13. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -85,21 +84,6 @@ Download the English translation "Bonus Disc" (more information below):
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
-
-<h2>About the Project</h2>
-In July of 2021, I began researching visual novels on the SEGA Dreamcast. Given that no titles from this genre were brought to the West during the console's lifecycle, I felt it important that one of the Dreamcast's best visual novels should be the focus of my next English translation patch project. I knew the process of analyzing, extracting, translating, hacking, rebuilding, and finally playtesting a game of that scale would be arduous and time-consuming. However, it takes tremendous passion and effort to accomplish anything good and worthwhile in life, and I was determined to see it through.
-<br><br>
-With this resolve at the forefront of my mind, I began spreading the word that I was looking to amass a team of translators and editors.  Thankfully, the wonderful people named in the <a href="#credits">Credits</a> section above answered the call.  The events that proceeded live on within me as experiences and memories that I wouldn't trade for all the money in the world.
-<br><br>
-From a technical perspective, "Nakoruru: The Gift She Gave Me" presented many, many challenges. Unlike previous English translation patches I've developed, this game required extensive Hitachi SH4 Assembly work to implement a multitude of changes and quality-of-life improvements. To get the job done, I spent countless hours combing through Hitachi's technical documentation to soak up as much as I could. By combining Ghidra, Cheat Engine, and the Demul emulator, I was able to devise a functional workflow for reverse-engineering, modifying, and testing.
-<br><br>
-Morning after morning, I woke up several hours before my alarm clock would normally sound off so that I could squeeze in as much time as possible to work on hacking this game. I thought about how to solve problems when I laid my head down on my pillow at night. I had eureka moments while sitting in traffic. In short, "Nakoruru: The Gift She Gave Me" consumed nearly every waking moment. In that way, a target game serves as something of a cruel mistress to romhackers and translation patch developers. As bizarre as that may sound, several others in the scene agree with me.
-<br><br>
-Aside from cutting my teeth on more advanced forms of assembly hacking, this game also opened my eyes to the minority Ainu people of Japan. Admittedly, this is an ethnic group of which I had no previous knowledge. Its food, culture, and language were the source of much research carried about by my fantastic translation team. I myself even spent a fair bit of time aiding in said research, as well.
-<br><br>
-That said, I worked hard to ensure that players are taught about the Ainu in every way possible while playing this game. Special Ainu-language terminology is introduced a great number of times during the story, accompanied by an explanation in order to educate players. The same is true for the completely overhauled quiz mini-games (read more in the <a href="#mini-games">Mini-Games</a> section), which serve to reinforce, or introduce for the first time, nuggets of knowledge on Ainu food, history, culture, and language.
-<br><br>
-Ultimately, I feel that "Nakoruru: The Gift She Gave Me" offers its player a delightful, entertaining, heartfelt tale of frienship, family, love, and of course, growing up. I will forever cherish the friends I made along the way while bringing this game to you all in English for the first time. From the bottom of my heart, I hope everyone out there who gives this game a try finds in it something truly special, and something that leaves a lasting impact on them for years to come.
 
 <h2>What's Changed</h2>
 Below is a high-level list of changes implemented for this English translation patch.
@@ -350,9 +334,19 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 <h2>Messages From the Team</h2>
 
 <b>Derek Pascarella (ateam):</b>
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+> In July of 2021, I began researching visual novels on the SEGA Dreamcast. Given that no titles from this genre were brought to the West during the console's lifecycle, I felt it important that one of the Dreamcast's best visual novels should be the focus of my next English translation patch project. I knew the process of analyzing, extracting, translating, hacking, rebuilding, and finally playtesting a game of that scale would be arduous and time-consuming. However, it takes tremendous passion and effort to accomplish anything good and worthwhile in life, and I was determined to see it through.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+With this resolve at the forefront of my mind, I began spreading the word that I was looking to amass a team of translators and editors.  Thankfully, the wonderful people named in the <a href="#credits">Credits</a> section above answered the call.  The events that proceeded live on within me as experiences and memories that I wouldn't trade for all the money in the world.
+<br><br>
+From a technical perspective, "Nakoruru: The Gift She Gave Me" presented many, many challenges. Unlike previous English translation patches I've developed, this game required extensive Hitachi SH4 Assembly work to implement a multitude of changes and quality-of-life improvements. To get the job done, I spent countless hours combing through Hitachi's technical documentation to soak up as much as I could. By combining Ghidra, Cheat Engine, and the Demul emulator, I was able to devise a functional workflow for reverse-engineering, modifying, and testing.
+<br><br>
+Morning after morning, I woke up several hours before my alarm clock would normally sound off so that I could squeeze in as much time as possible to work on hacking this game. I thought about how to solve problems when I laid my head down on my pillow at night. I had eureka moments while sitting in traffic. In short, "Nakoruru: The Gift She Gave Me" consumed nearly every waking moment. In that way, a target game serves as something of a cruel mistress to romhackers and translation patch developers. As bizarre as that may sound, several others in the scene agree with me.
+<br><br>
+Aside from cutting my teeth on more advanced forms of assembly hacking, this game also opened my eyes to the minority Ainu people of Japan. Admittedly, this is an ethnic group of which I had no previous knowledge. Its food, culture, and language were the source of much research carried about by my fantastic translation team. I myself even spent a fair bit of time aiding in said research, as well.
+<br><br>
+That said, I worked hard to ensure that players are taught about the Ainu in every way possible while playing this game. Special Ainu-language terminology is introduced a great number of times during the story, accompanied by an explanation in order to educate players. The same is true for the completely overhauled quiz mini-games (read more in the <a href="#mini-games">Mini-Games</a> section), which serve to reinforce, or introduce for the first time, nuggets of knowledge on Ainu food, history, culture, and language.
+<br><br>
+Ultimately, I feel that "Nakoruru: The Gift She Gave Me" offers its player a delightful, entertaining, heartfelt tale of frienship, family, love, and of course, growing up. I will forever cherish the friends I made along the way while bringing this game to you all in English for the first time. From the bottom of my heart, I hope everyone out there who gives this game a try finds in it something truly special, and something that leaves a lasting impact on them for years to come.
 
 <b>Marshal Wong:</b>
 > Thanks for playing Nakoruru. This was my first involvement in a translation project and I hope you are/were touched by the story as I was.
