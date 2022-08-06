@@ -117,7 +117,7 @@ Below is a high-level list of changes implemented for this English translation p
 <br><br>
 Please understand that this is in no way a game-breaking issue, and is strictly cosmetic.  Furthermore, those playing this game on an optical disc (i.e., a CDI burned to a CD-R) will not experience this texture flicker.
 <br><br>
-The solution to said problem is to artificially limit the speed at which data is read from the disc image in order to more closely mimic the performance of a GD-ROM.  While achievable on ODEs, I've yet to find such a setting in any emulators used during development and testing (Flycast, Demul, and NullDC).  Below are the configurations required to impose the required data-read limit.
+The solution to said problem is to artificially limit the speed at which data is read from the disc image in order to more closely mimic the performance of a GD-ROM.  While achievable on ODEs, I've yet to find such a setting in any emulators used during development and testing (Flycast, Demul, NullDC, and lxdream-nitro).  Below are the configurations required to impose the required data-read limit.
 <br><br>
 <ul>
 <li><b>GDEMU</b></li>
