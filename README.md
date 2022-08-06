@@ -314,7 +314,9 @@ More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com
 <h2>VMU Applications</h2>
 <img align="right" width="150" src="https://i.imgur.com/m7KF3Pi.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
 <br><br>
-Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.  Pressing the A button will display an option to hold both A and B buttons to reveal a quote from the character.  Pressing B again returns back to the current time.
+Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.
+<br><br>
+Pressing the A button will display an option to hold both A and B buttons to reveal a quote from the character.  Pressing B again returns back to the current time.
 <br><br>
 More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>.
 
