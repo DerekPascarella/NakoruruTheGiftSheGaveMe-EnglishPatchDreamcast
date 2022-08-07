@@ -1,6 +1,5 @@
 <h1>Nakoruru: The Gift She Gave Me</h1>
-<img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png"><b>Current Version:</b> 1.0
-<br><br>Download the English translation patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer:
+<img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch in DCP format for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer:
 <ul>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a></li>
 </ul>
@@ -13,17 +12,18 @@ Download the English translation "Bonus Disc" (more information below):
 
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
-3. [About the Game](#about-the-game)
-4. [What's Changed](#whats-changed)
-5. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
-6. [Controls](#controls)
-7. [Mini-Games](#mini-games)
-8. [Bonus Disc](#bonus-disc)
-9. [VMU Applications](#vmu-applications)
-10. [Disc Content](#disc-content)
-11. [Disc and Box Art](#disc-and-box-art)
-12. [Known Issues](#known-issues)
-13. [Messages From the Team](#messages-from-the-team)
+3. [Changelog](#changelog)
+4. [About the Game](#about-the-game)
+5. [What's Changed](#whats-changed)
+6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
+7. [Controls](#controls)
+8. [Mini-Games](#mini-games)
+9. [Bonus Disc](#bonus-disc)
+10. [VMU Applications](#vmu-applications)
+11. [Disc Content](#disc-content)
+12. [Disc and Box Art](#disc-and-box-art)
+13. [Known Issues](#known-issues)
+14. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a>.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -79,6 +79,14 @@ Download the English translation "Bonus Disc" (more information below):
    <li>cyo</li>
    <li>HaydenKow</li>
   </ul>
+</ul>
+
+<h2>Changelog</h2>
+<ul>
+ <li>Version 1.0 (202X-XX-XX)</li>
+ <ul>
+  <li>Initial release.</li>
+ </ul>
 </ul>
 
 <h2>About the Game</h2>
