@@ -76,13 +76,13 @@ Portugal</td>
 <td width="60%">
 [Mibaba] Which of the following is found in "kitsune udon"?</td>
 <td width="40%">
-Tempura flakes</td>
+Fried tofu</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] What animal does "sakura meat" come from?</td>
 <td width="40%">
-Chicken</td>
+Horse</td>
 </tr>
 <tr>
 <td width="60%">
@@ -100,7 +100,7 @@ North melon</td>
 <td width="60%">
 [Mibaba] What is Jubei Yagyu's favorite food?</td>
 <td width="40%">
-Higashi</td>
+Dango</td>
 </tr>
 <tr>
 <td width="60%">
@@ -112,13 +112,13 @@ Castella</td>
 <td width="60%">
 [Mibaba] From what region did corn originate?</td>
 <td width="40%">
-China</td>
+South America</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] What species does the onion belong to?</td>
 <td width="40%">
-Morning glories</td>
+Lilies</td>
 </tr>
 <tr>
 <td width="60%">
@@ -136,25 +136,25 @@ Salmon</td>
 <td width="60%">
 [Mibaba] What family of plants does the coffee bean belong to?</td>
 <td width="40%">
-Liliaceae</td>
+Rubiaceae </td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] What is a dish made by seasoning raw fish or vegetables in vinegar?</td>
 <td width="40%">
-Marinate</td>
+Namasu</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] Carrots belong to the Apiaceae family. What plant family does ginseng belong to?</td>
 <td width="40%">
-Apiaceae</td>
+Araliaceae</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] What's the name for an inn that serves meals and caters especially to samurai?</td>
 <td width="40%">
-Kichinyado</td>
+Hatago</td>
 </tr>
 <tr>
 <td width="60%">
@@ -172,21 +172,20 @@ Monkfish</td>
 <td width="60%">
 [Mibaba] People from Kyoto love clothes. People from Kobe love shoes. What do people from Osaka love?</td>
 <td width="40%">
-Making plans</td>
+Eating</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] What is the name given to the samurai's unwritten code of conduct?</td>
 <td width="40%">
-Buddhism</td>
+Bushido</td>
 </tr>
 <tr>
 <td width="60%">
 [Mibaba] On the Zodiac calendar's "Day of the Ox", what food do we commonly eat countrywide?</td>
 <td width="40%">
-Rabbit</td>
+Eel</td>
 </tr>
-<tr>
 </table>
 
 <h1>Quiz #2</h1>
@@ -249,7 +248,7 @@ Opera</td>
 <td width="60%">
 [Hibaba] In what century did the "do-re-mi" scale originate?</td>
 <td width="40%">
-10th century</td>
+11th century</td>
 </tr>
 <tr>
 <td width="60%">
@@ -261,19 +260,19 @@ Lan</td>
 <td width="60%">
 [Hibaba] A "taiko" is a percussion instrument, a "shakuhachi" is a woodwind, but what type of instrument is a "shamisen"?</td>
 <td width="40%">
-Brass</td>
+Stringed</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] Just like the "sho" (mouth organ), which of the following is a free-reed instrument?</td>
 <td width="40%">
-Saxophone</td>
+Accordion</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] Who is credited as the creator of the "kagura" dance, performed to worship the gods?</td>
 <td width="40%">
-Amaterasu</td>
+Ame-no-Uzume</td>
 </tr>
 <tr>
 <td width="60%">
@@ -291,7 +290,7 @@ Animal world</td>
 <td width="60%">
 [Hibaba] Which of the following is a traditional Ainu love song?</td>
 <td width="40%">
-Rekuhkara</td>
+Yaikatekara</td>
 </tr>
 <tr>
 <td width="60%">
@@ -303,13 +302,13 @@ Gagaku</td>
 <td width="60%">
 [Hibaba] How many singers participate in Ainu "ukouku" music?</td>
 <td width="40%">
-None, only instruments</td>
+Multiple singers</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] Who traditionally played the role of women in "kabuki" (Japanese dance-drama)?</td>
 <td width="40%">
-Female actresses</td>
+Male actors</td>
 </tr>
 <tr>
 <td width="60%">
@@ -327,19 +326,19 @@ Kuromisu</td>
 <td width="60%">
 [Hibaba] In what sect of Buddhism do monks play the "shakuhachi" flute?</td>
 <td width="40%">
-Soto</td>
+Fuke</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] What name describes all traditional Japanese musical instruments?</td>
 <td width="40%">
-Koto</td>
+Wagakki</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] What metal is used in the casting of gong drums?</td>
 <td width="40%">
-Iron</td>
+Bronze</td>
 </tr>
 <tr>
 <td width="60%">
@@ -363,13 +362,13 @@ Violin</td>
 <td width="60%">
 [Hibaba] In Japanese music, what describes the distinctive sound made by striking two square oak boards?</td>
 <td width="40%">
-Saibara</td>
+Ki and tsuke</td>
 </tr>
 <tr>
 <td width="60%">
 [Hibaba] What Ainu instrument is sometimes compared to the didgeridoo used by the indigenous Australians?</td>
 <td width="40%">
-Tonkori</td>
+Cirektekuttar</td>
 </tr>
 </table>
 
@@ -433,7 +432,7 @@ Genpei War</td>
 <td width="60%">
 [Ubaba] For which style of "ninjutsu" martial arts is the Hattori clan famous?</td>
 <td width="40%">
-Taijutsu</td>
+Iga-ryu</td>
 </tr>
 <tr>
 <td width="60%">
@@ -445,19 +444,19 @@ New York City</td>
 <td width="60%">
 [Ubaba] Who's the swordsmith made famous for his sharp "stone lantern cutter"?</td>
 <td width="40%">
-Dosho</td>
+Kotetsu</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which famous "yin and yang" master who lived during the Heian period?</td>
 <td width="40%">
-Jiro Ono</td>
+Abe no Seimei</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] The "denki" eel inflicts damage to both predator and prey by producing an electric shock. True or false?</td>
 <td width="40%">
-False</td>
+True</td>
 </tr>
 <tr>
 <td width="60%">
@@ -475,25 +474,25 @@ Later Jin dynasty</td>
 <td width="60%">
 [Ubaba] "Ukiyo-e" is a type of woodblock painting that depicts "kabuki" (japanese dance-drama) actors. Who pioneered this art?</td>
 <td width="40%">
-Honami Koetsu</td>
+Hishikawa Moronobu</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which dinosaur is said to be the last one to go extinct?</td>
 <td width="40%">
-Triceratops</td>
+Chenanisaurus</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which ocean is famous for the optical phenomenon "shiranui"?</td>
 <td width="40%">
-Mediterranean Sea</td>
+Yatsushiro Sea</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which of the following is said to be the "fruit of the underworld"?</td>
 <td width="40%">
-Cherry</td>
+Pomegranate</td>
 </tr>
 <tr>
 <td width="60%">
@@ -511,25 +510,25 @@ The ear</td>
 <td width="60%">
 [Ubaba] Shinto priests use "tamagushi" branches in certain rituals. What tree are they from?</td>
 <td width="40%">
-Maple</td>
+Sakaki</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which of the following is an ancient Japanese bronze mirror decorated with gods and animals from Chinese mythology?</td>
 <td width="40%">
-Phoenix</td>
+Shinju-kyo</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] A red rose symbolizes romance, but what does a yellow rose symbolize?</td>
 <td width="40%">
-Hatred</td>
+Friendship</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Finish this Japanese proverb: "Giving birth to a baby is easier than..."</td>
 <td width="40%">
-Adopting one</td>
+Worrying about it</td>
 </tr>
 <tr>
 <td width="60%">
@@ -541,18 +540,18 @@ Nagasaki</td>
 <td width="60%">
 [Ubaba] Which of the following are known as flesh-eating demons?</td>
 <td width="40%">
-Akaname</td>
+Jikininki</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Who's the demon said to have challenged the god Taishakuten to a fight?</td>
 <td width="40%">
-Oni</td>
+Ashura</td>
 </tr>
 <tr>
 <td width="60%">
 [Ubaba] Which period in Japan is marked by a hunter-gatherer lifestyle?</td>
 <td width="40%">
-Kamakura Period</td>
+Jomon Period</td>
 </tr>
 </table>
