@@ -106,7 +106,7 @@ Higashi</td>
 <td width="60%">
 [Mibaba] What is Nicotine Caffeine's favorite food?</td>
 <td width="40%">
-Parfait</td>
+Castella</td>
 </tr>
 <tr>
 <td width="60%">
