@@ -379,9 +379,17 @@ Thanks to my fellow translators, Piggy and Duralumin, for joining the fray. Pigg
 Looking forward to working and learning from you more on another project!
 
 <b>Lewis Cox (LewisJFC):</b>
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+> I was made aware of Nakoruru: The Gift She Gave Me by my Dreamcast Junkyard colleague and friend, Mike. On a system that received over 100 visual novels, Nakoruru really stands out as a high-quality title in its genre, with intrigue only aided further by its association with SNK's beloved Samurai Shodown/Spirits franchise. Despite their niche appeal in the West, I do really enjoy playing visual novels. Naturally, this means that I also have an affinity for fan translation projects too, as without them, some of the best visual novels could never have been experienced by people like myself who cannot speak Japanese.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+Through my writing for The Dreamcast Junkyard, I got to know fan translation scholar (and gentleman), Derek Pascarella. Through our conversations, I got to learn more about the assembly line process many fan translations utilise to get stuff done. As a fiction writer with editing experience, I told Derek that I'd be down to assist him with future projects. When he told me he was considering a fan translation of Nakoruru... well, I signed right up. My motivators? One: help a friend. Two: bring Nakoruru to the English-speaking Dreamcast community, and three... if I helped this translation project through to completion, I'd finally be able to finally play a game I'd been wanting to play for the longest time!
+<br><br>
+Some might wonder if taking on a project as big as Nakoruru for my first go as a lead editor was a real trial by fire, but... no. I've had the best team anyone could ask for. Everyone involved with this project has always been patient and quick to lend a hand if they could (busy life schedules, permitting, of course). Thank you to Derek, Marshal and Duralumin for always helping me to figure out whatever line I'd been overthinking that day (turns out that sometimes overthinking can lead to great results).
+<br><br>
+As for Nakoruru... I have no hesitation when I say that regardless of my involvement with this project, I would have loved this game regardless. I knew I had a good feeling about Nakoruru, and it definitely paid off. If you're a fan of visual novels, the Dreamcast or Samurai Shodown (or even all three), please give it a try. Mikato's tale is not only beautiful and moving, but funny and wholesome too. A great all-rounder, with atmosphere in spades. I hope you all learn to love this story and its characters as much as me and my team have.
+<br><br>
+Finally, thank you to all the great minds in the Dreamcast scene who are constantly working to keep this amazing console's legacy alive... the dream never dies!
+<br><br>
+P.S. If you 	have to make a repro of this translation, at least send me one too! That shit would like sick on my shelf.
 
 <b>Duralumin:</b>
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
