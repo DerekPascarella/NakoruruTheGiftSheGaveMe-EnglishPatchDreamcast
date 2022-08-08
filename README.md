@@ -324,7 +324,7 @@ Pressing the A button will display an option to hold both A and B buttons to rev
 More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>.
 
 <h2>Disc Content</h2>
-<img align="right" width="200" height="162" src="https://i.imgur.com/lUwilNu.png">As is quite common for Dreamcast games, the 35 MB single-density area of this game's GD-ROM contains bonus content. Accessible by players who insert their original game disc into their computer's CD-ROM drive, this content came in the form of six clock applications. These applications are 32-bit Windows binaries which have been tested all the way up to Windows 10.
+<img align="right" width="200" height="162" src="https://i.imgur.com/lUwilNu.png">As is quite common for Dreamcast titles, the 35 MB single-density area of this game's GD-ROM contains bonus content. Accessible by players who insert their original game disc into their computer's CD-ROM drive, this content came in the form of six clock applications. These applications are 32-bit Windows binaries which have been tested all the way up to Windows 10.
 <br><br>
 While these small bonus programs originally displayed their menu in Japanese, they have been fully translated into English for this release.  To access the menu, simply right-click anywhere on the clock face.
 <br><br>
