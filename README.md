@@ -342,7 +342,7 @@ Because the MODE uses Redump checksums to match artwork to each game, neither th
 <br><br>
 Designed to allow players to scroll back through dialogue history, this one section of the game presented a slew of technical challenges. Although "Nakoruru: The Gift She Gave Me" leverages dozens of separate text-rendering functions for different parts of the game, all of them but one were reined in after a bit of effort. Unfortunately, even after months of assembly hacking attempts, the unique (and bizarre) history viewer is presently in a partially broken state.
 <br><br>
-Currently, the game will at least display the last 100 dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters, rather than the new maximum of 156. Furthermore, each entry appears with improper formatting/alignment.
+Currently, the game will at least display the last 100 dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters, rather than the new maximum of 156. Furthermore, each entry appears with improperly placed linebreaks. To help soften the visual appearance, text has been centered, rather than kept left-justified.
 <br><br>
 As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
 
