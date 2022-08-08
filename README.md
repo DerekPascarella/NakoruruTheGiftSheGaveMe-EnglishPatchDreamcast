@@ -338,9 +338,13 @@ For GDMenu users who prefer box art, both the Bonus Disc and main game GDIs can 
 Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, and no artwork will be displayed.
 
 <h2>Known Issues</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" src="https://i.imgur.com/nKu2rwU.png">From the onset of this project, the goal has been to deliver a completely polished English translation patch free of any bugs or imperperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+Designed to allow players to scroll back through dialogue history, this one section of the game presented a slew of technical challenges. Although "Nakoruru: The Gift She Gave Me" leverages dozens of separate text-rendering functions for different parts of the game, all of them but one were reined in after a bit of effort. Unfortunately, even after months of assembly hacking attempts, the unique (and bizarre) history viewer is presently in a partially broken state.
+<br><br>
+At present, the game will at least display the 100 last dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters. Furthermore, each entry appears with improper formatting/alignment.
+<br><br>
+As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
 
 <h2>Messages From the Team</h2>
 
