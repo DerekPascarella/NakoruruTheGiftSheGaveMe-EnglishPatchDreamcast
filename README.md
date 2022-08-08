@@ -145,7 +145,7 @@ No additional configuration is required.
 </ul>
 
 <h2>Controls</h2>
-<img align="right" src="https://i.imgur.com/TBXZHWm.jpg">This game supports not only the standard Dreamcast controller, but both the keyboard and mouse peripherals, too.
+<img align="right" src="https://i.imgur.com/TBXZHWm.jpg">This game supports not only the standard Dreamcast controller, but both the keyboard and mouse peripherals, too. Jump Pack support is also implemented for vibration during certain scenes, an option which can be turned off in the game's settings menu.
 <br><br>
 <ul>
 <li><b>Controller</b></li>
