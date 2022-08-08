@@ -324,9 +324,11 @@ Pressing the A button will display an option to hold both A and B buttons to rev
 More can be read about the process of reverse-engineering these VMU clock applications in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>.
 
 <h2>Disc Content</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" width="200" height="162" src="https://i.imgur.com/lUwilNu.png">As is quite common for Dreamcast games, the 35 MB single-density area of this game's GD-ROM contains bonus content. Accessible by players who insert their original game disc into their computer's CD-ROM drive, this content came in the form of six clock applications. These applications are 32-bit Windows binaries which have been tested all the way up to Windows 10.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+While these small bonus programs originally displayed their menu in Japanese, they have been fully translated into English for this release.  To access the menu, simply right-click anywhere on the clock face.
+<br><br>
+Each clock application executable is available in the <a href="disc_content">disc_content</a> folder.
 
 <h2>Disc and Box Art</h2>
 <img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">By default, the Bonus Disc and main game itself both use brand new disc art 0GDTEX.PVR files, which look nice when displayed in GDMenu on GDEMU.  However, for those using <a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a> on GDEMU who prefer box art, I've provided alternative versions for both disc images in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
