@@ -273,7 +273,9 @@ Click scroll wheel</td>
 </ul>
 
 <h2>Mini-Games</h2>
-There are eight separate mini-games scattered throughout this adventure.  One of these games challenges players with a host of quiz questions.  As mentioned in the <a href="#whats-changed">What's Changed</a> section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.  As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>.
+There are eight separate mini-games scattered throughout this adventure.  One of these games challenges players with a host of quiz questions.  As mentioned in the <a href="#whats-changed">What's Changed</a> section, the timer for these questions has been removed for this translation patch.  Without removing the timer, answering any of the quiz questions correctly would be highly improbable.
+<br><br>
+As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>. Note that each of the three quizzes holds a bank of 30 questions, but only ten are selected at random.
 <br><br>
 <table style="border: none; border-collapse: collapse;">
 <tr>
