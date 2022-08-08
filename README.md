@@ -3,7 +3,7 @@
 <ul>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a></li>
 </ul>
-Download the English translation "Bonus Disc" (more information below):
+Download the English translation "Bonus Disc" (more information in the <a href="#bonus-disc">Bonus Disc</a> section):
 <ul>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a></li>
  <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
