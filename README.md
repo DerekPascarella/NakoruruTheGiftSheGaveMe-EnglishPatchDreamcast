@@ -389,7 +389,7 @@ As for Nakoruru... I have no hesitation when I say that regardless of my involve
 <br><br>
 Finally, thank you to all the great minds in the Dreamcast scene who are constantly working to keep this amazing console's legacy alive... the dream never dies!
 <br><br>
-P.S. If you 	have to make a repro of this translation, at least send me one too! That shit would like sick on my shelf.
+P.S. If you 	have to make a repro of this translation, at least send me one too! That shit would sick on my shelf.
 
 <b>Duralumin:</b>
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
