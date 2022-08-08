@@ -70,7 +70,7 @@ Deer</td>
 <td width="60%">
 [Mibaba] In which country did "konpeito" candy originate?</td>
 <td width="40%">
-France</td>
+Portugal</td>
 </tr>
 <tr>
 <td width="60%">
