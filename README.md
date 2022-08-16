@@ -348,7 +348,7 @@ Currently, the game will at least display the last 100 dialogue instances, which
 <br><br>
 As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
 <br><br>
-Bugs found during gameplay can be reported by <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues">submitting a new issue</a> to this project page.
+Bugs found during gameplay can be reported by <a href="issues?q=is%3Aissue+is%3Aopen">submitting a new issue</a> to this project page.
 
 <h2>Messages From the Team</h2>
 
