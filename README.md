@@ -347,6 +347,8 @@ Designed to allow players to scroll back through dialogue history, this one sect
 Currently, the game will at least display the last 100 dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters, rather than the new maximum of 156. Furthermore, each entry appears with improperly placed linebreaks. To help soften the visual appearance, text has been centered, rather than kept left-justified.
 <br><br>
 As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
+<br><br>
+Bugs found during gameplay can be reported by <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues">submitting a new issue</a> to this project page.
 
 <h2>Messages From the Team</h2>
 
