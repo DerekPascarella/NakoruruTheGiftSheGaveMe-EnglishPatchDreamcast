@@ -113,7 +113,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
    <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
   </ul>
  <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
- <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).
+ <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself on real Dreamcast hardware (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
