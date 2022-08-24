@@ -304,7 +304,7 @@ As a bonus, a complete bank of questions and answers has been compiled and is <a
 </table>
 
 <h2>Bonus Disc</h2>
-<img align="right" width="300" src="https://i.imgur.com/z4MCEf2.gif">When developing English translation patches for the SEGA Dreamcast, I often like to leverage the baked-in Dream Passport web browser (commonly found in Japanese games) to include bonus content.  In the case of "Nakoruru: The Gift She Gave Me", no such browser was bundled with and accessible from the game itself.  So, rather than spend a needlessly long period of time hacking one in, I opted to ship with this patch an entirely separate, standalone Bonus Disc.
+<img align="right" width="300" src="https://i.imgur.com/z4MCEf2.gif">When developing English translation patches for the SEGA Dreamcast, I often like to leverage the baked-in Dream Passport web browser (commonly found in Japanese games) to include bonus content.  In the case of "Nakoruru: The Gift She Gave Me", no such browser was bundled with, and accessible from, the game itself.  So, rather than spend a needlessly long period of time hacking one in, I opted to ship with this patch an entirely separate, standalone Bonus Disc.
 <br><br>
 Offered in both GDI and CDI formats, the Bonus disc treats players with the following extras:
 <br><br>
