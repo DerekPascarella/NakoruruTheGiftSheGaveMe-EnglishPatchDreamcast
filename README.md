@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>What's Changed</h2>
-Below is a high-level list of changes implemented for this English translation patch.
+<img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
 <ul>
  <li>All 12,000+ lines of Japanese dialogue text have been translated.</li>
@@ -340,7 +340,7 @@ For GDMenu users who prefer box art, both the Bonus Disc and main game GDIs can 
 Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, and no artwork will be displayed.
 
 <h2>Known Issues</h2>
-<img align="right" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
+<img align="right" width="300" height="225" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
 <br><br>
 Designed to allow players to scroll back through dialogue history, this one section of the game presented a slew of technical challenges. Although "Nakoruru: The Gift She Gave Me" leverages dozens of separate text-rendering functions for different parts of the game, all of them but one were reined in after a bit of effort. Unfortunately, even after months of assembly hacking attempts, the unique (and bizarre) history viewer is presently in a partially broken state.
 <br><br>
