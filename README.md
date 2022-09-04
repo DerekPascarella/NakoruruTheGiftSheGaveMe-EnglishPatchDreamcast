@@ -350,7 +350,7 @@ Note that the current implementation of the history feature does not represent t
 <br><br>
 As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
 <br><br>
-Bugs or typos found during gameplay can be reported by <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues?q=is%3Aissue+is%3Aopen">submitting a new issue</a> to this project page.
+Bugs or typos found during gameplay can be reported by <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues/new">submitting a new issue</a> to this project page.
 
 <h2>Messages From the Team</h2>
 
