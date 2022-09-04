@@ -317,7 +317,7 @@ Offered in both GDI and CDI formats, the Bonus disc treats players with the foll
 More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>.
 
 <h2>VMU Applications</h2>
-<img align="right" width="150" src="https://i.imgur.com/m7KF3Pi.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately on these applications (Nakoruru, Manari, Rimururu, and Rera).
+<img align="right" width="150" src="https://i.imgur.com/m7KF3Pi.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately in these applications (Nakoruru, Manari, Rimururu, and Rera).
 <br><br>
 Once downloaded to a VMU, players can navigate to the game icon (♠), where they'll be presented with an animated icon of the selected character.  The current time will also be displayed.
 <br><br>
