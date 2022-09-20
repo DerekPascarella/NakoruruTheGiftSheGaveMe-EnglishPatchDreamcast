@@ -492,6 +492,9 @@ sub generate_hex
 	$input =~ s/\.\.\./#/g;
 	$input =~ s/#/##/g;
 
+	# Quick fixes.
+	$input =~ s/[C|c]hichiushi/Chichi-ushi/g;
+
 	# Fold input text into separate elements of "folded_text_array" where each line is a maximum of 52
 	# characters.
 	my $folded_text = fold_text($input, 52, { 'soft_hyphen_threshold' => '0' });
