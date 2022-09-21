@@ -100,11 +100,11 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 <td>Nakoruru: The Gift She Gave Me</td>
 </tr>
 <tr>
-<td><b>Developer</b></td>
+<td><b>Developer/Publisher</b></td>
 <td>Kool Kizz (クールキッズ)</td>
 </tr>
 <tr>
-<td><b>Publisher</b></td>
+<td><b>Licensor</b></td>
 <td>SNK</td>
 </tr>
 <tr>
