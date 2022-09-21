@@ -109,7 +109,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 </tr>
 <tr>
 <td><b>Release Date</b></td>
-<td>2022-03-28</td>
+<td>2002-03-28</td>
 </tr>
 <tr>
 <td><b>Supported Peripherals</b></td>
