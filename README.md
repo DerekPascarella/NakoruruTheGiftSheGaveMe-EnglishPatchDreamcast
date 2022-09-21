@@ -90,20 +90,37 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 </ul>
 
 <h2>About the Game</h2>
-<b>Original Title:</b> Nakoruru: Anohito Kara no Okurimono (ナコルル 〜あのひとからのおくりもの〜)
+<table>
+<tr>
+<td><b>Original Title</b></td>
+<td>Nakoruru: Anohito Kara no Okurimono (ナコルル 〜あのひとからのおくりもの〜)</td>
+</tr>
+<tr>
+<td><b>Localized Title</b></td>
+<td>Nakoruru: The Gift She Gave Me</td>
+</tr>
+<tr>
+<td><b>Developer</b></td>
+<td>Kool Kizz (クールキッズ)</td>
+</tr>
+<tr>
+<td><b>Publisher</b></td>
+<td>SNK</td>
+</tr>
+<tr>
+<td><b>Release Date</b></td>
+<td>2022-03-28</td>
+</tr>
+<tr>
+<td><b>Supported Peripherals</b></td>
+<td>VGA Box, Jump Pack, Keyboard, VMU, Mouse</td>
+</tr>
+<tr>
+<td><b>Average Time to Completion</b></td>
+<td>12 hours</td>
+</tr>
+</table>
 <br>
-<b>Localized Title:</b> Nakoruru: The Gift She Gave Me
-<br>
-<b>Developer:</b> Kool Kizz (クールキッズ)
-<br>
-<b>Publisher:</b> SNK
-<br>
-<b>Release Date:</b> 2022-03-28
-<br>
-<b>Supported Peripherals:</b> VGA Box, Jump Pack, Keyboard, VMU, Mouse
-<br>
-<b>Average Time to Completion:</b> 12 hours
-<br><br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
