@@ -100,7 +100,11 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 <td>Nakoruru: The Gift She Gave Me</td>
 </tr>
 <tr>
-<td><b>Developer/Publisher</b></td>
+<td><b>Developer</b></td>
+<td>Inter-Let's</td>
+</tr>
+<tr>
+<td><b>Publisher</b></td>
 <td>Kool Kizz (クールキッズ)</td>
 </tr>
 <tr>
@@ -113,7 +117,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 </tr>
 <tr>
 <td><b>Supported Peripherals</b></td>
-<td>VGA Box, Jump Pack, Keyboard, VMU, Mouse</td>
+<td>VGA Box, Jump Pack, Keyboard, Mouse, Controller, VMU</td>
 </tr>
 <tr>
 <td><b>Average Time to Completion</b></td>
