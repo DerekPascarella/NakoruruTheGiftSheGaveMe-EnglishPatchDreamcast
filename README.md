@@ -149,7 +149,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
   </ul>
  <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
  <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself on real Dreamcast hardware (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).</li>
- <li>If players make a series of in-game decisions that lead to a specific crucial story branch, a warning message will appear advising them to create a save file before proceeding.
+ <li>If players make a series of in-game decisions that lead to a specific crucial story branch, <a href="https://i.imgur.com/0vsih76.png">a warning message will appear</a> advising them to create a save file before proceeding.
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
