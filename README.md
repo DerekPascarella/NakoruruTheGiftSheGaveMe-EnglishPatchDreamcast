@@ -313,7 +313,7 @@ There are eight separate mini-games scattered throughout this adventure.  One of
 <br><br>
 As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>. Note that each of the three quizzes holds a bank of 30 questions, but only ten are selected at random.
 <br><br>
-<table style="border: none; border-collapse: collapse;">
+<table style="border: none; border-collapse: collapse;" align="center">
 <tr>
 <td width="50%" align="center">
 <img src="https://i.imgur.com/KbswMa4.png"></td>
