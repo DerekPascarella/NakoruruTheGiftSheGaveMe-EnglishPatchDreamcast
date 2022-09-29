@@ -14,16 +14,17 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 2. [Credits](#credits)
 3. [Changelog](#changelog)
 4. [About the Game](#about-the-game)
-5. [What's Changed](#whats-changed)
-6. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
-7. [Controls](#controls)
-8. [Mini-Games](#mini-games)
-9. [Bonus Disc](#bonus-disc)
-10. [VMU Applications](#vmu-applications)
-11. [Disc Content](#disc-content)
-12. [Disc and Box Art](#disc-and-box-art)
-13. [Known Issues](#known-issues)
-14. [Messages From the Team](#messages-from-the-team)
+5. [Helpful Tips](#helpful-tips)
+6. [What's Changed](#whats-changed)
+7. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
+8. [Controls](#controls)
+9. [Mini-Games](#mini-games)
+10. [Bonus Disc](#bonus-disc)
+11. [VMU Applications](#vmu-applications)
+12. [Disc Content](#disc-content)
+13. [Disc and Box Art](#disc-and-box-art)
+14. [Known Issues](#known-issues)
+15. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -128,6 +129,13 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+
+<h2>Helpful Tips</h2>
+<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<br><br>
+Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+<br><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 
 <h2>What's Changed</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
