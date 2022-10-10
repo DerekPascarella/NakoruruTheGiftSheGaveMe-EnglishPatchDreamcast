@@ -150,8 +150,9 @@ If a player makes a series of in-game decisions that lead to a specific crucial 
   </ul>
  <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>).</li>
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
- <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum post</a>).</li>
+ <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
+ <li>Subtitles have been added for spoken dialogue during the "Teach a Girl to Fish" mini-game.
  <li>Quiz mini-games completely overhauled and localized.</li>
   <ul>
    <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
