@@ -414,7 +414,7 @@ Aside from cutting my teeth on more advanced forms of assembly hacking, this gam
 <br><br>
 That said, I worked hard to ensure that players are taught about the Ainu in every way possible while playing this game. Special Ainu-language terminology is introduced a great number of times during the story, accompanied by an explanation in order to educate players. The same is true for the completely overhauled quiz mini-games (read more in the <a href="#mini-games">Mini-Games</a> section), which serve to reinforce, or introduce for the first time, nuggets of knowledge on Ainu food, history, culture, and language.
 <br><br>
-Ultimately, I feel that "Nakoruru: The Gift She Gave Me" offers its player a delightful, entertaining, heartfelt tale of friendship, family, love, and of course, growing up. I will forever cherish the friends I made along the way while bringing this game to you all in English for the first time. From the bottom of my heart, I hope everyone out there who gives this game a try finds in it something truly special, and something that leaves a lasting impact on them for years to come.
+Ultimately, I feel that "Nakoruru: The Gift She Gave Me" offers its player a genuine, heartfelt tale of friendship, family, love, loss, and of course, growing up. I will forever cherish the friends I made along the way while bringing this game to you all in English for the first time. From the bottom of my heart, I hope everyone out there who gives this game a try finds in it something truly special, and something that leaves a lasting impact on them for years to come.
 
 <b>Marshal Wong:</b>
 > Thanks for playing Nakoruru. This was my first involvement in a translation project and I hope you are/were touched by the story as I was.
