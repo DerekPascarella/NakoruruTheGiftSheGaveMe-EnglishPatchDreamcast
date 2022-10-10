@@ -135,7 +135,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 <br><br>
-Lewis to fill this section with explanation on how VNs work (branches, etc.).  Other notes: mini-game performance can affect story, in addition to decision prompts.
+Lewis to fill this section with explanation on how VNs work (branches, etc.).  Other notes: mini-game performance can affect story, in addition to decision prompts. Suggest to players that they set "Text Transitions" to "INST." (instant).
 <br><br>
 If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.
 
