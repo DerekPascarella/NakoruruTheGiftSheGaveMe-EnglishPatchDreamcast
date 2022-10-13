@@ -131,11 +131,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>Helpful Tips</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.  As is common with games of this type, players are presented with various choices throughout their adventure.  The decision a player makes at these prompts will affect the story, sometimes radically.  For those who want to see the entire story, it's suggested that they save their game whenever presented with a decision prompt.
+<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
+<br><br>
+As is common with games of this type, players are presented with various choices throughout their adventure.  The decision a player makes at these prompts will affect the story, sometimes radically.  For those who want to see the entire story, it's suggested that they save their game whenever presented with a decision prompt.
 <br><br>
 If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts, besides this one, will still ensure that they'll see the full ending of the game.
 <br><br>
 Note that a player's performance during the story's various mini-games will also affect which parts of the story they'll see, although the story differences between good and poor performance in said mini-games is very minimal.
+<br><br>
+Lastly, it's recommended to adjust the game's text speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has changed the default text speed from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the text's fade-in effect which is lost with "instant" mode.
+
 <h2>What's Changed</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
