@@ -131,14 +131,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Qu
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
 
 <h2>Helpful Tips</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.  As is common with games of this type, players are presented with various choices throughout their adventure.  The decision a player makes at these prompts will affect the story, sometimes radically.  For those who want to see the entire story, it's suggested that they save their game whenever presented with a decision prompt.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts, besides this one, will still ensure that they'll see the full ending of the game.
 <br><br>
-Lewis to fill this section with explanation on how VNs work (branches, etc.).  Other notes: mini-game performance can affect story, in addition to decision prompts. Suggest to players that they set "Text Transitions" to "INST." (instant).
-<br><br>
-If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.
-
+Note that a player's performance during the story's various mini-games will also affect which parts of the story they'll see, although the story differences between good and poor performance in said mini-games is very minimal.
 <h2>What's Changed</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
 <br><br>
