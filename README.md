@@ -137,7 +137,7 @@ As is common with games of this type, players are presented with various choices
 <br><br>
 If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts, besides this one, will still ensure that they'll see the full ending of the game.
 <br><br>
-Note that a player's performance during the story's various mini-games will also affect which parts of the story they'll see, although the story differences between good and poor performance in said mini-games is very minimal.
+Note that a player's performance during the various mini-games will also affect which parts of the story they'll see, although the difference between what story text is presented after either good or poor performance in said mini-games is very minimal.
 <br><br>
 Lastly, it's recommended to adjust the game's text speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has changed the default text speed from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the text's fade-in effect which is lost with "instant" mode.
 
