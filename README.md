@@ -135,7 +135,7 @@ Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pret
 <br><br>
 As is common with games of this type, players are presented with various choices throughout their adventure.  The decision a player makes at these prompts will affect the story, sometimes drastically.  For those who want to see the entire story, it's suggested that they save their game whenever presented with a decision prompt.  The game offers its players plenty of save slots to do so.
 <br><br>
-If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot .  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts, besides this one, will still ensure that they'll see the full ending of the game.
+If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot.  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts, besides this one, will still ensure that they'll see the full ending of the game.
 <br><br>
 Note that a player's performance during the various mini-games will also affect which parts of the story they'll see, although the difference between what story text is presented after either good or poor performance in said mini-games is very minimal.
 <br><br>
