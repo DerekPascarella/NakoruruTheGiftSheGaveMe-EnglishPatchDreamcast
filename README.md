@@ -399,7 +399,7 @@ Because the MODE uses Redump checksums to match artwork to each game, neither th
 Players are treated to beautiful musical arrangements all throughout "Nakoruru: The Gift She Gave Me", composed by two longtime SNK legends.
 <br><br>
 <ul>
- <li><a href="https://snk.fandom.com/wiki/Tate_Norio">Yasuo Yamate</a> (山手 安生), better known to SNK fans as Tate Norio, is a Japanese music composer and audio enginner who was hired by SNK in 1986. Before working for SNK, he composed soundtracks for many games such as "Sonic the Hedgehog", the "Ninja Gaiden" series, the "Final Fight" series, the "Contra" series and more.  He also helped in the composition of music from "Street Fighter II", "Super Hang On", and "Shadow Dancer".</li>
+ <li><a href="https://snk.fandom.com/wiki/Tate_Norio">Yasuo Yamate</a> (山手 安生), better known to SNK fans as Tate Norio, is a Japanese music composer and audio enginner who was hired by SNK in 1986. Before working for SNK, he composed soundtracks for many games, such as "Sonic the Hedgehog", the "Ninja Gaiden" series, the "Final Fight" series, the "Contra" series and more.  He also helped in the composition of music from "Street Fighter II", "Super Hang On", and "Shadow Dancer".</li>
  <li><a href="https://snk.fandom.com/wiki/Yamapy-1">Yasumasa Yamada</a> (山田 泰正), also known as Yamapy-1, is a music composer and sound editor who was hired by SNK in 1989 as a member of the sound team.</li>
 </ul>
 <a href="https://mega.nz/folder/zAs12K6A#Cas7lg4uOkDZHs_6H895yA">Download</a> the original in-game soundtrack, available in WAV, MP3, FLAC, and OGG formats.
