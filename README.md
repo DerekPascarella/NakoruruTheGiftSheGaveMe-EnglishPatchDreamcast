@@ -32,7 +32,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 <br><br>
 <ol type="1">
  <li>Click "Select GDI or CUE" to open the source disc image.</li>
- <li>Click "Select Patch" to open the .DCP patch file.</li>
+ <li>Click "Select Patch" to open the DCP patch file.</li>
  <li>Click "Apply Patch" to generate the patched GDI.  The patched GDI will be generated in the folder from which the application is launched</li>
  <li>Click "Quit" to exit the application.</li>
 </ol>
