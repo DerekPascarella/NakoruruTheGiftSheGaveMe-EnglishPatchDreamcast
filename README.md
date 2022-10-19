@@ -420,7 +420,9 @@ Bugs or typos found during gameplay can be reported by <a href="https://github.c
 <h2>Messages From the Team</h2>
 
 <b>Derek Pascarella (ateam):</b>
-> In July of 2021, I began researching visual novels on the SEGA Dreamcast. Given that no titles from this genre were brought to the West during the console's lifecycle, I felt it important that one of the Dreamcast's best visual novels should be the focus of my next English translation patch project. I knew the process of analyzing, extracting, translating, hacking, rebuilding, and finally playtesting a game of that scale would be arduous and time-consuming. However, it takes tremendous passion and effort to accomplish anything good and worthwhile in life, and I was determined to see it through.
+> In July of 2021, I began researching visual novels on the SEGA Dreamcast. Given that no titles from this genre were brought to the West during the console's lifecycle, I felt it important that one of the Dreamcast's best visual novels should be the focus of my next English translation patch project. After playing through a few of the candidates, I eventually settled on, and fell in love with, this one.
+<br><br>
+I knew the process of analyzing, extracting, translating, hacking, rebuilding, and finally playtesting a game of that scale would be arduous and time-consuming. However, it takes tremendous passion and effort to accomplish anything good and worthwhile in life, and I was determined to see it through.
 <br><br>
 With this resolve at the forefront of my mind, I began spreading the word that I was looking to amass a team of translators and editors.  Thankfully, the wonderful people named in the <a href="#credits">Credits</a> section above answered the call.  The events that proceeded live on within me as experiences and memories that I wouldn't trade for all the money in the world.
 <br><br>
