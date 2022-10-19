@@ -13,9 +13,9 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
 3. [Changelog](#changelog)
-4. [About the Game](#about-the-game)
-5. [Helpful Tips](#helpful-tips)
-6. [What's Changed](#whats-changed)
+4. [What's Changed](#whats-changed)
+5. [About the Game](#about-the-game)
+6. [Helpful Tips](#helpful-tips)
 7. [A Note on Emulators and ODEs](#a-note-on-emulators-and-odes)
 8. [Controls](#controls)
 9. [Mini-Games](#mini-games)
@@ -23,8 +23,9 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 11. [VMU Applications](#vmu-applications)
 12. [Disc Content](#disc-content)
 13. [Disc and Box Art](#disc-and-box-art)
-14. [Known Issues](#known-issues)
-15. [Messages From the Team](#messages-from-the-team)
+14. [Original Soundtrack](#original-soundtrack)
+15. [Known Issues](#known-issues)
+16. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
@@ -90,6 +91,32 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  </ul>
 </ul>
 
+<h2>What's Changed</h2>
+<img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
+<br><br>
+<ul>
+ <li>All 12,000+ lines of Japanese dialogue text have been translated.</li>
+ <li>All menus, textures/images, bonus content, and mini-games have been translated, re-rendered, and rebuilt.</li>
+  <ul>
+   <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
+  </ul>
+ <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>).</li>
+ <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
+ <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum post</a>).</li>
+ <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
+ <li>Default text-speed setting has been changed from "regular" to "fast" (adjustable in settings menu).</li>
+ <li>Subtitles have been added for spoken dialogue during the "Teach a Girl to Fish" mini-game.</li>
+ <li>Quiz mini-games completely overhauled and localized.</li>
+  <ul>
+   <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
+   <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
+  </ul>
+ <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
+ <!--<li>If a player makes a series of in-game decisions that lead to a specific crucial story branch, <a href="https://i.imgur.com/0vsih76.png">a warning message will appear</a> advising them to create a save file before proceeding.  The team decided to add this message because a player's choice at this particular prompt can result in skipping nearly half of the game's story.  Should a player choose the response that cuts the story short, it'll be abundantly clear.</li>-->
+ <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself on real Dreamcast hardware (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).</li>
+ <li>The game's original soundtrack has been ripped and provided for download in WAV, MP3, FLAC, and OGG formats (see <a href="#original-soundtrack">Original Soundtrack</a> section).</li>
+</ul>
+
 <h2>About the Game</h2>
 <table>
 <tr>
@@ -143,31 +170,6 @@ Other tips:
 <ul>
  <li>During the first play of the game, players should allow the entire introduction sequence (before the title screen) to play in full.</li>
  <li>It's recommended to adjust the game's text speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has changed the default text speed from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the text's fade-in effect which is lost with "instant" mode.</li>
-</ul>
-
-<h2>What's Changed</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/5QCKdKj.png">Below is a high-level list of changes implemented for this English translation patch.
-<br><br>
-<ul>
- <li>All 12,000+ lines of Japanese dialogue text have been translated.</li>
- <li>All menus, textures/images, bonus content, and mini-games have been translated, re-rendered, and rebuilt.</li>
-  <ul>
-   <li>Previously, the only English asset in this game was the "Press Start Button" text on the title screen.</li>
-  </ul>
- <li>All VMU icons and applications have been translated (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p161265">this Dreamcast-Talk.com forum post</a>).</li>
- <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
- <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum post</a>).</li>
- <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
- <li>Default text-speed setting has been changed from "regular" to "fast" (adjustable in settings menu).</li>
- <li>Subtitles have been added for spoken dialogue during the "Teach a Girl to Fish" mini-game.</li>
- <li>Quiz mini-games completely overhauled and localized.</li>
-  <ul>
-   <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
-   <li>Quiz mini-game timer removed to give players time to research answers for each question.</li>
-  </ul>
- <li>Voiced acted dialogue audio persists across multiple dialogue boxes as to not be prematurely halted when English text consumes more than a single dialogue box (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=30#p163650">this Dreamcast-Talk.com forum post</a>).</li>
- <!--<li>If a player makes a series of in-game decisions that lead to a specific crucial story branch, <a href="https://i.imgur.com/0vsih76.png">a warning message will appear</a> advising them to create a save file before proceeding.  The team decided to add this message because a player's choice at this particular prompt can result in skipping nearly half of the game's story.  Should a player choose the response that cuts the story short, it'll be abundantly clear.</li>-->
- <li>A brand-new Bonus Disc was created to provide players with a 100% fully-unlocked save, two playable songs from the game, and the first and only episode of the official "Nakoruru: The Gift She Gave Me" OVA.  All of this content is enjoyable directly from the bonus disc itself on real Dreamcast hardware (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>).</li>
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
@@ -392,6 +394,14 @@ Each clock application executable is available in the <a href="disc_content">dis
 For GDMenu users who prefer box art, both the Bonus Disc and main game GDIs can be extracted and rebuilt to include that artwork instead.  One such tutorial on how to do so can be found <a href="https://www.youtube.com/watch?v=3_-9Ur3RvA0">here on YouTube</a>.
 <br><br>
 Because the MODE uses Redump checksums to match artwork to each game, neither the Bonus Disc nor the main game will be identified, and no artwork will be displayed.
+
+<h2>Original Soundtrack</h2>
+Players are treated to beautiful musical arrangements all throughout "Nakoruru: The Gift She Gave Me", composed by two longtime SNK legends.
+<ul>
+ <li><a href="https://snk.fandom.com/wiki/Tate_Norio">Yasuo Yamate</a> (山手 安生), better known to SNK fans as Tate Norio, is a Japanese music composer and audio enginner who was hired by SNK in 1986. Before working for SNK, he composed soundtracks for many games such as Sonic - The Hedgehog, Ninja Gaiden series, Final Fight series, Contra series and most other games. Also helped in the composition of music from Street Fighter II, Super Hang On, Shadow Dancer and other games.</li>
+ <li><a href="https://snk.fandom.com/wiki/Yamapy-1">Yasumasa Yamada</a> (山田 泰正), also known as Yamapy-1, is a music composer and sound editor who was hired by SNK in 1989. He was a member of SNK's Sound Team.</li>
+</ul>
+<a href="https://mega.nz/folder/zAs12K6A#Cas7lg4uOkDZHs_6H895yA">Download</a> the original in-game soundtrack, available in WAV, MP3, FLAC, and OGG formats.
 
 <h2>Known Issues</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
