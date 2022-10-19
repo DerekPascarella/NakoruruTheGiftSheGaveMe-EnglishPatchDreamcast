@@ -28,20 +28,16 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 16. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
-<ul>
- <li><b>GDI Patching (ODEs and Emulators)</b></li>
- <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
- <br><br>
- <ol type="1">
-  <li>Click "Select GDI or CUE" to open the source disc image.</li>
-  <li>Click "Select Patch" to open the DCP patch file.</li>
-  <li>Click "Apply Patch" to generate the patched GDI.  The patched GDI will be generated in the folder from which the application is launched</li>
-  <li>Click "Quit" to exit the application.</li>
- </ol>
- <br>
- <li><b>CDI Patching (Optical Disc)</b></li>
- Text goes here.
-</ul>
+<img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
+<br><br>
+<ol type="1">
+ <li>Click "Select GDI or CUE" to open the source disc image.</li>
+ <li>Click "Select Patch" to open the DCP patch file.</li>
+ <li>Click "Apply Patch" to generate the patched GDI.  The patched GDI will be generated in the folder from which the application is launched</li>
+ <li>Click "Quit" to exit the application.</li>
+</ol>
+<br>
+For those wishing to play this game via burned disc on their original GD-ROM drive, see <a href="XXXX">this Dreamcast-Talk.com forum post</a> on the CDI version of this patch.
 
 <h2>Credits</h2>
 <ul>
