@@ -37,7 +37,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li>Click "Quit" to exit the application.</li>
 </ol>
 <br>
-For those wishing to play this game via burned disc on their original GD-ROM drive, see <a href="XXXX">this Dreamcast-Talk.com forum post</a> on the CDI version of this patch.
+For those wishing to play this game via burned disc on their original GD-ROM drive, see <a href="XXXX">this Dreamcast-Talk.com forum post</a> regarding the CDI version of this patch.
 
 <h2>Credits</h2>
 <ul>
