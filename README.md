@@ -1,25 +1,13 @@
 <h1>Nakoruru: The Gift She Gave Me</h1>
 <img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section):
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b></li>
-   <ul>
-    <li>Download <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
-   </ul>
- <li><b>CDI Format (Users Burning to CD-R)</b></li>
-  <ul>
-   <li>Download <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>.</li>
-  </ul>
+ <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
+ <li><b>CDI Format (Users Burning to CD-R)</b><br>Download <a href="xxx">Nakoruru - The Gift She Gave Me (English v1.0).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>.</li>
 </ul>
 Download the English translation "Bonus Disc" (more information in the <a href="#bonus-disc">Bonus Disc</a> section):
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b></li>
-  <ul>
-    <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a></li>
-  </ul>
- <li><b>CDI Format (Users Burning to CD-R)</b></li>
-  <ul>
-   <li><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
- </ul>
+ <li><b>GDI Format (Users of ODEs or Emulators)</b><br><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a></li>
+ <li><b>CDI Format (Users Burning to CD-R)</b><br><a href="xxx">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
 </ul>
 
 <h2>Table of Contents</h2>
