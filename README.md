@@ -41,40 +41,40 @@ For those wishing to play this game via burned disc on their original GD-ROM dri
 
 <h2>Credits</h2>
 <ul>
- <li><b>Lead Developer / Project Lead:</b></li>
+ <li><b>Lead Developer / Project Lead</b></li>
   <ul>
    <li>Derek Pascarella (ateam)</li>
   </ul>
  <br>
- <li><b>Lead Translators</b>:</li>
+ <li><b>Lead Translators</b></li>
   <ul>
    <li>Marshal Wong</li>
    <li>Duralumin</li>
   </ul>
  <br>
- <li><b>Lead Editors:</b></li>
+ <li><b>Lead Editors</b></li>
   <ul>
    <li>Lewis Cox (LewisJFC)</li>
    <li>Derek Pascarella (ateam)</li>
   </ul>
  <br>
- <li><b>Lead Graphic Artist</b>:</li>
+ <li><b>Lead Graphic Artist</b></li>
   <ul>
    <li>Derek Pascarella (ateam)</li>
   </ul>
  <br>
- <li><b>Additional Translators:</b></li>
+ <li><b>Additional Translators</b></li>
   <ul>
    <li>Piggy (witchpiggy)</li>
   </ul>
  <br>
- <li><b>Additional Graphic Artists</b>:</li>
+ <li><b>Additional Graphic Artists</b></li>
   <ul>
    <li>Nico</li>
    <li>Danthrax4</li>
   </ul>
  <br>
-  <li><b>Special Thanks:</b></li>
+  <li><b>Special Thanks</b></li>
   <ul>
    <li>Lacquerware</li>
    <li>EsperKnight</li>
