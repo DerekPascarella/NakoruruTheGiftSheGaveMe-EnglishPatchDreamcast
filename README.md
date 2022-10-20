@@ -30,16 +30,11 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 16. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
-<img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
-<br><br>
-<ol type="1">
- <li>Click "Select GDI or CUE" to open the source disc image.</li>
- <li>Click "Select Patch" to open the DCP patch file.</li>
- <li>Click "Apply Patch" to generate the patched GDI.  The patched GDI will be generated in the folder from which the application is launched</li>
- <li>Click "Quit" to exit the application.</li>
-</ol>
-<br>
-For those wishing to play this game via burned disc on their original GD-ROM drive, see <a href="XXXX">this Dreamcast-Talk.com forum post</a> regarding the CDI version of this patch.
+<ul>
+ <li><b>GDI Format (Users of ODEs or Emulators)</b><br><img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.<br><br><ol type="1"><li>Click "Select GDI or CUE" to open the source disc image.</li><li>Click "Select Patch" to open the DCP patch file.</li><li>Click "Apply Patch" to generate the patched GDI.  The patched GDI will be generated in the folder from which the application is launched</li><li>Click "Quit" to exit the application.</li></ol></li>
+ <br>
+ <li><b>CDI Format (Users Burning to CD-R)</b><br>The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>4B21B746AFA604211910DC40C993DF87</tt>.<br><br><ol type="1"><li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li><li>Click the "Original file" browse icon and select the unmodified CDI.</li><li>Click the "XDelta patch" browse icon and select the XDelta patch.</li><li>Click "Apply patch".</li></ol></li>
+</ul>
 
 <h2>Credits</h2>
 <ul>
