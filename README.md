@@ -209,7 +209,7 @@ No additional configuration is required.
 <table>
 <tr>
 <td>
-Proceed with dialogue, confirm selection</td>
+Proceed with dialogue / Confirm selection</td>
 <td>
 A button</td>
 </tr>
@@ -250,7 +250,7 @@ Start button</td>
 <table>
 <tr>
 <td>
-Proceed with dialogue, confirm selection</td>
+Proceed with dialogue / Confirm selection</td>
 <td>
 Enter/Space/X key</td>
 </tr>
