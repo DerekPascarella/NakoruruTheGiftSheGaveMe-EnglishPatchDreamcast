@@ -252,37 +252,37 @@ Start button</td>
 <td>
 Proceed with dialogue / Confirm selection</td>
 <td>
-Enter / Space / X key</td>
+Enter / Space / X</td>
 </tr>
 <tr>
 <td>
 Go back, exit menu</td>
 <td>
-Del / Esc / Z key</td>
+Del / Esc / Z</td>
 </tr>
 <tr>
 <td>
 Skip dialogue</td>
 <td>
-PgDown key</td>
+PgDown</td>
 </tr>
 <tr>
 <td>
 Auto-pilot dialogue progression</td>
 <td>
-F3 key</td>
+F3</td>
 </tr>
 <tr>
 <td>
 Toggle dialogue box visibility</td>
 <td>
-F2 key</td>
+F2</td>
 </tr>
 <tr>
 <td>
 Pause menu</td>
 <td>
-F1 key</td>
+F1</td>
 </tr>
 </table>
 <br>
