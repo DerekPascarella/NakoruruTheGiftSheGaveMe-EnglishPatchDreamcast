@@ -252,13 +252,13 @@ Start button</td>
 <td>
 Proceed with dialogue / Confirm selection</td>
 <td>
-Enter/Space/X key</td>
+Enter / Spac e/ X key</td>
 </tr>
 <tr>
 <td>
 Go back, exit menu</td>
 <td>
-Del/Esc/Z key</td>
+Del / Esc / Z key</td>
 </tr>
 <tr>
 <td>
