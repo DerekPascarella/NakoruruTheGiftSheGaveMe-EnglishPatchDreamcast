@@ -252,7 +252,7 @@ Start button</td>
 <td>
 Proceed with dialogue / Confirm selection</td>
 <td>
-Enter / Spac e/ X key</td>
+Enter / Space / X key</td>
 </tr>
 <tr>
 <td>
