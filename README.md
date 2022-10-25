@@ -103,7 +103,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li>All VMU save and application metadata appear in English on the Dreamcast's BIOS menu save manager.</li>
  <li>A new font sheet was created, along with new SH4 assembly code to support narrower glyph tiles and all related modifications (read more in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=40#p166415">this Dreamcast-Talk.com forum post</a>).</li>
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
- <li>Default text-speed setting has been changed from "regular" to "fast" (adjustable in settings menu).</li>
+ <li>The text fade-in speed has been increased to account for difference in how English is read (compared to Japanese).  Additionally, the default speed setting has been changed from "regular" to "fast" (adjustable in settings menu).</li>
  <li>Subtitles have been added for spoken dialogue during the "Teach a Girl to Fish" mini-game.</li>
  <li>Quiz mini-games completely overhauled and localized.</li>
   <ul>
@@ -168,7 +168,7 @@ Note that a player's performance during the various mini-games will also affect 
 Other tips:
 <ul>
  <li>During the first play of the game, players should allow the entire introduction sequence (before the title screen) to play in full.</li>
- <li>It's recommended to adjust the game's text speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has changed the default text speed from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the text's fade-in effect which is lost with "instant" mode.</li>
+ <li>It's recommended to adjust the game's text fade-in speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has increased the text fade-in speed and also changed the default setting from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the fade-in effect which is lost with "instant" mode.</li>
  <li>Timing an attack in the "Bear Shodown" mini-game (see <a href="#mini-games">Mini-Games</a> section) can be difficult. If a player is unable to beat it, they should adjust the mini-game difficulty level to "easy" in the settings menu, then follow along with <a href="https://www.youtube.com/watch?v=wiokxy_Q7Vw&t=685s">this recorded gameplay footage</a> to reveal the perfect moment to strike with their attack.
 </ul>
 
