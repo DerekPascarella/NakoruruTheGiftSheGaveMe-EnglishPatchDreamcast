@@ -155,6 +155,8 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
 <br><br>
 Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+<br><br>
+<b>NOTE:</b> Borrow from https://snk.fandom.com/wiki/Nakoruru:_Ano_Hito_kara_no_Okurimono, https://docs.google.com/document/d/1MNWkel8bNTOk2qzOjyGAeMtuX9o0YXUzoAOGT4N8ud8/edit#heading=h.c16lmyogll1h
 
 <h2>Helpful Tips</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
