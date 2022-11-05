@@ -335,6 +335,8 @@ There are eight separate mini-games scattered throughout this adventure.  One of
 <br><br>
 As a bonus, a complete bank of questions and answers has been compiled and is <a href="QUIZ_ANSWER_BANK.md">available here</a>. Note that each of the three quizzes holds a bank of 30 questions, but only ten are selected at random.
 <br><br>
+For assistance with the "Bear Shodown" mini-game, see the <a href="#helpful-tips">Helpful Tips</a> section.
+<br><br>
 <table align="center">
 <tr>
 <td width="50%" align="center">
