@@ -152,11 +152,11 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 </tr>
 </table>
 <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+Being a fan favorite character of SNK's beloved Samurai Shodown fighting franchise, it's only natural that Nakoruru would get her own spin-off game. SNK granted developer Inter-Let's the privilege of crafting a story that explored her character in finer detail, with the result being the "Nakoruru: Anohito Kara no Okurimono", a visual novel game released for Windows in 2001, and Dreamcast in 2002, exclusively in Japan. To take a source material known for its intense arcade fighting thrills and adapt it into a quiet, heartfelt text-based adventure makes for quite the interesting gaming experience.
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+The game's story is told from the perspective of seven-year-old Mikato, an orphan who is taken in by the people of the snowy village of Kamui Kotan. She is selected by the village's chief, Outada, to serve as assistant to the shrine maiden Nakoruru, somebody the people of Kamui Kotan admire for her strength, dependability, and outward positivity. Mikato soon realizes, however, that deep down, Nakoruru is harboring an intense sorrow...
 <br><br>
-<b>NOTE:</b> Borrow from https://snk.fandom.com/wiki/Nakoruru:_Ano_Hito_kara_no_Okurimono, https://docs.google.com/document/d/1MNWkel8bNTOk2qzOjyGAeMtuX9o0YXUzoAOGT4N8ud8/edit#heading=h.c16lmyogll1h
+The gameplay of "Nakoruru" is simple, and familiar to those who have played a visual novel before. Advance the story with a button press, and occasionally make choices, some of which greatly affect the game's narrative. Also included throughout the story are several basic but charming mini-games. These include quizzes, fishing, dodging enemy attacks, and more.
 
 <h2>Helpful Tips</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
