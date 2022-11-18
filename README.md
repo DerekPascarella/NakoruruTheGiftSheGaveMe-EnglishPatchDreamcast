@@ -14,7 +14,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 1. [Patching Instructions](#patching-instructions)
 2. [Credits](#credits)
-3. [Changelog](#changelog)
+3. [Release Changelog](#release-changelog)
 4. [What's Changed](#whats-changed)
 5. [About the Game](#about-the-game)
 6. [Helpful Tips](#helpful-tips)
@@ -82,7 +82,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
   </ul>
 </ul>
 
-<h2>Changelog</h2>
+<h2>Release Changelog</h2>
 <ul>
  <li>Version 1.0 (202X-XX-XX)</li>
  <ul>
