@@ -158,6 +158,10 @@ Being a fan favorite character of SNK's beloved Samurai Shodown fighting franchi
 The game's story is told from the perspective of seven-year-old Mikato, an orphan who is taken in by the people of the snowy village of Kamui Kotan. She is selected by the village's chief, Outada, to serve as assistant to the shrine maiden Nakoruru, somebody the people of Kamui Kotan admire for her strength, dependability, and outward positivity. Mikato soon realizes, however, that deep down, Nakoruru is harboring an intense sorrow...
 <br><br>
 The gameplay of "Nakoruru" is simple, and familiar to those who have played a visual novel before. Advance the story with a button press, and occasionally make choices, some of which greatly affect the game's narrative. Also included throughout the story are several basic but charming mini-games. These include quizzes, fishing, dodging enemy attacks, and more.
+<br><br>
+For those new to the genre, you can learn more about visual novels in <a href="https://www.youtube.com/watch?v=7wOtv-J7tOI">this fantastic video by Bowl of Lentils</a>.
+
+
 
 <h2>Helpful Tips</h2>
 <img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
