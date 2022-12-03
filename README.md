@@ -474,6 +474,13 @@ Finally, thank you to all the great minds in the Dreamcast scene who are constan
 P.S. If you have to make a repro of this translation, at least send me one too! That shit would look sick on my shelf.
 
 <b>Duralumin:</b>
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec viverra orci. Quisque id mollis dui, eu imperdiet ligula. Fusce id risus vel elit pulvinar maximus. Aenean tincidunt neque et libero hendrerit, sit amet pulvinar nulla ornare. Cras semper egestas elit, sed posuere nunc.
+> Samurai Shodown is special to me. Growing up, me and the basement crew used to get absolutely blasted and cycle through our cache of retro games on hang nights, and Samurai Shodown always played an integral part. We would play round after round, switching up versions so we could play our favorite characters. We used to howl, "ALL THE THINGS WILL BE BROKEN," and throw bottles at the wall and headbutt eachother. So, I was pretty much sold at "Samurai Shodown Spinoff Visual Novel".
 <br><br>
-Quisque ut risus ac risus dictum ultricies. Phasellus id mauris eget mauris pretium consectetur. Nullam ut placerat lectus, nec iaculis enim. Phasellus porttitor pellentesque arcu, laoreet placerat massa sollicitudin et. Integer vel justo at lorem dictum finibus. Nam posuere consequat est, sit amet faucibus magna varius at.
+I'm glad I could work alongside my fellow translators, Piggy and Marshalwong. There was a lot of volume to this game, and they both did a good job keeping up with scripts. We all appreciated their communicative and responsive treatment if anything came up; That kind of care and attention doesn't come lightly, and makes the difference in a narrative experience like this.
+<br><br>
+Derek, I am very sure, is a witch, or perhaps a warlock of some sort. Every single time I entreated him for a few more characters per line, or to very simply find room for a mere entire new character set in italics, the answer was always "probably not but let me check". But lo and behold, he would return from his dark dimension a week later saying "you'll never guess what came to me in a dream." Ia! Ia! To see such dreams! He was also very helpful in streamlining the workflow and any communications, couldn't ask for more in our almighty overseer. Ia! Ia!
+<br><br>
+Lewis... I'm sorry. I made you get so many emails. I hope it doesn't send you another email every time I edited a comment I already committed. That's a lot of emails. Jesus christ. I... I'm so, so, sorry. Please check the sequence from scd_12_72 to 90, but also, sorry.
+<br><br>
+I hope everyone likes this video game. It was all for you. All the dark magic and torments, all for you!
+If nothing else, remember this: Nakoruru is your friend. Nakoruru loves you. All the things must be broken. En Garde.
