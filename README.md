@@ -483,4 +483,5 @@ Derek, I am very sure, is a witch, or perhaps a warlock of some sort. Every sing
 Lewis... I'm sorry. I made you get so many emails. I hope it doesn't send you another email every time I edited a comment I already committed. That's a lot of emails. Jesus christ. I... I'm so, so, sorry. Please check the sequence from scd_12_72 to 90, but also, sorry.
 <br><br>
 I hope everyone likes this video game. It was all for you. All the dark magic and torments, all for you!
+<br><br>
 If nothing else, remember this: Nakoruru is your friend. Nakoruru loves you. All the things must be broken. En Garde.
