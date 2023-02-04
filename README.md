@@ -222,7 +222,7 @@ A button</td>
 </tr>
 <tr>
 <td>
-Go back, exit menu</td>
+Go back / Exit menu</td>
 <td>
 B button</td>
 </tr>
@@ -263,7 +263,7 @@ Enter / Space / X</td>
 </tr>
 <tr>
 <td>
-Go back, exit menu</td>
+Go back / Exit menu</td>
 <td>
 Del / Esc / Z</td>
 </tr>
@@ -298,13 +298,13 @@ F1</td>
 <table>
 <tr>
 <td>
-Proceed with dialogue, confirm selection</td>
+Proceed with dialogue / Confirm selection</td>
 <td>
 Left click</td>
 </tr>
 <tr>
 <td>
-Go back, exit menu</td>
+Go back / Exit menu</td>
 <td>
 Right click</td>
 </tr>
