@@ -379,7 +379,7 @@ Offered in both GDI and CDI formats, the Bonus disc treats players with the foll
 <li>A beautiful rendition of "Miko no Densho Uta" ("Traditional Shrine Maiden's Song") performed by Nakoruru's voice actress, Harumi Ikoma.</li>
 <li>The gorgeous song sung by Manari's voice actress, Ayako Kawasumi, when she finally works up the courage to sing in front of others in the game.</li>
 </ul>
-More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>.
+More can be read about the Bonus Disc in <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14736&start=50#p166767">this Dreamcast-Talk.com forum post</a>.  To learn more about the quality-of-life changes made to the Deam Passport browser for purposes of this Bonus Disc, visit <a href="https://www.dreamcast-talk.com/forum/viewtopic.php?f=52&t=14611&p=173421#p173421">this Dreamcast-Talk.com forum post</a>.
 
 <h2>VMU Applications</h2>
 <img align="right" width="150" src="https://i.imgur.com/yrNBGZr.png">As part of this game's unlockable extra content, players have the ability to download one of four clock applications to their VMU.  Four of the main characters are each featured separately in these applications (Nakoruru, Manari, Rimururu, and Rera).
