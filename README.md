@@ -188,11 +188,13 @@ The solution to said problem is to artificially limit the speed at which data is
 <br><br>
 <ul>
 <li><b>GDEMU</b></li>
-Add the <tt>read_limit</tt> parameter with a value of <tt>1250</tt> to the <tt>GDEMU.ini</tt> configuration file in the root of the SD card (<a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/GDEMU.ini">see example configuration file here</a>).
+Two options exist for GDEMU users on version 5.20 or newer.
 <br><br>
-Note that the feature to limit data-read speeds was added to GDEMU firmware v5.20, thus only accessible to either those with an authentic GDEMU on v5.20 or newer, or the latest v5.20.x clones.  You can read more about the <tt>read_limit</tt> option on the <a href="https://gdemu.wordpress.com/operation/gdemu-operation/">GDEMU Operation</a> page.
+Preferrably, use firmware version 5.20.5, where Deunan updated the list of games requiring optimal timings to include "Nakoruru: The Gift She Gave Me".  This version also includes the same fix for mild texture stuttering from one of my other English translation projects, "<a href="https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast">Sakura Wars: Columns 2</a>".
 <br><br>
-It's important to mention that limiting speed at which data is read from the SD card will cause incompatibility with some Atomiswave conversions.  To mitigate this issue, I have been helping Deunan (the creator of GDEMU and other ODEs) test a new version of his firmware which will auto-detect "Nakoruru: The Gift She Gave Me" and impose the data-read limit without any additional configuration.  This auto-detection will be introduced in his next publicly available firmware update, and will also include the same fix for mild texture stuttering from one of my other English translation projects, "<a href="https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast">Sakura Wars: Columns 2</a>".
+Alternatively, users not willing to upgrade to 5.20.5 (but still using version 5.20 or newer) can impose a global read-limit by setting the <tt>read_limit</tt> parameter to <tt>1250</tt> in the <tt>GDEMU.ini</tt> configuration file in the root of their SD card (<a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/GDEMU.ini">see example configuration file here</a>).  You can read more about the <tt>read_limit</tt> option on the <a href="https://gdemu.wordpress.com/operation/gdemu-operation/">GDEMU Operation</a> page.  It's important to mention that limiting speed at which data is read from the SD card will cause incompatibility with some Atomiswave conversions.
+<br><br>
+Users on a pre-5.20 firmware version will still be able to play the game, however the aforementioned texture flicker will occur intermittently.
 <br><br>
 <li><b>MODE</b></li>
 Inside the disc image folder, create a <tt>mode.cfg</tt> file containing the following entries:
