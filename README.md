@@ -105,6 +105,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li>The "Learn the Lyrics" mini-game previously functioned as a basic Kana lesson for players, and has been modified to teach the player the Ainu phonetics for Nakoruru's "secret song".</li>
  <li>The text fade-in speed has been increased to account for difference in how English is read (compared to Japanese).  Additionally, the default speed setting has been changed from "regular" to "fast" (adjustable in settings menu).</li>
  <li>Subtitles have been added for spoken dialogue during the "Teach a Girl to Fish" mini-game.</li>
+ <li>In dialogue text, the speaker's name is visually differentiated by being displayed in orange, rather than just in brackets with the standard white color.</li>
  <li>Quiz mini-games completely overhauled and localized.</li>
   <ul>
    <li>Quiz mini-game questions completely rewritten as to give players the ability to answer them correctly, while also learning about Japanese and Ainu culture, food, and history (see <a href="#mini-games">Mini-Games</a> section).
