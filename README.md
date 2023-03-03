@@ -185,7 +185,7 @@ Other tips:
 <br><br>
 Please understand that this texture flicker occurs in the original, unaltered version of the game too, and was in no way introduced by the translation patch.  It's not a game-breaking issue, but instead strictly cosmetic.  Furthermore, those playing this game on an optical disc (i.e., a CDI burned to a CD-R) will not experience it.
 <br><br>
-The solution to said problem is to artificially limit the speed at which data is read from the disc image in order to more closely mimic the performance of a GD-ROM drive.  While achievable on ODEs, I've yet to find such a setting in any emulators used during development and testing (<a href="https://github.com/flyinghead/flycast">Flycast</a>, <a href="http://demul.emulation64.com/">Demul</a>, <a href="https://segaretro.org/NullDC">NullDC</a>, and <a href="https://gitlab.com/simulant/community/lxdream-nitro">LXDream Nitro</a>).  Below are the configurations needed to impose the required data-read limit.
+The solution to said problem is to artificially limit the speed at which data is read from the disc image in order to more closely mimic the performance of a GD-ROM drive.  While achievable on ODEs, no such a setting has been found in any emulators used during development and testing (<a href="https://github.com/flyinghead/flycast">Flycast</a>, <a href="http://demul.emulation64.com/">Demul</a>, <a href="https://segaretro.org/NullDC">NullDC</a>, and <a href="https://gitlab.com/simulant/community/lxdream-nitro">LXDream Nitro</a>).  Below are the configurations needed to impose the required data-read limit.
 <br><br>
 <ul>
 <li><b>GDEMU</b></li>
