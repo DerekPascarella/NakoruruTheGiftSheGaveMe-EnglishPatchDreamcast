@@ -207,7 +207,7 @@ BlockDelay=4
 A pre-built version of this configuration file is available <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/mode.cfg">here</a>.  To learn more about MODE configuration files, see the <a href="https://wiki.terraonion.com/index.php/Config_Files#MODE_-_Dreamcast_Config">Configuration Files</a> wiki.
 <br><br>
 <li><b>USB-GDROM</b></li>
-No additional configuration is required.
+No additional configuration is required.  Texture flicker does not occur.
 </ul>
 
 <h2>Controls</h2>
