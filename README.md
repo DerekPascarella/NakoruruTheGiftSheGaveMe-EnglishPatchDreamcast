@@ -423,7 +423,7 @@ Designed to allow players to scroll back through dialogue history, this one sect
 <br><br>
 Currently, the game will at least display the last 100 dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters, rather than the new maximum of 156. Furthermore, each entry appears with improperly placed linebreaks. To help soften the visual appearance, text has been centered, rather than kept left-justified.
 <br><br>
-Note that the current implementation of the history feature does not represent the entirety of the progress I made in hacking it. Rather, it's a compromise that guarantees no game-breaking bugs.
+Note that the current implementation of the history feature does not represent the entirety of the progress made in hacking it. Rather, it's a compromise that guarantees no game-breaking bugs.
 <br><br>
 As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
 <br><br>
