@@ -171,7 +171,7 @@ As is common with games of this type, players are presented with various choices
 <br><br>
 If a player makes a series of in-game decisions that lead to a specific crucial story branch, they'll be presented with the prompt shown in this section's screenshot.  It's strongly advised that a save file is created before proceeding, as one of the two decisions results in a player skipping nearly half of the story.  The player's response to all other prompts can affect which scenes they experience, but all still ensure they see a full-length version of the story.
 <br><br>
-Note that a player's performance during the various mini-games will also affect which parts of the story they'll see, although the difference between what story text is presented after either good or poor performance in said mini-games is very minimal.
+Note that a player's performance during the various mini-games will also affect which parts of the story they'll see, although the difference between which scenes are presented after either good or poor performance in said mini-games is very minimal.
 <br><br>
 Other tips:
 <ul>
