@@ -189,7 +189,7 @@ The solution to said problem is to artificially limit the speed at which data is
 <br><br>
 <ul>
 <li><b>GDEMU</b></li>
-Two options exist for users of authentic GDEMUs, or the more recent clones that can allegedly be upgraded.
+Two options exist for users of authentic GDEMUs, or the more recent clones that can be upgraded.
 <br><br>
 Preferrably, use firmware <a href="https://gdemu.wordpress.com/firmware/updating-gdemu/">version 5.20.5</a>, where Deunan updated the list of games requiring optimal timings to include "Nakoruru: The Gift She Gave Me".  This version also includes the same fix for mild texture stuttering in another of the team's English translation patches, "<a href="https://github.com/DerekPascarella/SakuraWarsColumns2-EnglishPatchDreamcast">Sakura Wars: Columns 2</a>".
 <br><br>
