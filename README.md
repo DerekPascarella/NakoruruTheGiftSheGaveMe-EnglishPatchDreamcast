@@ -154,7 +154,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 </tr>
 </table>
 <br>
-Being a fan favorite character of SNK's beloved Samurai Shodown fighting franchise, it's only natural that Nakoruru would get her own spin-off game. SNK granted developer Inter-Let's the privilege of crafting a story that explored her character in finer detail, with the result being "Nakoruru: Anohito Kara no Okurimono", a visual novel game released for Windows in 2001, and Dreamcast in 2002, exclusively in Japan. To take a source material known for its intense arcade fighting thrills and adapt it into a quiet, heartfelt text-based adventure makes for quite the interesting gaming experience.
+Being a fan-favorite character of SNK's beloved Samurai Shodown fighting franchise, it's only natural that Nakoruru would get her own spin-off game. SNK granted developer Inter-Let's the privilege of crafting a story that explored her character in finer detail, with the result being "Nakoruru: Anohito Kara no Okurimono", a visual novel game released for Windows in 2001, and Dreamcast in 2002, exclusively in Japan. To take a source material known for its intense arcade fighting thrills and adapt it into a quiet, heartfelt text-based adventure makes for quite the interesting gaming experience.
 <br><br>
 The game's story is told from the perspective of seven-year-old Mikato, an orphan who is taken in by the people of the snowy village of Kamui Kotan. She is selected by the village's chief, Outada, to serve as assistant to the shrine maiden Nakoruru, somebody the people of Kamui Kotan admire for her strength, dependability, and outward positivity. Mikato soon realizes, however, that deep down, Nakoruru is harboring an intense sorrow...
 <br><br>
