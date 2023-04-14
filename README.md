@@ -195,7 +195,7 @@ Preferrably, use firmware <a href="https://gdemu.wordpress.com/firmware/updating
 <br><br>
 Alternatively, users not willing to upgrade to 5.20.5 (but still using version 5.20 or newer) can impose a global read-limit by setting the <tt>read_limit</tt> parameter to <tt>1250</tt> in the <tt>GDEMU.ini</tt> configuration file in the root of their SD card (<a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/blob/main/ode_configs/GDEMU.ini">see example configuration file here</a>).  More can be read about the <tt>read_limit</tt> option on the <a href="https://gdemu.wordpress.com/operation/gdemu-operation/">GDEMU Operation</a> page.  It's important to mention that limiting speed at which data is read from the SD card will cause incompatibility with some Atomiswave conversions.
 <br><br>
-Users on a pre-5.20 firmware version will still be able to play the game, however the aforementioned texture flicker will occur intermittently.
+Users on a pre-5.20 firmware version will still be able to play the game, however the aforementioned texture flicker will occur intermittently with no way to prevent it.
 <br><br>
 <li><b>MODE</b></li>
 Inside the disc image folder, create a <tt>mode.cfg</tt> file containing the following entries:
