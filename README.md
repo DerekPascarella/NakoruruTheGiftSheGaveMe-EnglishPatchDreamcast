@@ -175,7 +175,7 @@ Note that a player's performance during the various mini-games will also affect 
 <br><br>
 Other tips:
 <ul>
- <li>During the first play of the game, players should allow the entire introduction sequence (before the title screen) to play in full.</li>
+ <li>During the first play of the game, players should allow the entire introduction sequence (before the title screen) to play in full. It functions as a flash-floward and is revisited in the final scene.</li>
  <li>It's recommended to adjust the game's text fade-in speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has increased the text fade-in speed and also changed the default setting from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the fade-in effect which is lost with "instant" mode.</li>
  <li>Timing an attack in the "Bear Shodown" mini-game (see <a href="#mini-games">Mini-Games</a> section) can be difficult. If a player is unable to beat it, they should adjust the mini-game difficulty level to "easy" in the settings menu, then follow along with <a href="https://www.youtube.com/watch?v=wiokxy_Q7Vw&t=685s">this recorded gameplay footage</a> to reveal the perfect moment to strike with their attack.
 </ul>
