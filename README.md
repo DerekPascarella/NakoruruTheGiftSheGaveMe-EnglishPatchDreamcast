@@ -401,7 +401,7 @@ While these small bonus programs originally displayed their menu in Japanese, th
 Each clock application executable is available in the <a href="disc_content">disc_content</a> folder.
 
 <h2>Disc and Box Art</h2>
-<img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">By default, the Bonus Disc and main game itself both use brand-new disc art 0GDTEX.PVR files, which look nice when displayed in GDMenu on GDEMU.  However, for those using <a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a> on GDEMU who prefer box art, I've provided alternative versions for both disc images in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
+<img width="205" height="205" align="right" src="https://i.imgur.com/ywRDOGQ.png">By default, the Bonus Disc and main game itself both use brand-new disc art 0GDTEX.PVR files, which look nice when displayed in GDMenu on GDEMU.  However, for those using <a href="https://github.com/mrneo240/GDMENUCardManager/wiki/Instructions">openMenu</a> on GDEMU who prefer box art, I've provided alternative versions for both disc images in the <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/tree/main/menu_art">menu_art</a> folder.
 <br><br>
 For GDMenu users who prefer box art, both the Bonus Disc and main game GDIs can be extracted and rebuilt to include that artwork instead.  One such tutorial on how to do so can be found <a href="https://www.youtube.com/watch?v=3_-9Ur3RvA0">here on YouTube</a>.
 <br><br>
