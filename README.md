@@ -38,7 +38,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Credits</h2>
 <ul>
- <li><b>Lead Developer / Project Lead</b></li>
+ <li><b>Lead Developer / Lead Graphic Artist / Project Lead</b></li>
   <ul>
    <li>Derek Pascarella (ateam)</li>
   </ul>
@@ -52,11 +52,6 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li><b>Lead Editors</b></li>
   <ul>
    <li>Lewis Cox (LewisJFC)</li>
-   <li>Derek Pascarella (ateam)</li>
-  </ul>
- <br>
- <li><b>Lead Graphic Artist</b></li>
-  <ul>
    <li>Derek Pascarella (ateam)</li>
   </ul>
  <br>
