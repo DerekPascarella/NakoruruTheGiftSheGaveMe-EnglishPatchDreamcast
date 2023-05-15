@@ -160,7 +160,7 @@ For those new to the genre, you can learn more about visual novels in <a href="h
 
 
 <h2>Helpful Tips</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/yucJAZT.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
+<img align="right" width="300" height="225" src="https://i.imgur.com/bmjnVyB.png">"Nakoruru: The Gift She Gave Me" is a visual novel, and as such, there are certain things players should know about the genre before jumping in.
 <br><br>
 As is common with games of this type, players are presented with various choices throughout their adventure.  The decision a player makes at these prompts will affect the story, sometimes drastically.  For those who want to see the entire story, it's suggested that they save their game whenever presented with a decision prompt.  The game offers its players plenty of save slots to do so.
 <br><br>
