@@ -169,6 +169,7 @@ If a player makes a series of in-game decisions that lead to a specific crucial 
 Note that a player's performance during the various mini-games will also affect which parts of the story they'll see, although the difference between which scenes are presented after either good or poor performance in said mini-games is very minimal.
 <br><br>
 Other tips:
+<br><br>
 <ul>
  <li>During the first play of the game, players should allow the entire introduction sequence (before the title screen) to play in full. It functions as a flash-floward and is revisited in the final scene.</li>
  <li>It's recommended to adjust the game's text fade-in speed to "instant" (appearing as "INST." in settings menu), as it significantly helps with pacing.  While this patch has increased the text fade-in speed and also changed the default setting from "regular" to "fast", it was decided to leave the "instant" option in the player's hands, as they may enjoy the fade-in effect which is lost with "instant" mode.</li>
