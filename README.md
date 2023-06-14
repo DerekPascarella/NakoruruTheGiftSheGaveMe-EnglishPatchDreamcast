@@ -79,7 +79,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Release Changelog</h2>
 <ul>
- <li>Version 1.0 (2023-06-XX)</li>
+ <li>Version 1.0 (2023-06-14)</li>
  <ul>
   <li>Initial release.</li>
  </ul>
