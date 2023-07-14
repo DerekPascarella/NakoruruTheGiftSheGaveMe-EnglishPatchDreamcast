@@ -1,12 +1,17 @@
 <h1>Nakoruru: The Gift She Gave Me</h1>
 <img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section):
+<br><br>
 <ul>
  <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.0/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.0.dcp">Nakoruru - The Gift She Gave Me (English v1.0).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
+ <br>
  <li><b>CDI Format (Users Burning to CD-R)</b><br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.0/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.0.xdelta">Nakoruru - The Gift She Gave Me (English v1.0).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
 </ul>
 Download the English translation "Bonus Disc" (more information in the <a href="#bonus-disc">Bonus Disc</a> section):
+<br><br>
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b><br><a href="https://mega.nz/file/rcFnDZ4A#hYMng2v1xa-kEjdNXvbX1GmbfXU677ckyDrGwebF35g">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a></li>
+ <li><b>GDI Format (Users of ODEs or Emulators)</b><br><a href="https://mega.nz/file/rcFnDZ4A#hYMng2v1xa-kEjdNXvbX1GmbfXU677ckyDrGwebF35g">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a>
+ <br>
+ </li>
  <li><b>CDI Format (Users Burning to CD-R)</b><br><a href="https://mega.nz/file/aQc1UaDK#1RQca_BL3Rl5uUNibyy2gsvQtMJTKx-k3KYnTNZy6V0">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
 </ul>
 
