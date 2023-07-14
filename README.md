@@ -12,6 +12,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li><b>GDI Format (Users of ODEs or Emulators)</b><br><a href="https://mega.nz/file/rcFnDZ4A#hYMng2v1xa-kEjdNXvbX1GmbfXU677ckyDrGwebF35g">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc) [GDI].zip</a>
  <br>
  </li>
+ <br>
  <li><b>CDI Format (Users Burning to CD-R)</b><br><a href="https://mega.nz/file/aQc1UaDK#1RQca_BL3Rl5uUNibyy2gsvQtMJTKx-k3KYnTNZy6V0">Nakoruru - The Gift She Gave Me (English Translation Bonus Disc).cdi</a></li>
 </ul>
 
