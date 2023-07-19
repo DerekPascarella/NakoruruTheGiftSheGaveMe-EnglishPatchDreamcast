@@ -183,7 +183,7 @@ Other tips:
 </ul>
 
 <h2>A Note on Emulators and ODEs</h2>
-<img align="right" src="https://i.imgur.com/PbVgeuJ.jpg" width="180">Throughout the development of this translation patch, testing was performed across the spectrum of both emulators and ODEs, as well as optical disc.  Interestingly, this game (both in its original form and in its patched form) has one very mild issue when played via emulator or some ODEs, causing a texture flicker in between some scene transitions.  When this occurs, the on-screen character(s) will flicker slightly before fading away.  This is caused by faster data-read speeds than developers originally intended (or tested against) when played via GD-ROM.
+<img align="right" src="https://i.imgur.com/PbVgeuJ.jpg" width="180">Throughout the development of this translation patch, testing was performed across the spectrum of both emulators and ODEs, as well as optical disc.  Interestingly, this game (both in its original form and in its patched form) has one very mild issue when played via some emulators and ODEs, causing a texture flicker in between some scene transitions.  When this occurs, the on-screen character(s) will flicker slightly before fading away.  This is caused by faster data-read speeds than developers originally intended (or tested against) when played via GD-ROM.
 <br><br>
 Please understand that this texture flicker occurs in the original, unaltered version of the game too, and was in no way introduced by the translation patch.  It's not a game-breaking issue, but instead strictly cosmetic.  Furthermore, those playing this game on an optical disc (i.e., a CDI burned to a CD-R) will not experience it.
 <br><br>
