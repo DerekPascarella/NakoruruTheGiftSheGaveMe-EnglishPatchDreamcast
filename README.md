@@ -88,6 +88,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
  <li>Version 1.2 (2023-08-30)</li>
  <ul>
   <li>Fixed broken English text in VMU clock applications.</li>
+  <li>Fixed typo in Mikato's voice actress' name in credits.</li>
  </ul>
  <li>Version 1.1 (2023-08-01)</li>
  <ul>
