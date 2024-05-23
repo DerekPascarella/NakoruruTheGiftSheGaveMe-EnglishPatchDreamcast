@@ -85,17 +85,17 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Release Changelog</h2>
 <ul>
- <li>Version 1.2 (2023-08-30)</li>
+ <li><b>Version 1.2 (2023-08-30)</b></li>
  <ul>
   <li>Fixed broken English text in VMU clock applications.</li>
   <li>Fixed typo in Mikato's voice actress' name in credits.</li>
  </ul>
- <li>Version 1.1 (2023-08-01)</li>
+ <li><b>Version 1.1 (2023-08-01)</b></li>
  <ul>
   <li>Fixed typos (<a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues/1">Issue #1</a> and <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues/2">Issue #2</a>).</li>
   <li>Added RGB SCART support for PAL consoles.</li>
  </ul>
- <li>Version 1.0 (2023-06-14)</li>
+ <li><b>Version 1.0 (2023-06-14)</b></li>
  <ul>
   <li>Initial release.</li>
  </ul>
