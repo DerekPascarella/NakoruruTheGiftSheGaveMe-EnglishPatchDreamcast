@@ -432,7 +432,7 @@ Players are treated to beautiful musical arrangements all throughout "Nakoruru: 
 <a href="https://mega.nz/folder/zAs12K6A#Cas7lg4uOkDZHs_6H895yA">Download</a> the original in-game soundtrack, available in WAV, MP3, FLAC, and OGG formats.
 
 <h2>Known Issues</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
+<img align="right" width="300" height="225" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
 <br><br>
 Designed to allow players to scroll back through dialogue history, this one section of the game presented a slew of technical challenges. Although "Nakoruru: The Gift She Gave Me" leverages dozens of separate text-rendering functions for different parts of the game, all of them but one were reined in after a bit of effort. Unfortunately, even after months of assembly hacking attempts, the unique (and bizarre) history viewer is presently in a partially broken state.
 <br><br>
