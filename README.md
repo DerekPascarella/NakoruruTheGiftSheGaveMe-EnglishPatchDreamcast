@@ -32,11 +32,11 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
          <li>
             <b>Option 1</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Audio-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Audio-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
          <li>
             <b>Option 2</b>
-            <br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Data-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            <br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Data-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
       </ul>
    </li>
