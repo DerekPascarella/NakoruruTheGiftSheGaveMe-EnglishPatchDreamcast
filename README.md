@@ -1,10 +1,45 @@
 <h1>Nakoruru: The Gift She Gave Me</h1>
 <img width="165" height="165" align="right" src="https://i.imgur.com/MDOLCgw.png">Download the English translation patch (more information in the <a href="#patching-instructions">Patching Instructions</a> section):
 <br><br>
+Note that there are several options, explained below, for applying this English translation patch. All produce the same patched version of the game, but each caters to users in different ways.
+<br><br>
+For those using an ODE (e.g., GDEMU, MODE, USB-GDROM) or emulator, both GDI options produce the same patched disc image, however one requires <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer to perform patching, whereas the other allows the use of common patch utilities that support XDelta format (like <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>).
+<br><br>
+In the majority of cases, those burning to CD-R can use either of the CDI patches. However, many NTSC-J VA0 Dreamcast consoles suffer from incompatibility with Data/Data mode discs. Conversely, there are later model VA2 Dreamcast consoles that don't support Audio/Data mode discs, making Data/Data mode ideal. Unless a player is using an NTSC-J VA0 console, it's advised they start with the Data/Data mode patch. Should issues arise when attempting to boot the disc, they should move on to the Audio/Data mode version.
+<br><br>
+For details on how to apply an individual patch, see the <a href="#patching-instructions">Patching Instructions</a> section.
+<br><br>
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b><br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.2/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.2.dcp">Nakoruru - The Gift She Gave Me (English v1.2).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.</li>
- <br>
- <li><b>CDI Format (Users Burning to CD-R)</b><br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.2/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.2.xdelta">Nakoruru - The Gift She Gave Me (English v1.2).xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).</li>
+   <li>
+      <b>GDI Format (Users of ODEs or Emulators)</b><br>
+      <ul>
+         <li>
+            <b>Option 1</b>
+            <br>
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.dcp">Nakoruru - The Gift She Gave Me (English v1.3).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
+         </li>
+         <li>
+            <b>Option 2</b>
+            <br>
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.GDI.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+         </li>
+      </ul>
+   </li>
+   <br>
+   <li>
+      <b>CDI Format (Users Burning to CD-R)</b><br>
+      <ul>
+         <li>
+            <b>Option 1</b>
+            <br>
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Audio-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+         </li>
+         <li>
+            <b>Option 2</b>
+            <br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Data-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+         </li>
+      </ul>
+   </li>
 </ul>
 Download the English translation "Bonus Disc" (more information in the <a href="#bonus-disc">Bonus Disc</a> section):
 <br><br>
@@ -37,9 +72,46 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Patching Instructions</h2>
 <ul>
- <li><b>GDI Format (Users of ODEs or Emulators)</b><br><img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.<br><br><ol type="1"><li>Click "Select GDI or CUE" to open the source disc image.</li><li>Click "Select Patch" to open the DCP patch file.</li><li>Click "Apply Patch" to generate the patched GDI, which will be saved in the folder from which the application is launched.</li><li>Click "Quit" to exit the application.</li></ol></li>
- <br>
- <li><b>CDI Format (Users Burning to CD-R)</b><br><img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>4B21B746AFA604211910DC40C993DF87</tt>.<br><br><ol type="1"><li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li><li>Click the "Original file" browse icon and select the unmodified CDI.</li><li>Click the "XDelta patch" browse icon and select the XDelta patch.</li><li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li><li>Verify that the patched CDI has an MD5 checksum of <tt>9B8CFF1EE22490D464AC760DB81E1D14</tt>.</ol></li>
+   <li>
+      <b>GDI Format (Users of ODEs or Emulators) - DCP Patch</b>
+      <br>
+      <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
+      <br><br>
+      <ol type="1">
+         <li>Click "Select GDI or CUE" to open the source disc image.</li>
+         <li>Click "Select Patch" to open the DCP patch file.</li>
+         <li>Click "Apply Patch" to generate the patched GDI, which will be saved in the folder from which the application is launched.</li>
+         <li>Click "Quit" to exit the application.</li>
+      </ol>
+   </li>
+   <br>
+   <li>
+      <b>GDI Format (Users of ODEs or Emulators) - XDelta Patch</b>
+      <br>
+      <img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch file shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. It targets <tt>track03.bin</tt> of the original TOSEC GDI. Ensure the source <tt>track03.bin</tt> file has an MD5 checksum of <tt>CDE25B7DF260A2924D64225EA23D92FC</tt>.
+      <br><br>
+      <ol type="1">
+         <li>Click the settings icon (appears as a gear), enable "Checksum validation", and disable "Backup original file".</li>
+         <li>Click the "Original file" browse icon and select the original <tt>track03.bin</tt> file.</li>
+         <li>Click the "XDelta patch" browse icon and select the <tt>Nakoruru - The Gift She Gave Me (English v1.3) [GDI].xdelta</tt> XDelta patch.</li>
+         <li>Click "Apply patch" to overwrite the original <tt>track03.bin</tt> file with the patched version.</li>
+         <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>8414F0D6AF7B2B2FE6D19DD0D2EFA83B</tt>.
+      </ol>
+   </li>
+   <br>
+   <li>
+      <b>CDI Format (Users Burning to CD-R)</b>
+      <br>
+      <img align="right" width="250" src="https://i.imgur.com/r4b04e7.png">The XDelta patch files shipped with this release can be used with any number of Delta utilities, such as <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a>. Ensure the source CDI has an MD5 checksum of <tt>4B21B746AFA604211910DC40C993DF87</tt>.
+      <br><br>
+      <ol type="1">
+         <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
+         <li>Click the "Original file" browse icon and select the unmodified CDI.</li>
+         <li>Click the "XDelta patch" browse icon and select either the <tt>Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
+         <li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li>
+         <li>Verify that the patched CDI has an MD5 checksum of <tt>3A5FB0150A58F37F0109A8AFEC0542B5</tt> if using the Data/Data mode patch, or <tt>C61DB39EFA2D43D8563C6B7AE7991F79</tt> if using the Audio/Data mode patch.
+      </ol>
+   </li>
 </ul>
 
 <h2>Credits</h2>
@@ -85,6 +157,12 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Release Changelog</h2>
 <ul>
+ <li><b>Version 1.3 (2025-08-25)</b></li>
+ <ul>
+  <li>Fixed numerous dialogue text typos (reported by <a href="https://kaisernet.org/">chaoskaiser72</a>).</li>
+  <li>Fixed typo in Miki Tsuchiya's credits entry (reported by <a href="https://kaisernet.org/">chaoskaiser72</a>).</li>
+  <li>Added ability to skip opening pre-title screen sequence with Start button.</li>
+ </ul>
  <li><b>Version 1.2 (2023-08-30)</b></li>
  <ul>
   <li>Fixed broken English text in VMU clock applications.</li>
