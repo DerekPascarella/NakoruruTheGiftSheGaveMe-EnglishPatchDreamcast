@@ -107,7 +107,7 @@ Download the English translation "Bonus Disc" (more information in the <a href="
       <ol type="1">
          <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
          <li>Click the "Original file" browse icon and select the unmodified CDI.</li>
-         <li>Click the "XDelta patch" browse icon and select either the <tt>Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Nakoruru - The Gift She Gave Me (English - v1.3) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
+         <li>Click the "XDelta patch" browse icon and select either the <tt>Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
          <li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li>
          <li>Verify that the patched CDI has an MD5 checksum of <tt>3A5FB0150A58F37F0109A8AFEC0542B5</tt> if using the Data/Data mode patch, or <tt>C61DB39EFA2D43D8563C6B7AE7991F79</tt> if using the Audio/Data mode patch.
       </ol>
