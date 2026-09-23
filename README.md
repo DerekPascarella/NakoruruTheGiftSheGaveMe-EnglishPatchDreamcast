@@ -16,12 +16,12 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
          <li>
             <b>Option 1</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.dcp">Nakoruru - The Gift She Gave Me (English v1.3).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.4/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.4.dcp">Nakoruru - The Gift She Gave Me (English v1.4).dcp</a> for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.
          </li>
          <li>
             <b>Option 2</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.GDI.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.4/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.4.GDI.xdelta">Nakoruru - The Gift She Gave Me (English v1.4) [GDI].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
       </ul>
    </li>
@@ -32,11 +32,11 @@ For details on how to apply an individual patch, see the <a href="#patching-inst
          <li>
             <b>Option 1</b>
             <br>
-            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Audio-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.4/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.4.CDI.-.Audio-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.4) [CDI - Audio-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
          <li>
             <b>Option 2</b>
-            <br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.3/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.3.CDI.-.Data-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
+            <br>Download <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/releases/download/1.4/Nakoruru.-.The.Gift.She.Gave.Me.English.v1.4.CDI.-.Data-Data.Mode.xdelta">Nakoruru - The Gift She Gave Me (English v1.4) [CDI - Data-Data Mode].xdelta</a> for use with <a href="https://www.romhacking.net/utilities/704/">Delta Patcher</a> (or equivalent tools).
          </li>
       </ul>
    </li>
@@ -67,15 +67,14 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 12. [Disc Content](#disc-content)
 13. [Disc and Box Art](#disc-and-box-art)
 14. [Original Soundtrack](#original-soundtrack)
-15. [Known Issues](#known-issues)
-16. [Messages From the Team](#messages-from-the-team)
+15. [Messages From the Team](#messages-from-the-team)
 
 <h2>Patching Instructions</h2>
 <ul>
    <li>
       <b>GDI Format (Users of ODEs or Emulators) - DCP Patch</b>
       <br>
-      <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v1.3 or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
+      <img align="right" width="250" src="https://github.com/DerekPascarella/UniversalDreamcastPatcher/blob/main/screenshots/screenshot.png?raw=true">The DCP patch file shipped with this release is designed for use with <a href="https://github.com/DerekPascarella/UniversalDreamcastPatcher">Universal Dreamcast Patcher</a> v or newer.  Note that Universal Dreamcast Patcher supports both TOSEC-style GDI and Redump-style CUE disc images as source input.
       <br><br>
       <ol type="1">
          <li>Click "Select GDI or CUE" to open the source disc image.</li>
@@ -93,9 +92,9 @@ Download the English translation "Bonus Disc" (more information in the <a href="
       <ol type="1">
          <li>Click the settings icon (appears as a gear), enable "Checksum validation", and disable "Backup original file".</li>
          <li>Click the "Original file" browse icon and select the original <tt>track03.bin</tt> file.</li>
-         <li>Click the "XDelta patch" browse icon and select the <tt>Nakoruru - The Gift She Gave Me (English v1.3) [GDI].xdelta</tt> XDelta patch.</li>
+         <li>Click the "XDelta patch" browse icon and select the <tt>Nakoruru - The Gift She Gave Me (English v1.4) [GDI].xdelta</tt> XDelta patch.</li>
          <li>Click "Apply patch" to overwrite the original <tt>track03.bin</tt> file with the patched version.</li>
-         <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>8414F0D6AF7B2B2FE6D19DD0D2EFA83B</tt>.
+         <li>Verify that the patched <tt>track03.bin</tt> file has an MD5 checksum of <tt>71DF7BBB7A853937AFBADA899E946ADC</tt>.
       </ol>
    </li>
    <br>
@@ -107,9 +106,9 @@ Download the English translation "Bonus Disc" (more information in the <a href="
       <ol type="1">
          <li>Click the settings icon (appears as a gear) and enable "Backup original file" and "Checksum validation".</li>
          <li>Click the "Original file" browse icon and select the unmodified CDI.</li>
-         <li>Click the "XDelta patch" browse icon and select either the <tt>Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Nakoruru - The Gift She Gave Me (English v1.3) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
+         <li>Click the "XDelta patch" browse icon and select either the <tt>Nakoruru - The Gift She Gave Me (English v1.4) [CDI - Audio-Data Mode].xdelta</tt> or <tt>Nakoruru - The Gift She Gave Me (English v1.4) [CDI - Data-Data Mode].xdelta</tt> XDelta patch.</li>
          <li>Click "Apply patch" to generate the patched CDI in the same folder containing the original CDI.</li>
-         <li>Verify that the patched CDI has an MD5 checksum of <tt>3A5FB0150A58F37F0109A8AFEC0542B5</tt> if using the Data/Data mode patch, or <tt>C61DB39EFA2D43D8563C6B7AE7991F79</tt> if using the Audio/Data mode patch.
+         <li>Verify that the patched CDI has an MD5 checksum of <tt>9406570389B20B80FF1DED749C515520</tt> if using the Data/Data mode patch, or <tt>86782C303368A42C744FCBF401290778</tt> if using the Audio/Data mode patch.
       </ol>
    </li>
 </ul>
@@ -157,6 +156,10 @@ Download the English translation "Bonus Disc" (more information in the <a href="
 
 <h2>Release Changelog</h2>
 <ul>
+ <li><b>Version 1.4 (2026-09-23)</b></li>
+ <ul>
+  <li>Dialogue history viewer no longer broken (thanks wonder-inc for the full on-hardware playthrough).</li>
+ </ul>  
  <li><b>Version 1.3 (2025-08-25)</b></li>
  <ul>
   <li>Fixed numerous dialogue text typos (reported by <a href="https://kaisernet.org/">chaoskaiser72</a>).</li>
@@ -508,19 +511,6 @@ Players are treated to beautiful musical arrangements all throughout "Nakoruru: 
  <li><a href="https://snk.fandom.com/wiki/Yamapy-1">Yasumasa Yamada</a> (山田 泰正), also known as Yamapy-1, is a music composer and sound editor who was hired by SNK in 1989 as a member of the sound team.</li>
 </ul>
 <a href="https://mega.nz/folder/zAs12K6A#Cas7lg4uOkDZHs_6H895yA">Download</a> the original in-game soundtrack, available in WAV, MP3, FLAC, and OGG formats.
-
-<h2>Known Issues</h2>
-<img align="right" width="300" height="225" src="https://i.imgur.com/nKu2rwU.png">From this project's onset, the goal has been to deliver a completely polished English translation patch free of any bugs or imperfections. Thankfully, there are no game-breaking bugs to speak of whatsoever. However, there is one minor cosmetic/functional issue with this game's history feature.
-<br><br>
-Designed to allow players to scroll back through dialogue history, this one section of the game presented a slew of technical challenges. Although "Nakoruru: The Gift She Gave Me" leverages dozens of separate text-rendering functions for different parts of the game, all of them but one were reined in after a bit of effort. Unfortunately, even after months of assembly hacking attempts, the unique (and bizarre) history viewer is presently in a partially broken state.
-<br><br>
-Currently, the game will at least display the last 100 dialogue instances, which required a reallocation of RAM in order to fit the now twice-as-large text entries. However, each is cut off after 78 characters, rather than the new maximum of 156. Furthermore, each entry appears with improperly placed linebreaks. To help soften the visual appearance, text has been centered, rather than kept left-justified.
-<br><br>
-Note that the current implementation of the history feature does not represent the entirety of the progress made in hacking it. Rather, it's a compromise that guarantees no game-breaking bugs.
-<br><br>
-As stated, this issue in no way causes crashing or any other form of breakage. That being said, there are plans to address and fully fix the history feature in a future release.
-<br><br>
-Bugs or typos found during gameplay can be reported by <a href="https://github.com/DerekPascarella/NakoruruTheGiftSheGaveMe-EnglishPatchDreamcast/issues/new">submitting a new issue</a> to this project page.
 
 <h2>Messages From the Team</h2>
 
